@@ -1,0 +1,32 @@
+Tanda Player
+
+małe zaplanowane zadania:
+	struktura tandy - utworzenie pierwszej tandy
+	dodanie programowo pliku do listy	
+		odczytanie metadanych i wyświetlenie ich
+		
+	dodanie pliku dwuklikiem do listy po prawej
+	
+
+kamienie milowe:
+        odtwarzanie pliku z listy
+        lista TTVTTM
+        odtwarzanie wedle TTVTTM
+        tryby Tplejlisty (TVTTM/...)
+        ...
+        cache/clipboard/draft/sandbox list - brudnopis z piosenkami do wykorzystania
+
+bajery:
+
+        TTVTTM - sugerowane, ale niewymuszane
+        przycisk tryby plejlisty TTVTTM/TNVTAM/userdef/freeWithTandas/free
+        cortina - jedna / random / manual / no
+        czas cortiny i autofadeout
+        replygain
+        song delay
+        usuwanie ciszy z początku i końca
+        auto uzupełnianie tandy
+        sugestie do tandy
+        bpm
+        widmo
+        wizualizacje
