@@ -1,7 +1,6 @@
 <RCC>
     <qresource prefix="/img">
         <file alias="bg.png">img/bg.png</file>
-        <file alias="bg-controls.png">img/bg-controls.png</file>
         <file alias="bg-controls1.png">img/bg-controls1.png</file>
     </qresource>
     <qresource prefix="/qss">
