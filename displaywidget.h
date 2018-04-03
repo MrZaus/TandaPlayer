@@ -1,17 +1,30 @@
 #ifndef DISPLAYWIDGET_H
 #define DISPLAYWIDGET_H
 
-#include <QWidget>
+#include <QFrame>
+#include <QHBoxLayout>
+#include <QLabel>
+#include <QVBoxLayout>
 
-class DisplayWidget : public QWidget
-{
-    Q_OBJECT
-public:
-    explicit DisplayWidget(QWidget *parent = nullptr);
+class DisplayWidget : public QFrame {
+  Q_OBJECT
+ public:
+  explicit DisplayWidget(QWidget *parent = nullptr);
+  virtual ~DisplayWidget() = default;
+ signals:
 
-signals:
-
-public slots:
+ public slots:
+ private:
+  QHBoxLayout layout;
+  QVBoxLayout trackDurationLayout;
+  QVBoxLayout tandaInfoLayout;
+  QLabel elapsedTimeLabel;
+  QLabel trackDurationLabel;
+  QLabel timeLeftLabel;
+  QLabel artistLabel;
+  QLabel titleLabel;
+  QLabel tandaTimeLeftLabel;
+  QLabel tandaIndexLabel;
 };
 
-#endif // DISPLAYWIDGET_H
+#endif  // DISPLAYWIDGET_H

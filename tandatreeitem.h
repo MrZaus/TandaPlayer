@@ -1,28 +1,30 @@
-#ifndef TREEITEM_H
-#define TREEITEM_H
+#ifndef TANDATREEITEM_H
+#define TANDATREEITEM_H
 
 #include <QList>
 #include <QVariant>
-
-class TreeItem
+class TandaTreeItem
 {
 public:
-    explicit TreeItem(const QList<QVariant> &data, TreeItem *parentItem = 0);
-    ~TreeItem();
+    explicit TandaTreeItem(const QVector<QVariant> &data, TandaTreeItem *parent = 0);
+    ~TandaTreeItem();
 
-    void appendChild(TreeItem *child);
-
-    TreeItem *child(int row);
+    TandaTreeItem *child(int number);
     int childCount() const;
     int columnCount() const;
     QVariant data(int column) const;
-    int row() const;
-    TreeItem *parentItem();
+    bool insertChildren(int position, int count, int columns);
+    bool insertColumns(int position, int columns);
+    TandaTreeItem *parent();
+    bool removeChildren(int position, int count);
+    bool removeColumns(int position, int columns);
+    int childNumber() const;
+    bool setData(int column, const QVariant &value);
 
 private:
-    QList<TreeItem*> m_childItems;
-    QList<QVariant> m_itemData;
-    TreeItem *m_parentItem;
+    QList<TandaTreeItem*> childItems;
+    QVector<QVariant> itemData;
+    TandaTreeItem *parentItem;
 };
 
-#endif // TREEITEM_H
+#endif // TANDATREEITEM_H

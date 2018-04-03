@@ -27,15 +27,25 @@ SOURCES += \
         main.cpp \
         tandatreeitem.cpp \
         tandatreemodel.cpp \
-        mainwindow.cpp
+        mainwindow.cpp \
+        displaywidget.cpp \
+    wavewidget.cpp \
+    controlswidget.cpp
 
 HEADERS += \
         mainwindow.h \
     tandatreemodel.h \
-    tandatreeitem.h
+    tandatreeitem.h \
+    displaywidget.h \
+    common.h \
+    wavewidget.h \
+    controlswidget.h
 
 CONFIG += c++17
-QMAKE_CXXFLAGS += -std=c++17
+
 
 DISTFILES += \
     todo.txt
+
+RESOURCES += \
+    resources.qrc

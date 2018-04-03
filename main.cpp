@@ -1,11 +1,14 @@
 #include "mainwindow.h"
 #include <QApplication>
+#include <QFile>
+int main(int argc, char *argv[]) {
+  QApplication tandaPlayer(argc, argv);
 
-int main(int argc, char *argv[])
-{
-    QApplication tandaPlayer(argc, argv);
-    MainWindow w;
-    w.show();
+  QFile file(":/qss/default.qss");
+  file.open(QFile::ReadOnly);
+  tandaPlayer.setStyleSheet(file.readAll());
 
-    return tandaPlayer.exec();
+  MainWindow w;
+  w.show();
+  return tandaPlayer.exec();
 }
