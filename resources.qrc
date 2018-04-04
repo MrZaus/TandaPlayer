@@ -2,6 +2,7 @@
     <qresource prefix="/img">
         <file alias="bg.png">img/bg.png</file>
         <file alias="bg-controls1.png">img/bg-controls1.png</file>
+        <file alias="logo.png">img/logo.png</file>
     </qresource>
     <qresource prefix="/qss">
         <file>default.qss</file>

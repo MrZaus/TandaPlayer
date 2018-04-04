@@ -14,5 +14,5 @@ ControlsWidget::ControlsWidget(QWidget *parent)
   logoLabel.setPixmap(logo);
   layout.addWidget(&logoLabel);
   layout.setAlignment(Qt::AlignCenter | Qt::AlignHCenter);
-  //  logoLabel.show();
+  logoLabel.show();
 }
