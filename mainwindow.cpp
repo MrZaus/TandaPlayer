@@ -25,7 +25,6 @@ void insertRow(const QAbstractItemView *view) {
   if (!model->insertRows(0, 4)) {
     qDebug() << "InsertRows error!";
     exit(1);
-    return;
   }
 
   for (int column = 0; column < model->columnCount(); ++column) {

@@ -1,3 +1,6 @@
 MainWindow {
     background: url(":/img/bg.png");
     }
+QLabel {
+    font-size:32px; color:#fff;background:#111;
+    }
