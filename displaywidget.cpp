@@ -9,9 +9,11 @@ namespace {
 const QString TIME_NA("00:00");
 const QString INDEX_NA("0/0");
 const QString UNKNOWN("unknown");
-constexpr int MAX_HEIGHT = 70;
-constexpr int MIN_HEIGHT = MAX_HEIGHT;
-}
+namespace HEIGHT {
+constexpr int MAX = 70;
+constexpr int MIN = MAX;
+}  // namespace HEIGHT
+}  // namespace
 
 DisplayWidget::DisplayWidget(QWidget *parent)
     : QFrame(parent),
@@ -22,8 +24,8 @@ DisplayWidget::DisplayWidget(QWidget *parent)
       titleLabel(UNKNOWN),
       tandaTimeLeftLabel(TIME_NA),
       tandaIndexLabel(INDEX_NA) {
-  setMaximumHeight(MAX_HEIGHT);
-  setMinimumHeight(MIN_HEIGHT);
+  setMaximumHeight(HEIGHT::MAX);
+  setMinimumHeight(HEIGHT::MIN);
 
   elapsedTimeLabel.setObjectName("elapsedTimeLabel");
   trackDurationLabel.setObjectName("trackDurationLabel");
@@ -34,9 +36,9 @@ DisplayWidget::DisplayWidget(QWidget *parent)
   tandaTimeLeftLabel.setObjectName("tandaTimeLeftLabel");
 
   trackDurationLayout.setSpacing(0);
-  trackDurationLayout.addWidget(&elapsedTimeLabel, NOSTRETCH);
-  trackDurationLayout.addWidget(&trackDurationLabel, NOSTRETCH);
-  trackDurationLayout.addStretch(STRETCH_HI);
+  trackDurationLayout.addWidget(&elapsedTimeLabel, STRETCH::NO);
+  trackDurationLayout.addWidget(&trackDurationLabel, STRETCH::NO);
+  trackDurationLayout.addStretch(STRETCH::HI);
   trackDurationLayout.setContentsMargins(0, 0, 0, 0);
 
   tandaInfoLayout.addWidget(&tandaIndexLabel);
@@ -45,13 +47,13 @@ DisplayWidget::DisplayWidget(QWidget *parent)
 
   layout.setContentsMargins(0, 0, 0, 0);
   layout.setSpacing(0);
-  layout.addLayout(&trackDurationLayout, NOSTRETCH);
-  layout.addWidget(&timeLeftLabel, NOSTRETCH);
-  layout.addStretch(STRETCH_HI);
-  layout.addWidget(&artistLabel, STRETCH_LOW);
-  layout.addWidget(&titleLabel, STRETCH_LOW);
-  layout.addStretch(STRETCH_HI);
-  layout.addLayout(&tandaInfoLayout, NOSTRETCH);
+  layout.addLayout(&trackDurationLayout, STRETCH::NO);
+  layout.addWidget(&timeLeftLabel, STRETCH::NO);
+  layout.addStretch(STRETCH::HI);
+  layout.addWidget(&artistLabel, STRETCH::LOW);
+  layout.addWidget(&titleLabel, STRETCH::LOW);
+  layout.addStretch(STRETCH::HI);
+  layout.addLayout(&tandaInfoLayout, STRETCH::NO);
 
   setLayout(&layout);
 }

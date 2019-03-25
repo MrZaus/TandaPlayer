@@ -1,4 +1,6 @@
 #include "mainwindow.h"
+#include <QApplication>
+#include <QEvent>
 #include <QFileSystemModel>
 #include <QGraphicsDropShadowEffect>
 #include <QHBoxLayout>
@@ -7,6 +9,7 @@
 #include <QMediaPlayer>
 #include <QMediaPlaylist>
 #include <QMessageBox>
+#include <QMouseEvent>
 #include <QPushButton>
 #include <QSplitter>
 #include <QToolBar>
@@ -32,7 +35,17 @@ void insertRow(const QAbstractItemView *view) {
     model->setData(child, QVariant("[No data]"), Qt::EditRole);
   }
 }
-
+bool MainWindow::eventFilter(QObject *o, QEvent *e) {
+  if (o == centralWidget() && e->type() == QMouseEvent::MouseButtonPress) {
+    qDebug() << "Reloading style from a file on click!";
+    QFile file("default.qss");
+    file.open(QFile::ReadOnly);
+    auto qapp = static_cast<QApplication *>(QApplication::instance());
+    qapp->setStyleSheet(file.readAll());
+    file.close();
+  }
+  return QObject::eventFilter(o, e);
+}
 MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent) {
   //  this->setWindowFlags(Qt::FramelessWindowHint);
   //  this->setAttribute(Qt::WA_TranslucentBackground);
@@ -48,14 +61,15 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent) {
   auto displayWidget = new DisplayWidget(this);
   auto waveWidget = new WaveWidget(this);
   auto controlsWidget = new ControlsWidget(this);
-  mainLayout->addWidget(displayWidget, NOSTRETCH);
-  mainLayout->addWidget(waveWidget, NOSTRETCH);
-  mainLayout->addWidget(controlsWidget, NOSTRETCH);
-  mainLayout->addStretch(STRETCH_HI);
+  mainLayout->addWidget(displayWidget, STRETCH::NO);
+  mainLayout->addWidget(waveWidget, STRETCH::NO);
+  mainLayout->addWidget(controlsWidget, STRETCH::NO);
+  mainLayout->addStretch(STRETCH::HI);
   mainLayout->addSpacing(200);
   //  mainLayout->addWidget(splitter, 1);
 
   resize(700, 480);
+  mainWidget->installEventFilter(this);
 
   /*
   auto fsmodel = new QFileSystemModel(this);
@@ -74,8 +88,8 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent) {
             QMessageBox msgBox;
             msgBox.setText("The item has been double clicked.");
             QString fname = fsmodel->fileInfo(index).filePath();
-            QString str = "Do you want it to be double clicked? Path: " + fname;
-            msgBox.setInformativeText(str);
+            QString str = "Do you want it to be double clicked? Path: " +
+  fname; msgBox.setInformativeText(str);
             msgBox.setStandardButtons(QMessageBox::Ok);
             msgBox.exec();
           });
