@@ -2,5 +2,30 @@ MainWindow {
     background: url(":/img/bg.png");
     }
 QLabel {
-    font-size:32px; color:#fff;background:#111;
+    font-size:32px; color:rgba(255, 255, 255, 60);
+    background:rgba(255, 255, 255, 20);
+
     }
+#elapsedTimeLabel {
+    font-size:18px;
+    padding-left:20px;
+    padding-top:5px;
+    color:#fff;
+}
+#trackDurationLabel
+{
+font-size:18px;
+padding-left:20px;
+margin-top:-1px;
+color:#fff;
+
+}
+#timeLeftLabel{
+padding-left:10px;
+padding-bottom:15px;
+font-size:40px;
+color:red;
+qproperty-alignment: 'AlignVTop | AlignRight';
+}
+
+/* * {border: 1px solid red;} */

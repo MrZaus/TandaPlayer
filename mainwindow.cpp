@@ -36,8 +36,9 @@ void insertRow(const QAbstractItemView *view) {
   }
 }
 bool MainWindow::eventFilter(QObject *o, QEvent *e) {
-  if (o == centralWidget() && e->type() == QMouseEvent::MouseButtonPress) {
-    qDebug() << "Reloading style from a file on click!";
+  if (o == centralWidget() && (e->type() == QMouseEvent::MouseButtonPress ||
+                               e->type() == QEvent::WindowActivate)) {
+    qDebug() << "Reloading style from a file on an event!";
     QFile file("default.qss");
     file.open(QFile::ReadOnly);
     auto qapp = static_cast<QApplication *>(QApplication::instance());

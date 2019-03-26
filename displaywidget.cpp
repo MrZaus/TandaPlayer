@@ -35,11 +35,11 @@ DisplayWidget::DisplayWidget(QWidget *parent)
   tandaIndexLabel.setObjectName("tandaIndexLabel");
   tandaTimeLeftLabel.setObjectName("tandaTimeLeftLabel");
 
-  trackDurationLayout.setSpacing(0);
   trackDurationLayout.addWidget(&elapsedTimeLabel, STRETCH::NO);
   trackDurationLayout.addWidget(&trackDurationLabel, STRETCH::NO);
   trackDurationLayout.addStretch(STRETCH::HI);
-  trackDurationLayout.setContentsMargins(0, 0, 0, 0);
+  trackDurationLayout.setSpacing(0);
+  trackDurationLayout.setMargin(0);
 
   tandaInfoLayout.addWidget(&tandaIndexLabel);
   tandaInfoLayout.addWidget(&tandaTimeLeftLabel);
