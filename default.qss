@@ -1,31 +1,41 @@
-MainWindow {
-    background: url(":/img/bg.png");
-    }
-QLabel {
-    font-size:32px; color:rgba(255, 255, 255, 60);
-    background:rgba(255, 255, 255, 20);
+MainWindow
+{
+background: url(":/img/bg.png");
+}
+DisplayWidget * {
+font-size:18px;
+padding-top:0px;
+color:#fff;
+max-height:18px;
+}
+DisplayWidget
+{
+background: #1a1a1a;
+max-height:40px;
+border:1px solid red;
 
-    }
-#elapsedTimeLabel {
-    font-size:18px;
-    padding-left:20px;
-    padding-top:5px;
-    color:#fff;
+}
+#elapsedTimeLabel
+{
+font-size:18px;
+padding-left:20px;
+padding-top:0px;
+color:#fff;
+max-height:18px;
 }
 #trackDurationLabel
 {
 font-size:18px;
 padding-left:20px;
 margin-top:-1px;
-color:#fff;
-
+color:#af3;
+max-height:18px;
 }
 #timeLeftLabel{
 padding-left:10px;
-padding-bottom:15px;
+max-height:40px;
 font-size:40px;
-color:red;
-qproperty-alignment: 'AlignVTop | AlignRight';
+color:#f08;
 }
 
-/* * {border: 1px solid red;} */
+/** {border: 1px solid #fff;}*/
