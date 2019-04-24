@@ -4,6 +4,7 @@
 #include <QFrame>
 #include <QHBoxLayout>
 #include <QLabel>
+#include <QPushButton>
 
 class ControlsWidget : public QFrame {
   Q_OBJECT
@@ -17,6 +18,7 @@ class ControlsWidget : public QFrame {
   QHBoxLayout layout;
   QLabel logoLabel;
   QPixmap logo;
+  QPushButton playButton;
 };
 
 #endif  // CONTROLSWIDGET_H

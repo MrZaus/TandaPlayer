@@ -2,40 +2,41 @@ MainWindow
 {
 background: url(":/img/bg.png");
 }
-DisplayWidget * {
-font-size:18px;
+DisplayWidget QLabel {
+font-size:20px;
 padding-top:0px;
 color:#fff;
-max-height:18px;
+max-height:20px;
 }
 DisplayWidget
 {
+padding-top:15px;
 background: #1a1a1a;
+min-height:40px;
 max-height:40px;
-border:1px solid red;
-
+padding:0;
+padding-top:5px;
 }
 #elapsedTimeLabel
 {
-font-size:18px;
 padding-left:20px;
-padding-top:0px;
-color:#fff;
-max-height:18px;
+color:#ddd;
 }
 #trackDurationLabel
 {
-font-size:18px;
 padding-left:20px;
-margin-top:-1px;
-color:#af3;
-max-height:18px;
+color:#ac3;
 }
 #timeLeftLabel{
 padding-left:10px;
 max-height:40px;
 font-size:40px;
-color:#f08;
+color:#d05;
 }
-
+#tandaTimeLeftLabel
+{
+color:#ff0;
+}
+WaveWidget{margin-top:10px;background:rgba(200,0,0,0);height:55px;max-height:55px;min-height:55px;}
+ControlsWidget{margin-top:0px;background:rgba(200,0,10,150);height:55px;max-height:55px;min-height:55px;}
 /** {border: 1px solid #fff;}*/
