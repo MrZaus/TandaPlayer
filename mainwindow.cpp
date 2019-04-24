@@ -51,24 +51,25 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent) {
   //  this->setWindowFlags(Qt::FramelessWindowHint);
   //  this->setAttribute(Qt::WA_TranslucentBackground);
 
-  auto mainWidget = new QWidget(this);
-  auto mainLayout = new QVBoxLayout(mainWidget);
+  auto *mainWidget = new QWidget(this);
+  auto *mainLayout = new QVBoxLayout(mainWidget);
   mainLayout->setSpacing(0);
   mainLayout->setContentsMargins(0, 0, 0, 0);
-  //  mainWidget->setLayout(mainLayout);
   setCentralWidget(mainWidget);
 
-  //  auto splitter = new QSplitter(this);
-  auto displayWidget = new DisplayWidget(this);
-  auto waveWidget = new WaveWidget(this);
-  auto controlsWidget = new ControlsWidget(this);
+  auto *displayWidget = new DisplayWidget(this);
+  auto *waveWidget = new WaveWidget(this);
+  auto *controlsWidget = new ControlsWidget(this);
+  auto *splitter = new QSplitter(this);
+
   mainLayout->addWidget(displayWidget, STRETCH::NO);
   mainLayout->addWidget(waveWidget, STRETCH::NO);
   mainLayout->addWidget(controlsWidget, STRETCH::NO);
-  mainLayout->addStretch(STRETCH::HI);
-  mainLayout->addSpacing(200);
-  //  mainLayout->addWidget(splitter, 1);
-
+  mainLayout->addWidget(splitter, STRETCH::HI);
+  auto *qtrv = new QTreeView(splitter);
+  auto *foo = new QWidget(this);
+  splitter->addWidget(qtrv);
+  splitter->addWidget(foo);
   resize(700, 480);
   mainWidget->installEventFilter(this);
 
