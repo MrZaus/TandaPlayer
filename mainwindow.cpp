@@ -11,6 +11,7 @@
 #include <QMessageBox>
 #include <QMouseEvent>
 #include <QPushButton>
+#include <QSortFilterProxyModel>
 #include <QSplitter>
 #include <QToolBar>
 #include <QToolButton>
@@ -35,6 +36,7 @@ void insertRow(const QAbstractItemView *view) {
     model->setData(child, QVariant("[No data]"), Qt::EditRole);
   }
 }
+
 bool MainWindow::eventFilter(QObject *o, QEvent *e) {
   if (o == centralWidget() && (e->type() == QMouseEvent::MouseButtonPress ||
                                e->type() == QEvent::WindowActivate)) {
@@ -47,6 +49,7 @@ bool MainWindow::eventFilter(QObject *o, QEvent *e) {
   }
   return QObject::eventFilter(o, e);
 }
+
 MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent) {
   //  this->setWindowFlags(Qt::FramelessWindowHint);
   //  this->setAttribute(Qt::WA_TranslucentBackground);
@@ -70,6 +73,20 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent) {
   auto *foo = new QWidget(this);
   splitter->addWidget(qtrv);
   splitter->addWidget(foo);
+
+  auto fsmodel = new QFileSystemModel(this);
+  QStringList filters;
+  filters << "*.mp3"
+          << "*.wav"
+          << "*.ogg"
+          << "*.flac";
+  fsmodel->setRootPath(QDir::currentPath());
+  fsmodel->setNameFilters(filters);
+  auto *proxyModel = new QSortFilterProxyModel(this);
+  // TODO: filter on mimetype
+  proxyModel->setSourceModel(fsmodel);
+  qtrv->setModel(proxyModel);
+
   resize(700, 480);
   mainWidget->installEventFilter(this);
 
