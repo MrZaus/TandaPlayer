@@ -90,33 +90,20 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent) {
   resize(700, 480);
   mainWidget->installEventFilter(this);
 
-  /*
-  auto fsmodel = new QFileSystemModel(this);
-  QStringList filters;
-  filters << "*.mp3"
-          << "*.wav"
-          << "*.ogg";
-  fsmodel->setRootPath(QDir::currentPath());
-  fsmodel->setNameFilters(filters);
-
-  auto fstree = new QTreeView(this);
-  fstree->setModel(fsmodel);
-
-  connect(fstree, &QTreeView::doubleClicked,
-          [&fsmodel](const QModelIndex &index) {
+  connect(qtrv, &QTreeView::doubleClicked,
+          [proxyModel, fsmodel](const QModelIndex &index) {
             QMessageBox msgBox;
             msgBox.setText("The item has been double clicked.");
-            QString fname = fsmodel->fileInfo(index).filePath();
-            QString str = "Do you want it to be double clicked? Path: " +
-  fname; msgBox.setInformativeText(str);
+            auto const sourceIndex = proxyModel->mapToSource(index);
+            auto fi = fsmodel->fileInfo(sourceIndex);
+            QString fname = fi.filePath();
+            QString str = "Do you want it to be double clicked? Path: " + fname;
+            msgBox.setInformativeText(str);
             msgBox.setStandardButtons(QMessageBox::Ok);
             msgBox.exec();
           });
+  /*
 
-  splitter->addWidget(fstree);
-
-  auto tandaTree = new QTreeView(this);
-  splitter->addWidget(tandaTree);
 
   QStringList headers;
   headers << tr("Artist") << tr("Title") << tr("Length");
@@ -124,38 +111,5 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent) {
   tandaTree->setModel(tandaTreeModel);
   insertRow(tandaTree);
 
-  auto controlsToolBar = new QToolBar(tr("controls"), this);
-  controlsToolBar->setObjectName("controlsToolBar");
-
-  addToolBar(Qt::BottomToolBarArea, controlsToolBar);
-
-  auto m_playButton = new QToolButton(this);
-  m_playButton->setIcon(style()->standardIcon(QStyle::SP_MediaPlay));
-
-  controlsToolBar->addWidget(m_playButton);
-
-  auto m_player = new QMediaPlayer(this);
-  m_player->setAudioRole(QAudio::MusicRole);
-
-  auto playlist = new QMediaPlaylist(m_player);
-  playlist->addMedia(QUrl("C:/Users/Marcin/Desktop/nagrania/Zaus-Janis.mp3"));
-
-  m_player->setPlaylist(playlist);
-
-  //  QMediaPlayer::State m_playerState = QMediaPlayer::StoppedState;
-  auto playClicked = [&, m_player]() {
-    switch (m_player->state()) {
-    case QMediaPlayer::StoppedState:
-      [[fallthrough]];
-    case QMediaPlayer::PausedState:
-      m_player->play();
-      break;
-    case QMediaPlayer::PlayingState:
-      qDebug() << "clicked pause";
-      m_player->pause();
-      break;
-    }
-  };
-  connect(m_playButton, &QAbstractButton::clicked, playClicked);
   */
 }
