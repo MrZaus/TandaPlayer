@@ -16,9 +16,11 @@
 #include <QToolBar>
 #include <QToolButton>
 #include <QTreeView>
+
 #include "common.h"
 #include "controlswidget.h"
 #include "displaywidget.h"
+#include "mimefilterproxymodel.h"
 #include "tandatreemodel.h"
 #include "wavewidget.h"
 
@@ -80,13 +82,15 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent) {
           << "*.wav"
           << "*.ogg"
           << "*.flac";
-  fsmodel->setRootPath(QDir::currentPath());
+  fsmodel->setRootPath("C:\\Users\\Marcin\\Desktop\\nagrania");
   fsmodel->setNameFilters(filters);
-  auto *proxyModel = new QSortFilterProxyModel(this);
+  auto idx = fsmodel->index("C:\\Users\\Marcin\\Desktop\\nagrania");
+
+  auto *proxyModel = new MimeFilterProxyModel(this);
   // TODO: filter on mimetype
   proxyModel->setSourceModel(fsmodel);
   qtrv->setModel(proxyModel);
-
+  qtrv->setRootIndex(proxyModel->mapFromSource(idx));
   resize(700, 480);
   mainWidget->installEventFilter(this);
 

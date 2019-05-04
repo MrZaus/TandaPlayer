@@ -25,6 +25,7 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
         main.cpp \
+    mimefilterproxymodel.cpp \
         tandatreeitem.cpp \
         tandatreemodel.cpp \
         mainwindow.cpp \
@@ -34,6 +35,7 @@ SOURCES += \
 
 HEADERS += \
         mainwindow.h \
+    mimefilterproxymodel.h \
     tandatreemodel.h \
     tandatreeitem.h \
     displaywidget.h \
