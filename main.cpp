@@ -8,7 +8,7 @@ int main(int argc, char *argv[]) {
   QApplication tandaPlayer(argc, argv);
   qDebug() << "Current path: " << QDir::currentPath();
 
-  QFile file("default.qss");
+  QFile file(":/qss/default.qss");
   file.open(QFile::ReadOnly);
   tandaPlayer.setStyleSheet(file.readAll());
   file.close();

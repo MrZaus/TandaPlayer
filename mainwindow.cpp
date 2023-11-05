@@ -6,8 +6,7 @@
 #include <QHBoxLayout>
 #include <QLabel>
 #include <QListWidget>
-#include <QMediaPlayer>
-#include <QMediaPlaylist>
+//#include <QMediaPlayer>
 #include <QMessageBox>
 #include <QMouseEvent>
 #include <QPushButton>
@@ -21,7 +20,7 @@
 #include "controlswidget.h"
 #include "displaywidget.h"
 #include "mimefilterproxymodel.h"
-#include "tandatreemodel.h"
+//#include "tandatreemodel.h"
 #include "wavewidget.h"
 
 void insertRow(const QAbstractItemView *view) {
@@ -43,7 +42,7 @@ bool MainWindow::eventFilter(QObject *o, QEvent *e) {
   if (o == centralWidget() && (e->type() == QMouseEvent::MouseButtonPress ||
                                e->type() == QEvent::WindowActivate)) {
     qDebug() << "Reloading style from a file on an event!";
-    QFile file("default.qss");
+    QFile file(":/qss/default.qss");
     file.open(QFile::ReadOnly);
     auto qapp = static_cast<QApplication *>(QApplication::instance());
     qapp->setStyleSheet(file.readAll());

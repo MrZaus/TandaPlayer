@@ -31,7 +31,7 @@ QVariant TandaTreeModel::data(const QModelIndex &index, int role) const {
 }
 
 Qt::ItemFlags TandaTreeModel::flags(const QModelIndex &index) const {
-  if (!index.isValid()) return nullptr;
+  if (!index.isValid()) return {};
 
   return Qt::ItemIsEditable | QAbstractItemModel::flags(index);
 }
@@ -173,7 +173,7 @@ void TandaTreeModel::setupModelData(const QStringList &lines,
 
     if (!lineData.isEmpty()) {
       // Read the column data from the rest of the line.
-      QStringList columnStrings = lineData.split("\t", QString::SkipEmptyParts);
+      QStringList columnStrings = lineData.split("\t", Qt::SkipEmptyParts);
       QVector<QVariant> columnData;
       for (int column = 0; column < columnStrings.count(); ++column)
         columnData << columnStrings[column];

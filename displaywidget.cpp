@@ -38,14 +38,14 @@ DisplayWidget::DisplayWidget(QWidget *parent)
   trackDurationLayout.addWidget(&elapsedTimeLabel, STRETCH::NO);
   trackDurationLayout.addWidget(&trackDurationLabel, STRETCH::NO);
   trackDurationLayout.setSpacing(0);
-  trackDurationLayout.setMargin(0);
+//  trackDurationLayout.setMargin(0);
 
   tandaInfoLayout.setAlignment(Qt::AlignRight);
   tandaInfoLayout.addWidget(&tandaIndexLabel);
   tandaInfoLayout.addWidget(&tandaTimeLeftLabel);
   tandaInfoLayout.setAlignment(Qt::AlignRight);
   tandaInfoLayout.setSpacing(0);
-  tandaInfoLayout.setMargin(0);
+//  tandaInfoLayout.setMargin(0);
 
   layout.setContentsMargins(0, 0, 0, 0);
   layout.setSpacing(0);
