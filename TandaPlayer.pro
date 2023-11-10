@@ -4,7 +4,9 @@
 TARGET = TandaPlayer
 
 QT = core gui widgets
+
 CONFIG += c++23
+
 HEADERS = \
    $$PWD/common.h \
    $$PWD/controlswidget.h \

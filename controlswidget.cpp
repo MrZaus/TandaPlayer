@@ -12,7 +12,8 @@ ControlsWidget::ControlsWidget(QWidget *parent)
   setMaximumHeight(MAX_HEIGHT);
   setMinimumHeight(MIN_HEIGHT);
 
-  playButton.setText("Play/Pause");
+//  playButton.setText("Play/Pause");
+  playButton.setObjectName("playButton");
   logoLabel.setPixmap(logo);
   layout.addWidget(&playButton);
 

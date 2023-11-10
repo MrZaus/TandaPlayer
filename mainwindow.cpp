@@ -42,7 +42,7 @@ bool MainWindow::eventFilter(QObject *o, QEvent *e) {
   if (o == centralWidget() && (e->type() == QMouseEvent::MouseButtonPress ||
                                e->type() == QEvent::WindowActivate)) {
     qDebug() << "Reloading style from a file on an event!";
-    QFile file(":/qss/default.qss");
+    QFile file("../TandaPlayer/default.qss");
     file.open(QFile::ReadOnly);
     auto qapp = static_cast<QApplication *>(QApplication::instance());
     qapp->setStyleSheet(file.readAll());

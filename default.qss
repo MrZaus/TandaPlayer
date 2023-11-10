@@ -1,43 +1,91 @@
-MainWindow
-{
-background: url(":/img/bg.png");
+MainWindow {
+    background: url(":/img/bg.png");
 }
+
 DisplayWidget QLabel {
-font-size:20px;
-padding-top:0px;
-color:#fff;
-max-height:20px;
+    font-size: 20px;
+    padding-top: 0px;
+    color: #fff;
+    max-height: 20px;
 }
-DisplayWidget
-{
-padding-top:15px;
-background: #1a1a1a;
-min-height:40px;
-max-height:40px;
-padding:0;
-padding-top:5px;
+
+DisplayWidget {
+    padding-top: 15px;
+    background: #1a1a1a;
+    min-height: 40px;
+    max-height: 40px;
+    padding: 0;
+    padding-top: 5px;
 }
-#elapsedTimeLabel
-{
-padding-left:20px;
-color:#ddd;
+
+#artistLabel {
+    padding-right:1em;
+    color: #aaa;
 }
-#trackDurationLabel
-{
-padding-left:20px;
-color:#ac3;
+#elapsedTimeLabel {
+    padding-left: 20px;
+    color: #ddd;
 }
-#timeLeftLabel{
-padding-left:10px;
-max-height:40px;
-font-size:40px;
-color:#d05;
+
+#trackDurationLabel {
+    padding-left: 20px;
+    color: #ac3;
 }
-#tandaTimeLeftLabel
-{
-color:#ff0;
+
+#timeLeftLabel {
+    padding-left: 10px;
+    max-height: 40px;
+    font-size: 40px;
+    color: #d05;
 }
-WaveWidget{margin-top:10px;background:rgba(200,0,0,0);height:55px;max-height:55px;min-height:55px;}
-ControlsWidget{margin-top:0px;background:rgba(200,0,10,150);height:55px;max-height:55px;min-height:55px;}
-QSplitter{border: 1px solid #fff;}
-/** {border: 1px solid #fff;}*/
+
+#tandaTimeLeftLabel {
+    color: #ff0;
+}
+
+WaveWidget {
+    margin-top: 10px;
+    background: rgba(200, 0, 0, 0);
+    height: 55px;
+    max-height: 55px;
+    min-height: 55px;
+}
+
+ControlsWidget {
+    margin-top: 0px;
+    background: url(":/img/bg-controls1.png") rgba(200, 0, 10, 148);
+    height: 70px;
+    max-height: 70px;
+    min-height: 70px;
+    padding: 5px 0 5px 0;
+    border:2px solid #d05;
+}
+
+
+#playButton {
+    border: none;
+    background: url(":/img/button-play.png");
+    background-position: top center;
+    border:2px solid #d05;
+    min-width: 48px; /*button-size*/
+    min-height: 48px; /*button-size*/    
+    max-width: 48px; /*button-size*/
+    max-height: 48px; /*button-size*/
+    margin: 0;
+    margin-top: -0px;
+}
+#playButton:hover {
+    background-position:  center center;
+    margin-top:-6px;
+}
+
+#playButton:pressed {
+    margin-top:-4px;
+    background-position:  bottom center;
+}
+
+QSplitter {
+    border: 1px solid #fff;
+}
+
+* {border: 1px solid #2264dd;}

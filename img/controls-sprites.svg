@@ -1,0 +1,2356 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg1"
+   inkscape:export-filename="control=sprites.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   sodipodi:docname="controls-sprites.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="2.8970539"
+     inkscape:cx="112.52811"
+     inkscape:cy="212.11204"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer3" />
+  <defs
+     id="defs1">
+    <linearGradient
+       id="linearGradient19"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop20" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop21" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient6">
+      <stop
+         style="stop-color:#6a30c6;stop-opacity:1;"
+         offset="0"
+         id="stop6" />
+      <stop
+         style="stop-color:#3b3b3b;stop-opacity:1;"
+         offset="1"
+         id="stop5" />
+    </linearGradient>
+    <linearGradient
+       id="swatch232">
+      <stop
+         style="stop-color:#3b3b3b;stop-opacity:1;"
+         offset="0"
+         id="stop232" />
+      <stop
+         style="stop-color:#7b7b7b;stop-opacity:1;"
+         offset="1"
+         id="stop233" />
+    </linearGradient>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5">
+      <path
+         id="path5"
+         style="stroke-width:0.1;stroke-linecap:square;paint-order:markers fill stroke;stop-color:#000000"
+         d="m 438.25066,553.76374 859.87054,0 v 201.39554 l -859.87054,0 z"
+         sodipodi:nodetypes="ccccc" />
+    </clipPath>
+    <linearGradient
+       id="swatch229"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop229" />
+    </linearGradient>
+    <meshgradient
+       gradientTransform="translate(0,-1.0583333)"
+       y="121.05207"
+       x="41.199406"
+       gradientUnits="userSpaceOnUse"
+       id="meshgradient8180"
+       inkscape:collect="always">
+      <meshrow
+         id="meshrow8182">
+        <meshpatch
+           id="meshpatch8184">
+          <stop
+             path="c 4.91369,0  9.82736,0  14.7411,0"
+             style="stop-color:#214478;stop-opacity:1"
+             id="stop8186" />
+          <stop
+             path="c 0,4.91368  0,9.82732  0,14.7411"
+             style="stop-color:#9955ff;stop-opacity:1"
+             id="stop8188" />
+          <stop
+             path="c -4.91369,0  -9.82736,0  -14.7411,0"
+             style="stop-color:#006680;stop-opacity:1"
+             id="stop8190" />
+          <stop
+             path="c 0,-4.91368  0,-9.82732  0,-14.7411"
+             style="stop-color:#165044;stop-opacity:1"
+             id="stop8192" />
+        </meshpatch>
+      </meshrow>
+    </meshgradient>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter8758"
+       x="-0.12"
+       width="1.24"
+       y="-0.12"
+       height="1.24">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.73705359"
+         id="feGaussianBlur8760" />
+    </filter>
+    <meshgradient
+       y="121.05207"
+       x="41.199406"
+       gradientUnits="userSpaceOnUse"
+       id="meshgradient8220"
+       inkscape:collect="always">
+      <meshrow
+         id="meshrow8222">
+        <meshpatch
+           id="meshpatch8224">
+          <stop
+             path="c 4.91369,0  9.82736,0  14.7411,0"
+             style="stop-color:#214478;stop-opacity:1"
+             id="stop8226" />
+          <stop
+             path="c 0,4.91368  0,9.82732  0,14.7411"
+             style="stop-color:#9955ff;stop-opacity:1"
+             id="stop8228" />
+          <stop
+             path="c -4.91369,0  -9.82736,0  -14.7411,0"
+             style="stop-color:#006680;stop-opacity:1"
+             id="stop8230" />
+          <stop
+             path="c 0,-4.91368  0,-9.82732  0,-14.7411"
+             style="stop-color:#165044;stop-opacity:1"
+             id="stop8232" />
+        </meshpatch>
+      </meshrow>
+    </meshgradient>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter8772"
+       x="-0.12"
+       width="1.24"
+       y="-0.12"
+       height="1.24">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.73705359"
+         id="feGaussianBlur8774" />
+    </filter>
+    <meshgradient
+       inkscape:collect="always"
+       id="meshgradient8630"
+       gradientUnits="userSpaceOnUse"
+       x="43.358189"
+       y="123.21085">
+      <meshrow
+         id="meshrow8632">
+        <meshpatch
+           id="meshpatch8634">
+          <stop
+             path="c 2.87837,-2.87837  7.54514,-2.87837  10.4235,0"
+             style="stop-color:#ffffff;stop-opacity:1"
+             id="stop8636" />
+          <stop
+             path="c 2.87837,2.87837  2.87837,7.54514  0,10.4235"
+             style="stop-color:#4d4d4d;stop-opacity:1"
+             id="stop8638" />
+          <stop
+             path="c -2.87837,2.87837  -7.54514,2.87837  -10.4235,0"
+             style="stop-color:#ffffff;stop-opacity:1"
+             id="stop8640" />
+          <stop
+             path="c -2.87837,-2.87837  -2.87837,-7.54514  0,-10.4235"
+             style="stop-color:#4d4d4d;stop-opacity:1"
+             id="stop8642" />
+        </meshpatch>
+      </meshrow>
+    </meshgradient>
+    <meshgradient
+       inkscape:collect="always"
+       id="meshgradient8790"
+       gradientUnits="userSpaceOnUse"
+       x="41.199406"
+       y="121.05207">
+      <meshrow
+         id="meshrow8792">
+        <meshpatch
+           id="meshpatch8794">
+          <stop
+             path="c 4.91369,0  9.82738,0  14.7411,0"
+             style="stop-color:#ffffff;stop-opacity:1"
+             id="stop8796" />
+          <stop
+             path="c 0,4.91369  0,9.82738  0,14.7411"
+             style="stop-color:#000000;stop-opacity:1"
+             id="stop8798" />
+          <stop
+             path="c -4.91369,0  -9.82738,0  -14.7411,0"
+             style="stop-color:#ffffff;stop-opacity:1"
+             id="stop8800" />
+          <stop
+             path="c 0,-4.91369  0,-9.82738  0,-14.7411"
+             style="stop-color:#000000;stop-opacity:1"
+             id="stop8802" />
+        </meshpatch>
+      </meshrow>
+    </meshgradient>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter8730"
+       x="-0.12"
+       width="1.24"
+       y="-0.12"
+       height="1.24">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.73705359"
+         id="feGaussianBlur8732" />
+    </filter>
+    <meshgradient
+       inkscape:collect="always"
+       id="meshgradient8804"
+       gradientUnits="userSpaceOnUse"
+       x="41.199406"
+       y="121.05207">
+      <meshrow
+         id="meshrow8816">
+        <meshpatch
+           id="meshpatch8814">
+          <stop
+             id="stop8806"
+             style="stop-color:#ffffff;stop-opacity:1"
+             path="c 4.91369,0  9.82738,0  14.7411,0" />
+          <stop
+             id="stop8808"
+             style="stop-color:#000000;stop-opacity:1"
+             path="c 0,4.91369  0,9.82738  0,14.7411" />
+          <stop
+             id="stop8810"
+             style="stop-color:#ffffff;stop-opacity:1"
+             path="c -4.91369,0  -9.82738,0  -14.7411,0" />
+          <stop
+             id="stop8812"
+             style="stop-color:#000000;stop-opacity:1"
+             path="c 0,-4.91369  0,-9.82738  0,-14.7411" />
+        </meshpatch>
+      </meshrow>
+    </meshgradient>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter8752"
+       x="-0.12"
+       width="1.24"
+       y="-0.12"
+       height="1.24">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.73705359"
+         id="feGaussianBlur8754" />
+    </filter>
+    <meshgradient
+       y="121.05207"
+       x="41.199406"
+       gradientUnits="userSpaceOnUse"
+       id="meshgradient8494"
+       inkscape:collect="always">
+      <meshrow
+         id="meshrow8496">
+        <meshpatch
+           id="meshpatch8498">
+          <stop
+             path="c 4.9137,0  9.8274,0  14.7411,0"
+             style="stop-color:#ffffff;stop-opacity:1"
+             id="stop8500" />
+          <stop
+             path="c 0,4.91368  0,9.82735  0,14.7411"
+             style="stop-color:#1a1a1a;stop-opacity:1"
+             id="stop8502" />
+          <stop
+             path="c -4.9137,0  -9.8274,0  -14.7411,0"
+             style="stop-color:#ffffff;stop-opacity:1"
+             id="stop8504" />
+          <stop
+             path="c 0,-4.91368  0,-9.82735  0,-14.7411"
+             style="stop-color:#1a1a1a;stop-opacity:1"
+             id="stop8506" />
+        </meshpatch>
+      </meshrow>
+    </meshgradient>
+    <meshgradient
+       inkscape:collect="always"
+       id="meshgradient140"
+       gradientUnits="userSpaceOnUse"
+       x="41.199406"
+       y="121.05207">
+      <meshrow
+         id="meshrow143">
+        <meshpatch
+           id="meshpatch143">
+          <stop
+             path="c 4.9137,0  9.8274,0  14.7411,0"
+             style="stop-color:#ffffff;stop-opacity:1"
+             id="stop140" />
+          <stop
+             path="c 0,4.91368  0,9.82735  0,14.7411"
+             style="stop-color:#1a1a1a;stop-opacity:1"
+             id="stop141" />
+          <stop
+             path="c -4.9137,0  -9.8274,0  -14.7411,0"
+             style="stop-color:#ffffff;stop-opacity:1"
+             id="stop142" />
+          <stop
+             path="c 0,-4.91368  0,-9.82735  0,-14.7411"
+             style="stop-color:#1a1a1a;stop-opacity:1"
+             id="stop143" />
+        </meshpatch>
+      </meshrow>
+    </meshgradient>
+    <meshgradient
+       inkscape:collect="always"
+       id="meshgradient143"
+       gradientUnits="userSpaceOnUse"
+       x="41.199406"
+       y="121.05207">
+      <meshrow
+         id="meshrow147">
+        <meshpatch
+           id="meshpatch147">
+          <stop
+             id="stop144"
+             style="stop-color:#ffffff;stop-opacity:1"
+             path="c 4.91369,0  9.82738,0  14.7411,0" />
+          <stop
+             id="stop145"
+             style="stop-color:#000000;stop-opacity:1"
+             path="c 0,4.91369  0,9.82738  0,14.7411" />
+          <stop
+             id="stop146"
+             style="stop-color:#ffffff;stop-opacity:1"
+             path="c -4.91369,0  -9.82738,0  -14.7411,0" />
+          <stop
+             id="stop147"
+             style="stop-color:#000000;stop-opacity:1"
+             path="c 0,-4.91369  0,-9.82738  0,-14.7411" />
+        </meshpatch>
+      </meshrow>
+    </meshgradient>
+    <meshgradient
+       inkscape:collect="always"
+       id="meshgradient147"
+       gradientUnits="userSpaceOnUse"
+       x="41.199406"
+       y="121.05207">
+      <meshrow
+         id="meshrow151">
+        <meshpatch
+           id="meshpatch151">
+          <stop
+             path="c 4.91369,0  9.82738,0  14.7411,0"
+             style="stop-color:#ffffff;stop-opacity:1"
+             id="stop148" />
+          <stop
+             path="c 0,4.91369  0,9.82738  0,14.7411"
+             style="stop-color:#000000;stop-opacity:1"
+             id="stop149" />
+          <stop
+             path="c -4.91369,0  -9.82738,0  -14.7411,0"
+             style="stop-color:#ffffff;stop-opacity:1"
+             id="stop150" />
+          <stop
+             path="c 0,-4.91369  0,-9.82738  0,-14.7411"
+             style="stop-color:#000000;stop-opacity:1"
+             id="stop151" />
+        </meshpatch>
+      </meshrow>
+    </meshgradient>
+    <meshgradient
+       inkscape:collect="always"
+       id="meshgradient151"
+       gradientUnits="userSpaceOnUse"
+       x="43.358189"
+       y="123.21085">
+      <meshrow
+         id="meshrow155">
+        <meshpatch
+           id="meshpatch155">
+          <stop
+             path="c 2.87837,-2.87837  7.54514,-2.87837  10.4235,0"
+             style="stop-color:#ffffff;stop-opacity:1"
+             id="stop152" />
+          <stop
+             path="c 2.87837,2.87837  2.87837,7.54514  0,10.4235"
+             style="stop-color:#4d4d4d;stop-opacity:1"
+             id="stop153" />
+          <stop
+             path="c -2.87837,2.87837  -7.54514,2.87837  -10.4235,0"
+             style="stop-color:#ffffff;stop-opacity:1"
+             id="stop154" />
+          <stop
+             path="c -2.87837,-2.87837  -2.87837,-7.54514  0,-10.4235"
+             style="stop-color:#4d4d4d;stop-opacity:1"
+             id="stop155" />
+        </meshpatch>
+      </meshrow>
+    </meshgradient>
+    <meshgradient
+       inkscape:collect="always"
+       id="meshgradient155"
+       gradientUnits="userSpaceOnUse"
+       x="41.199406"
+       y="121.05207">
+      <meshrow
+         id="meshrow159">
+        <meshpatch
+           id="meshpatch159">
+          <stop
+             path="c 4.91369,0  9.82736,0  14.7411,0"
+             style="stop-color:#214478;stop-opacity:1"
+             id="stop156" />
+          <stop
+             path="c 0,4.91368  0,9.82732  0,14.7411"
+             style="stop-color:#9955ff;stop-opacity:1"
+             id="stop157" />
+          <stop
+             path="c -4.91369,0  -9.82736,0  -14.7411,0"
+             style="stop-color:#006680;stop-opacity:1"
+             id="stop158" />
+          <stop
+             path="c 0,-4.91368  0,-9.82732  0,-14.7411"
+             style="stop-color:#165044;stop-opacity:1"
+             id="stop159" />
+        </meshpatch>
+      </meshrow>
+    </meshgradient>
+    <meshgradient
+       inkscape:collect="always"
+       id="meshgradient159"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(0,-1.0583333)"
+       x="41.199406"
+       y="121.05207">
+      <meshrow
+         id="meshrow163">
+        <meshpatch
+           id="meshpatch163">
+          <stop
+             path="c 4.91369,0  9.82736,0  14.7411,0"
+             style="stop-color:#214478;stop-opacity:1"
+             id="stop160" />
+          <stop
+             path="c 0,4.91368  0,9.82732  0,14.7411"
+             style="stop-color:#9955ff;stop-opacity:1"
+             id="stop161" />
+          <stop
+             path="c -4.91369,0  -9.82736,0  -14.7411,0"
+             style="stop-color:#006680;stop-opacity:1"
+             id="stop162" />
+          <stop
+             path="c 0,-4.91368  0,-9.82732  0,-14.7411"
+             style="stop-color:#165044;stop-opacity:1"
+             id="stop163" />
+        </meshpatch>
+      </meshrow>
+    </meshgradient>
+    <meshgradient
+       inkscape:collect="always"
+       id="meshgradient198"
+       gradientUnits="userSpaceOnUse"
+       x="41.199406"
+       y="121.05207">
+      <meshrow
+         id="meshrow201">
+        <meshpatch
+           id="meshpatch201">
+          <stop
+             path="c 4.9137,0  9.8274,0  14.7411,0"
+             style="stop-color:#ffffff;stop-opacity:1"
+             id="stop198" />
+          <stop
+             path="c 0,4.91368  0,9.82735  0,14.7411"
+             style="stop-color:#1a1a1a;stop-opacity:1"
+             id="stop199" />
+          <stop
+             path="c -4.9137,0  -9.8274,0  -14.7411,0"
+             style="stop-color:#ffffff;stop-opacity:1"
+             id="stop200" />
+          <stop
+             path="c 0,-4.91368  0,-9.82735  0,-14.7411"
+             style="stop-color:#1a1a1a;stop-opacity:1"
+             id="stop201" />
+        </meshpatch>
+      </meshrow>
+    </meshgradient>
+    <meshgradient
+       inkscape:collect="always"
+       id="meshgradient201"
+       gradientUnits="userSpaceOnUse"
+       x="41.199406"
+       y="121.05207">
+      <meshrow
+         id="meshrow205">
+        <meshpatch
+           id="meshpatch205">
+          <stop
+             id="stop202"
+             style="stop-color:#ffffff;stop-opacity:1"
+             path="c 4.91369,0  9.82738,0  14.7411,0" />
+          <stop
+             id="stop203"
+             style="stop-color:#000000;stop-opacity:1"
+             path="c 0,4.91369  0,9.82738  0,14.7411" />
+          <stop
+             id="stop204"
+             style="stop-color:#ffffff;stop-opacity:1"
+             path="c -4.91369,0  -9.82738,0  -14.7411,0" />
+          <stop
+             id="stop205"
+             style="stop-color:#000000;stop-opacity:1"
+             path="c 0,-4.91369  0,-9.82738  0,-14.7411" />
+        </meshpatch>
+      </meshrow>
+    </meshgradient>
+    <meshgradient
+       inkscape:collect="always"
+       id="meshgradient205"
+       gradientUnits="userSpaceOnUse"
+       x="41.199406"
+       y="121.05207">
+      <meshrow
+         id="meshrow209">
+        <meshpatch
+           id="meshpatch209">
+          <stop
+             path="c 4.91369,0  9.82738,0  14.7411,0"
+             style="stop-color:#ffffff;stop-opacity:1"
+             id="stop206" />
+          <stop
+             path="c 0,4.91369  0,9.82738  0,14.7411"
+             style="stop-color:#000000;stop-opacity:1"
+             id="stop207" />
+          <stop
+             path="c -4.91369,0  -9.82738,0  -14.7411,0"
+             style="stop-color:#ffffff;stop-opacity:1"
+             id="stop208" />
+          <stop
+             path="c 0,-4.91369  0,-9.82738  0,-14.7411"
+             style="stop-color:#000000;stop-opacity:1"
+             id="stop209" />
+        </meshpatch>
+      </meshrow>
+    </meshgradient>
+    <meshgradient
+       inkscape:collect="always"
+       id="meshgradient209"
+       gradientUnits="userSpaceOnUse"
+       x="43.358189"
+       y="123.21085">
+      <meshrow
+         id="meshrow213">
+        <meshpatch
+           id="meshpatch213">
+          <stop
+             path="c 2.87837,-2.87837  7.54514,-2.87837  10.4235,0"
+             style="stop-color:#ffffff;stop-opacity:1"
+             id="stop210" />
+          <stop
+             path="c 2.87837,2.87837  2.87837,7.54514  0,10.4235"
+             style="stop-color:#4d4d4d;stop-opacity:1"
+             id="stop211" />
+          <stop
+             path="c -2.87837,2.87837  -7.54514,2.87837  -10.4235,0"
+             style="stop-color:#ffffff;stop-opacity:1"
+             id="stop212" />
+          <stop
+             path="c -2.87837,-2.87837  -2.87837,-7.54514  0,-10.4235"
+             style="stop-color:#4d4d4d;stop-opacity:1"
+             id="stop213" />
+        </meshpatch>
+      </meshrow>
+    </meshgradient>
+    <meshgradient
+       inkscape:collect="always"
+       id="meshgradient213"
+       gradientUnits="userSpaceOnUse"
+       x="41.199406"
+       y="121.05207">
+      <meshrow
+         id="meshrow217">
+        <meshpatch
+           id="meshpatch217">
+          <stop
+             path="c 4.91369,0  9.82736,0  14.7411,0"
+             style="stop-color:#214478;stop-opacity:1"
+             id="stop214" />
+          <stop
+             path="c 0,4.91368  0,9.82732  0,14.7411"
+             style="stop-color:#9955ff;stop-opacity:1"
+             id="stop215" />
+          <stop
+             path="c -4.91369,0  -9.82736,0  -14.7411,0"
+             style="stop-color:#006680;stop-opacity:1"
+             id="stop216" />
+          <stop
+             path="c 0,-4.91368  0,-9.82732  0,-14.7411"
+             style="stop-color:#165044;stop-opacity:1"
+             id="stop217" />
+        </meshpatch>
+      </meshrow>
+    </meshgradient>
+    <meshgradient
+       inkscape:collect="always"
+       id="meshgradient217"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(0,-1.0583333)"
+       x="41.199406"
+       y="121.05207">
+      <meshrow
+         id="meshrow221">
+        <meshpatch
+           id="meshpatch221">
+          <stop
+             path="c 4.91369,0  9.82736,0  14.7411,0"
+             style="stop-color:#214478;stop-opacity:1"
+             id="stop218" />
+          <stop
+             path="c 0,4.91368  0,9.82732  0,14.7411"
+             style="stop-color:#9955ff;stop-opacity:1"
+             id="stop219" />
+          <stop
+             path="c -4.91369,0  -9.82736,0  -14.7411,0"
+             style="stop-color:#006680;stop-opacity:1"
+             id="stop220" />
+          <stop
+             path="c 0,-4.91368  0,-9.82732  0,-14.7411"
+             style="stop-color:#165044;stop-opacity:1"
+             id="stop221" />
+        </meshpatch>
+      </meshrow>
+    </meshgradient>
+    <meshgradient
+       inkscape:collect="always"
+       id="meshgradient11"
+       gradientUnits="userSpaceOnUse"
+       x="41.199406"
+       y="121.05207">
+      <meshrow
+         id="meshrow14">
+        <meshpatch
+           id="meshpatch14">
+          <stop
+             path="c 4.9137,0  9.8274,0  14.7411,0"
+             style="stop-color:#ffffff;stop-opacity:1"
+             id="stop11" />
+          <stop
+             path="c 0,4.91368  0,9.82735  0,14.7411"
+             style="stop-color:#1a1a1a;stop-opacity:1"
+             id="stop12" />
+          <stop
+             path="c -4.9137,0  -9.8274,0  -14.7411,0"
+             style="stop-color:#ffffff;stop-opacity:1"
+             id="stop13" />
+          <stop
+             path="c 0,-4.91368  0,-9.82735  0,-14.7411"
+             style="stop-color:#1a1a1a;stop-opacity:1"
+             id="stop14" />
+        </meshpatch>
+      </meshrow>
+    </meshgradient>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter14"
+       x="-0.3"
+       y="-0.3"
+       width="1.6"
+       height="1.6">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.72591436"
+         id="feGaussianBlur14" />
+    </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient19"
+       id="linearGradient21"
+       x1="9.8630552"
+       y1="59.879566"
+       x2="16.17037"
+       y2="59.879566"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(1.7041472)" />
+    <meshgradient
+       inkscape:collect="always"
+       id="meshgradient21"
+       gradientUnits="userSpaceOnUse"
+       x="41.199406"
+       y="121.05207">
+      <meshrow
+         id="meshrow25">
+        <meshpatch
+           id="meshpatch25">
+          <stop
+             id="stop22"
+             style="stop-color:#ffffff;stop-opacity:1"
+             path="c 4.91369,0  9.82738,0  14.7411,0" />
+          <stop
+             id="stop23"
+             style="stop-color:#000000;stop-opacity:1"
+             path="c 0,4.91369  0,9.82738  0,14.7411" />
+          <stop
+             id="stop24"
+             style="stop-color:#ffffff;stop-opacity:1"
+             path="c -4.91369,0  -9.82738,0  -14.7411,0" />
+          <stop
+             id="stop25"
+             style="stop-color:#000000;stop-opacity:1"
+             path="c 0,-4.91369  0,-9.82738  0,-14.7411" />
+        </meshpatch>
+      </meshrow>
+    </meshgradient>
+    <meshgradient
+       inkscape:collect="always"
+       id="meshgradient25"
+       gradientUnits="userSpaceOnUse"
+       x="41.199406"
+       y="121.05207">
+      <meshrow
+         id="meshrow29">
+        <meshpatch
+           id="meshpatch29">
+          <stop
+             path="c 4.91369,0  9.82738,0  14.7411,0"
+             style="stop-color:#ffffff;stop-opacity:1"
+             id="stop26" />
+          <stop
+             path="c 0,4.91369  0,9.82738  0,14.7411"
+             style="stop-color:#000000;stop-opacity:1"
+             id="stop27" />
+          <stop
+             path="c -4.91369,0  -9.82738,0  -14.7411,0"
+             style="stop-color:#ffffff;stop-opacity:1"
+             id="stop28" />
+          <stop
+             path="c 0,-4.91369  0,-9.82738  0,-14.7411"
+             style="stop-color:#000000;stop-opacity:1"
+             id="stop29" />
+        </meshpatch>
+      </meshrow>
+    </meshgradient>
+    <meshgradient
+       inkscape:collect="always"
+       id="meshgradient48"
+       gradientUnits="userSpaceOnUse"
+       x="41.199406"
+       y="121.05207">
+      <meshrow
+         id="meshrow51">
+        <meshpatch
+           id="meshpatch51">
+          <stop
+             path="c 4.91369,0  9.82736,0  14.7411,0"
+             style="stop-color:#214478;stop-opacity:1"
+             id="stop48" />
+          <stop
+             path="c 0,4.91368  0,9.82732  0,14.7411"
+             style="stop-color:#9955ff;stop-opacity:1"
+             id="stop49" />
+          <stop
+             path="c -4.91369,0  -9.82736,0  -14.7411,0"
+             style="stop-color:#006680;stop-opacity:1"
+             id="stop50" />
+          <stop
+             path="c 0,-4.91368  0,-9.82732  0,-14.7411"
+             style="stop-color:#165044;stop-opacity:1"
+             id="stop51" />
+        </meshpatch>
+      </meshrow>
+    </meshgradient>
+    <meshgradient
+       inkscape:collect="always"
+       id="meshgradient51"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(0,-1.0583333)"
+       x="41.199406"
+       y="121.05207">
+      <meshrow
+         id="meshrow55">
+        <meshpatch
+           id="meshpatch55">
+          <stop
+             path="c 4.91369,0  9.82736,0  14.7411,0"
+             style="stop-color:#214478;stop-opacity:1"
+             id="stop52" />
+          <stop
+             path="c 0,4.91368  0,9.82732  0,14.7411"
+             style="stop-color:#9955ff;stop-opacity:1"
+             id="stop53" />
+          <stop
+             path="c -4.91369,0  -9.82736,0  -14.7411,0"
+             style="stop-color:#006680;stop-opacity:1"
+             id="stop54" />
+          <stop
+             path="c 0,-4.91368  0,-9.82732  0,-14.7411"
+             style="stop-color:#165044;stop-opacity:1"
+             id="stop55" />
+        </meshpatch>
+      </meshrow>
+    </meshgradient>
+    <meshgradient
+       inkscape:collect="always"
+       id="meshgradient55"
+       gradientUnits="userSpaceOnUse"
+       x="43.358189"
+       y="123.21085">
+      <meshrow
+         id="meshrow59">
+        <meshpatch
+           id="meshpatch59">
+          <stop
+             path="c 2.87837,-2.87837  7.54514,-2.87837  10.4235,0"
+             style="stop-color:#ffffff;stop-opacity:1"
+             id="stop56" />
+          <stop
+             path="c 2.87837,2.87837  2.87837,7.54514  0,10.4235"
+             style="stop-color:#4d4d4d;stop-opacity:1"
+             id="stop57" />
+          <stop
+             path="c -2.87837,2.87837  -7.54514,2.87837  -10.4235,0"
+             style="stop-color:#ffffff;stop-opacity:1"
+             id="stop58" />
+          <stop
+             path="c -2.87837,-2.87837  -2.87837,-7.54514  0,-10.4235"
+             style="stop-color:#4d4d4d;stop-opacity:1"
+             id="stop59" />
+        </meshpatch>
+      </meshrow>
+    </meshgradient>
+    <meshgradient
+       inkscape:collect="always"
+       id="meshgradient59"
+       gradientUnits="userSpaceOnUse"
+       x="41.199406"
+       y="121.05207">
+      <meshrow
+         id="meshrow63">
+        <meshpatch
+           id="meshpatch63">
+          <stop
+             id="stop60"
+             style="stop-color:#ffffff;stop-opacity:1"
+             path="c 4.91369,0  9.82738,0  14.7411,0" />
+          <stop
+             id="stop61"
+             style="stop-color:#000000;stop-opacity:1"
+             path="c 0,4.91369  0,9.82738  0,14.7411" />
+          <stop
+             id="stop62"
+             style="stop-color:#ffffff;stop-opacity:1"
+             path="c -4.91369,0  -9.82738,0  -14.7411,0" />
+          <stop
+             id="stop63"
+             style="stop-color:#000000;stop-opacity:1"
+             path="c 0,-4.91369  0,-9.82738  0,-14.7411" />
+        </meshpatch>
+      </meshrow>
+    </meshgradient>
+    <meshgradient
+       inkscape:collect="always"
+       id="meshgradient63"
+       gradientUnits="userSpaceOnUse"
+       x="41.199406"
+       y="121.05207">
+      <meshrow
+         id="meshrow67">
+        <meshpatch
+           id="meshpatch67">
+          <stop
+             path="c 4.91369,0  9.82738,0  14.7411,0"
+             style="stop-color:#ffffff;stop-opacity:1"
+             id="stop64" />
+          <stop
+             path="c 0,4.91369  0,9.82738  0,14.7411"
+             style="stop-color:#000000;stop-opacity:1"
+             id="stop65" />
+          <stop
+             path="c -4.91369,0  -9.82738,0  -14.7411,0"
+             style="stop-color:#ffffff;stop-opacity:1"
+             id="stop66" />
+          <stop
+             path="c 0,-4.91369  0,-9.82738  0,-14.7411"
+             style="stop-color:#000000;stop-opacity:1"
+             id="stop67" />
+        </meshpatch>
+      </meshrow>
+    </meshgradient>
+    <meshgradient
+       inkscape:collect="always"
+       id="meshgradient67"
+       gradientUnits="userSpaceOnUse"
+       x="41.199406"
+       y="121.05207">
+      <meshrow
+         id="meshrow71">
+        <meshpatch
+           id="meshpatch71">
+          <stop
+             path="c 4.9137,0  9.8274,0  14.7411,0"
+             style="stop-color:#ffffff;stop-opacity:1"
+             id="stop68" />
+          <stop
+             path="c 0,4.91368  0,9.82735  0,14.7411"
+             style="stop-color:#1a1a1a;stop-opacity:1"
+             id="stop69" />
+          <stop
+             path="c -4.9137,0  -9.8274,0  -14.7411,0"
+             style="stop-color:#ffffff;stop-opacity:1"
+             id="stop70" />
+          <stop
+             path="c 0,-4.91368  0,-9.82735  0,-14.7411"
+             style="stop-color:#1a1a1a;stop-opacity:1"
+             id="stop71" />
+        </meshpatch>
+      </meshrow>
+    </meshgradient>
+    <meshgradient
+       inkscape:collect="always"
+       id="meshgradient71"
+       gradientUnits="userSpaceOnUse"
+       x="41.199406"
+       y="121.05207">
+      <meshrow
+         id="meshrow75">
+        <meshpatch
+           id="meshpatch75">
+          <stop
+             path="c 4.91369,0  9.82736,0  14.7411,0"
+             style="stop-color:#214478;stop-opacity:1"
+             id="stop72" />
+          <stop
+             path="c 0,4.91368  0,9.82732  0,14.7411"
+             style="stop-color:#9955ff;stop-opacity:1"
+             id="stop73" />
+          <stop
+             path="c -4.91369,0  -9.82736,0  -14.7411,0"
+             style="stop-color:#006680;stop-opacity:1"
+             id="stop74" />
+          <stop
+             path="c 0,-4.91368  0,-9.82732  0,-14.7411"
+             style="stop-color:#165044;stop-opacity:1"
+             id="stop75" />
+        </meshpatch>
+      </meshrow>
+    </meshgradient>
+    <meshgradient
+       inkscape:collect="always"
+       id="meshgradient75"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(0,-1.0583333)"
+       x="41.199406"
+       y="121.05207">
+      <meshrow
+         id="meshrow79">
+        <meshpatch
+           id="meshpatch79">
+          <stop
+             path="c 4.91369,0  9.82736,0  14.7411,0"
+             style="stop-color:#214478;stop-opacity:1"
+             id="stop76" />
+          <stop
+             path="c 0,4.91368  0,9.82732  0,14.7411"
+             style="stop-color:#9955ff;stop-opacity:1"
+             id="stop77" />
+          <stop
+             path="c -4.91369,0  -9.82736,0  -14.7411,0"
+             style="stop-color:#006680;stop-opacity:1"
+             id="stop78" />
+          <stop
+             path="c 0,-4.91368  0,-9.82732  0,-14.7411"
+             style="stop-color:#165044;stop-opacity:1"
+             id="stop79" />
+        </meshpatch>
+      </meshrow>
+    </meshgradient>
+    <meshgradient
+       inkscape:collect="always"
+       id="meshgradient79"
+       gradientUnits="userSpaceOnUse"
+       x="43.358189"
+       y="123.21085">
+      <meshrow
+         id="meshrow83">
+        <meshpatch
+           id="meshpatch83">
+          <stop
+             path="c 2.87837,-2.87837  7.54514,-2.87837  10.4235,0"
+             style="stop-color:#ffffff;stop-opacity:1"
+             id="stop80" />
+          <stop
+             path="c 2.87837,2.87837  2.87837,7.54514  0,10.4235"
+             style="stop-color:#4d4d4d;stop-opacity:1"
+             id="stop81" />
+          <stop
+             path="c -2.87837,2.87837  -7.54514,2.87837  -10.4235,0"
+             style="stop-color:#ffffff;stop-opacity:1"
+             id="stop82" />
+          <stop
+             path="c -2.87837,-2.87837  -2.87837,-7.54514  0,-10.4235"
+             style="stop-color:#4d4d4d;stop-opacity:1"
+             id="stop83" />
+        </meshpatch>
+      </meshrow>
+    </meshgradient>
+    <meshgradient
+       inkscape:collect="always"
+       id="meshgradient83"
+       gradientUnits="userSpaceOnUse"
+       x="41.199406"
+       y="121.05207">
+      <meshrow
+         id="meshrow87">
+        <meshpatch
+           id="meshpatch87">
+          <stop
+             id="stop84"
+             style="stop-color:#ffffff;stop-opacity:1"
+             path="c 4.91369,0  9.82738,0  14.7411,0" />
+          <stop
+             id="stop85"
+             style="stop-color:#000000;stop-opacity:1"
+             path="c 0,4.91369  0,9.82738  0,14.7411" />
+          <stop
+             id="stop86"
+             style="stop-color:#ffffff;stop-opacity:1"
+             path="c -4.91369,0  -9.82738,0  -14.7411,0" />
+          <stop
+             id="stop87"
+             style="stop-color:#000000;stop-opacity:1"
+             path="c 0,-4.91369  0,-9.82738  0,-14.7411" />
+        </meshpatch>
+      </meshrow>
+    </meshgradient>
+    <meshgradient
+       inkscape:collect="always"
+       id="meshgradient87"
+       gradientUnits="userSpaceOnUse"
+       x="41.199406"
+       y="121.05207">
+      <meshrow
+         id="meshrow91">
+        <meshpatch
+           id="meshpatch91">
+          <stop
+             path="c 4.91369,0  9.82738,0  14.7411,0"
+             style="stop-color:#ffffff;stop-opacity:1"
+             id="stop88" />
+          <stop
+             path="c 0,4.91369  0,9.82738  0,14.7411"
+             style="stop-color:#000000;stop-opacity:1"
+             id="stop89" />
+          <stop
+             path="c -4.91369,0  -9.82738,0  -14.7411,0"
+             style="stop-color:#ffffff;stop-opacity:1"
+             id="stop90" />
+          <stop
+             path="c 0,-4.91369  0,-9.82738  0,-14.7411"
+             style="stop-color:#000000;stop-opacity:1"
+             id="stop91" />
+        </meshpatch>
+      </meshrow>
+    </meshgradient>
+    <meshgradient
+       inkscape:collect="always"
+       id="meshgradient91"
+       gradientUnits="userSpaceOnUse"
+       x="41.199406"
+       y="121.05207">
+      <meshrow
+         id="meshrow95">
+        <meshpatch
+           id="meshpatch95">
+          <stop
+             path="c 4.9137,0  9.8274,0  14.7411,0"
+             style="stop-color:#ffffff;stop-opacity:1"
+             id="stop92" />
+          <stop
+             path="c 0,4.91368  0,9.82735  0,14.7411"
+             style="stop-color:#1a1a1a;stop-opacity:1"
+             id="stop93" />
+          <stop
+             path="c -4.9137,0  -9.8274,0  -14.7411,0"
+             style="stop-color:#ffffff;stop-opacity:1"
+             id="stop94" />
+          <stop
+             path="c 0,-4.91368  0,-9.82735  0,-14.7411"
+             style="stop-color:#1a1a1a;stop-opacity:1"
+             id="stop95" />
+        </meshpatch>
+      </meshrow>
+    </meshgradient>
+    <meshgradient
+       inkscape:collect="always"
+       id="meshgradient95"
+       gradientUnits="userSpaceOnUse"
+       x="41.199406"
+       y="121.05207">
+      <meshrow
+         id="meshrow99">
+        <meshpatch
+           id="meshpatch99">
+          <stop
+             path="c 4.91369,0  9.82736,0  14.7411,0"
+             style="stop-color:#214478;stop-opacity:1"
+             id="stop96" />
+          <stop
+             path="c 0,4.91368  0,9.82732  0,14.7411"
+             style="stop-color:#9955ff;stop-opacity:1"
+             id="stop97" />
+          <stop
+             path="c -4.91369,0  -9.82736,0  -14.7411,0"
+             style="stop-color:#006680;stop-opacity:1"
+             id="stop98" />
+          <stop
+             path="c 0,-4.91368  0,-9.82732  0,-14.7411"
+             style="stop-color:#165044;stop-opacity:1"
+             id="stop99" />
+        </meshpatch>
+      </meshrow>
+    </meshgradient>
+    <meshgradient
+       inkscape:collect="always"
+       id="meshgradient99"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(0,-1.0583333)"
+       x="41.199406"
+       y="121.05207">
+      <meshrow
+         id="meshrow103">
+        <meshpatch
+           id="meshpatch103">
+          <stop
+             path="c 4.91369,0  9.82736,0  14.7411,0"
+             style="stop-color:#214478;stop-opacity:1"
+             id="stop100" />
+          <stop
+             path="c 0,4.91368  0,9.82732  0,14.7411"
+             style="stop-color:#9955ff;stop-opacity:1"
+             id="stop101" />
+          <stop
+             path="c -4.91369,0  -9.82736,0  -14.7411,0"
+             style="stop-color:#006680;stop-opacity:1"
+             id="stop102" />
+          <stop
+             path="c 0,-4.91368  0,-9.82732  0,-14.7411"
+             style="stop-color:#165044;stop-opacity:1"
+             id="stop103" />
+        </meshpatch>
+      </meshrow>
+    </meshgradient>
+    <meshgradient
+       inkscape:collect="always"
+       id="meshgradient103"
+       gradientUnits="userSpaceOnUse"
+       x="43.358189"
+       y="123.21085">
+      <meshrow
+         id="meshrow107">
+        <meshpatch
+           id="meshpatch107">
+          <stop
+             path="c 2.87837,-2.87837  7.54514,-2.87837  10.4235,0"
+             style="stop-color:#ffffff;stop-opacity:1"
+             id="stop104" />
+          <stop
+             path="c 2.87837,2.87837  2.87837,7.54514  0,10.4235"
+             style="stop-color:#4d4d4d;stop-opacity:1"
+             id="stop105" />
+          <stop
+             path="c -2.87837,2.87837  -7.54514,2.87837  -10.4235,0"
+             style="stop-color:#ffffff;stop-opacity:1"
+             id="stop106" />
+          <stop
+             path="c -2.87837,-2.87837  -2.87837,-7.54514  0,-10.4235"
+             style="stop-color:#4d4d4d;stop-opacity:1"
+             id="stop107" />
+        </meshpatch>
+      </meshrow>
+    </meshgradient>
+    <meshgradient
+       inkscape:collect="always"
+       id="meshgradient107"
+       gradientUnits="userSpaceOnUse"
+       x="41.199406"
+       y="121.05207">
+      <meshrow
+         id="meshrow111">
+        <meshpatch
+           id="meshpatch111">
+          <stop
+             id="stop108"
+             style="stop-color:#ffffff;stop-opacity:1"
+             path="c 4.91369,0  9.82738,0  14.7411,0" />
+          <stop
+             id="stop109"
+             style="stop-color:#000000;stop-opacity:1"
+             path="c 0,4.91369  0,9.82738  0,14.7411" />
+          <stop
+             id="stop110"
+             style="stop-color:#ffffff;stop-opacity:1"
+             path="c -4.91369,0  -9.82738,0  -14.7411,0" />
+          <stop
+             id="stop111"
+             style="stop-color:#000000;stop-opacity:1"
+             path="c 0,-4.91369  0,-9.82738  0,-14.7411" />
+        </meshpatch>
+      </meshrow>
+    </meshgradient>
+    <meshgradient
+       inkscape:collect="always"
+       id="meshgradient111"
+       gradientUnits="userSpaceOnUse"
+       x="41.199406"
+       y="121.05207">
+      <meshrow
+         id="meshrow115">
+        <meshpatch
+           id="meshpatch115">
+          <stop
+             path="c 4.91369,0  9.82738,0  14.7411,0"
+             style="stop-color:#ffffff;stop-opacity:1"
+             id="stop112" />
+          <stop
+             path="c 0,4.91369  0,9.82738  0,14.7411"
+             style="stop-color:#000000;stop-opacity:1"
+             id="stop113" />
+          <stop
+             path="c -4.91369,0  -9.82738,0  -14.7411,0"
+             style="stop-color:#ffffff;stop-opacity:1"
+             id="stop114" />
+          <stop
+             path="c 0,-4.91369  0,-9.82738  0,-14.7411"
+             style="stop-color:#000000;stop-opacity:1"
+             id="stop115" />
+        </meshpatch>
+      </meshrow>
+    </meshgradient>
+  </defs>
+  <g
+     inkscape:groupmode="layer"
+     id="grid"
+     inkscape:label="grid"
+     style="display:inline;opacity:1">
+    <g
+       id="g116"
+       inkscape:label="button-prev"
+       style="display:inline;opacity:1;mix-blend-mode:normal"
+       transform="translate(77.58262,95.589775)"
+       inkscape:groupmode="layer">
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.384024;stroke-linejoin:round;stroke-opacity:0.04307116"
+         id="rect197"
+         width="12.315975"
+         height="12.315976"
+         x="-51.990608"
+         y="-69.997765"
+         inkscape:label="GRID-ORG"
+         inkscape:tile-cx="90.401332"
+         inkscape:tile-cy="155.27134"
+         inkscape:tile-w="12.699999"
+         inkscape:tile-h="12.7"
+         inkscape:tile-x0="84.051332"
+         inkscape:tile-y0="148.92134" />
+      <use
+         x="0"
+         y="0"
+         inkscape:tiled-clone-of="#rect197"
+         xlink:href="#rect197"
+         transform="translate(-1.8838503e-7,12.699998)"
+         id="use38" />
+      <use
+         x="0"
+         y="0"
+         inkscape:tiled-clone-of="#rect197"
+         xlink:href="#rect197"
+         id="use39"
+         transform="translate(0,25.400003)" />
+      <g
+         inkscape:groupmode="layer"
+         id="layer3"
+         inkscape:label="prev"
+         style="display:inline"
+         transform="translate(-138.1361,-193.87405)">
+        <g
+           id="g115"
+           transform="translate(79.286767,95.554715)"
+           style="display:inline">
+          <g
+             id="g6556"
+             transform="matrix(0.45298564,0,0,0.45298564,-8.9847734,-23.694033)"
+             style="fill:url(#meshgradient8790);fill-opacity:1;stroke:none"
+             inkscape:export-filename="button-prev.png"
+             inkscape:export-xdpi="96"
+             inkscape:export-ydpi="96">
+            <circle
+               r="7.3705359"
+               cy="128.42261"
+               cx="48.569942"
+               id="circle8644"
+               style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.309;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;filter:url(#filter8730)" />
+            <circle
+               style="opacity:1;fill:url(#meshgradient8804);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.309;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+               id="circle6548"
+               cx="48.569942"
+               cy="128.42261"
+               r="7.3705359" />
+            <path
+               sodipodi:nodetypes="cccccc"
+               style="opacity:0.1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.709091;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+               d="m 50.971378,125.61477 -5.305165,4.33111 2.847114,5.83126 c 0.14828,0.005 0.296671,0.005 0.444971,0.001 2.61292,-0.12599 4.963284,-1.62752 6.175879,-3.94546 z"
+               id="path6552"
+               inkscape:connector-curvature="0" />
+            <path
+               style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#4d4d4d;stroke-width:0.971403;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+               d="m 40.59375,193.26953 v 12.96875 h 2.636719 v -5.38867 l 3.863281,2.24805 5.673828,3.30078 0.02148,-6.56446 0.02148,-6.56445 -5.695313,3.26367 -3.884765,2.22657 v -5.49024 z"
+               transform="matrix(0.58408769,0,0,0.58408769,20.871472,11.693672)"
+               id="path6550"
+               inkscape:connector-curvature="0" />
+          </g>
+        </g>
+        <g
+           id="g135"
+           transform="matrix(0.45298564,0,0,0.45298564,70.301994,84.595742)"
+           style="display:inline;fill:url(#meshgradient63);fill-opacity:1;stroke:none">
+          <circle
+             r="7.3705359"
+             cy="128.42261"
+             cx="48.569942"
+             id="circle133"
+             style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.309;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;filter:url(#filter8730)" />
+          <circle
+             style="opacity:1;fill:url(#meshgradient59);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.309;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+             id="circle134"
+             cx="48.569942"
+             cy="128.42261"
+             r="7.3705359" />
+          <path
+             sodipodi:nodetypes="cccccc"
+             style="opacity:0.1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.709091;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+             d="m 50.971378,125.61477 -5.305165,4.33111 2.847114,5.83126 c 0.14828,0.005 0.296671,0.005 0.444971,0.001 2.61292,-0.12599 4.963284,-1.62752 6.175879,-3.94546 z"
+             id="path134"
+             inkscape:connector-curvature="0" />
+          <path
+             style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#4d4d4d;stroke-width:0.971403;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+             d="m 40.59375,193.26953 v 12.96875 h 2.636719 v -5.38867 l 3.863281,2.24805 5.673828,3.30078 0.02148,-6.56446 0.02148,-6.56445 -5.695313,3.26367 -3.884765,2.22657 v -5.49024 z"
+             transform="matrix(0.58408769,0,0,0.58408769,20.871472,11.693672)"
+             id="path135"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g169"
+           transform="matrix(0.45298564,0,0,0.45298564,70.301994,84.595742)"
+           style="display:inline;fill:url(#meshgradient87);fill-opacity:1;stroke:none">
+          <circle
+             r="7.3705359"
+             cy="128.42261"
+             cx="48.569942"
+             id="circle167"
+             style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.309;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;filter:url(#filter8730)" />
+          <circle
+             style="opacity:1;fill:url(#meshgradient83);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.309;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+             id="circle168"
+             cx="48.569942"
+             cy="128.42261"
+             r="7.3705359" />
+          <path
+             sodipodi:nodetypes="cccccc"
+             style="opacity:0.1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.709091;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+             d="m 50.971378,125.61477 -5.305165,4.33111 2.847114,5.83126 c 0.14828,0.005 0.296671,0.005 0.444971,0.001 2.61292,-0.12599 4.963284,-1.62752 6.175879,-3.94546 z"
+             id="path168"
+             inkscape:connector-curvature="0" />
+          <path
+             style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#4d4d4d;stroke-width:0.971403;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+             d="m 40.59375,193.26953 v 12.96875 h 2.636719 v -5.38867 l 3.863281,2.24805 5.673828,3.30078 0.02148,-6.56446 0.02148,-6.56445 -5.695313,3.26367 -3.884765,2.22657 v -5.49024 z"
+             transform="matrix(0.58408769,0,0,0.58408769,20.871472,11.693672)"
+             id="path169"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g177"
+           transform="matrix(0.45298564,0,0,0.45298564,70.301994,84.595742)"
+           style="display:inline;fill:url(#meshgradient111);fill-opacity:1;stroke:none">
+          <circle
+             r="7.3705359"
+             cy="128.42261"
+             cx="48.569942"
+             id="circle175"
+             style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.309;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;filter:url(#filter8730)" />
+          <circle
+             style="opacity:1;fill:url(#meshgradient107);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.309;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+             id="circle176"
+             cx="48.569942"
+             cy="128.42261"
+             r="7.3705359" />
+          <path
+             sodipodi:nodetypes="cccccc"
+             style="opacity:0.1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.709091;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+             d="m 50.971378,125.61477 -5.305165,4.33111 2.847114,5.83126 c 0.14828,0.005 0.296671,0.005 0.444971,0.001 2.61292,-0.12599 4.963284,-1.62752 6.175879,-3.94546 z"
+             id="path176"
+             inkscape:connector-curvature="0" />
+          <path
+             style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#4d4d4d;stroke-width:0.971403;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+             d="m 40.59375,193.26953 v 12.96875 h 2.636719 v -5.38867 l 3.863281,2.24805 5.673828,3.30078 0.02148,-6.56446 0.02148,-6.56445 -5.695313,3.26367 -3.884765,2.22657 v -5.49024 z"
+             transform="matrix(0.58408769,0,0,0.58408769,20.871472,11.693672)"
+             id="path177"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g185"
+           transform="matrix(0.45298564,0,0,0.45298564,70.301994,84.595742)"
+           style="display:inline;fill:url(#meshgradient147);fill-opacity:1;stroke:none">
+          <circle
+             r="7.3705359"
+             cy="128.42261"
+             cx="48.569942"
+             id="circle183"
+             style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.309;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;filter:url(#filter8730)" />
+          <circle
+             style="opacity:1;fill:url(#meshgradient143);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.309;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+             id="circle184"
+             cx="48.569942"
+             cy="128.42261"
+             r="7.3705359" />
+          <path
+             sodipodi:nodetypes="cccccc"
+             style="opacity:0.1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.709091;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+             d="m 50.971378,125.61477 -5.305165,4.33111 2.847114,5.83126 c 0.14828,0.005 0.296671,0.005 0.444971,0.001 2.61292,-0.12599 4.963284,-1.62752 6.175879,-3.94546 z"
+             id="path184"
+             inkscape:connector-curvature="0" />
+          <path
+             style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#4d4d4d;stroke-width:0.971403;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+             d="m 40.59375,193.26953 v 12.96875 h 2.636719 v -5.38867 l 3.863281,2.24805 5.673828,3.30078 0.02148,-6.56446 0.02148,-6.56445 -5.695313,3.26367 -3.884765,2.22657 v -5.49024 z"
+             transform="matrix(0.58408769,0,0,0.58408769,20.871472,11.693672)"
+             id="path185"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g193"
+           transform="matrix(0.45298564,0,0,0.45298564,70.301994,97.295743)"
+           style="display:inline;fill:url(#meshgradient25);fill-opacity:1;stroke:none">
+          <circle
+             r="7.3705359"
+             cy="128.42261"
+             cx="48.569942"
+             id="circle191"
+             style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.309;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;filter:url(#filter8730)" />
+          <circle
+             style="opacity:1;fill:url(#meshgradient21);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.309;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+             id="circle192"
+             cx="48.569942"
+             cy="128.42261"
+             r="7.3705359" />
+          <path
+             sodipodi:nodetypes="cccccc"
+             style="opacity:0.1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.709091;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+             d="m 50.971378,125.61477 -5.305165,4.33111 2.847114,5.83126 c 0.14828,0.005 0.296671,0.005 0.444971,0.001 2.61292,-0.12599 4.963284,-1.62752 6.175879,-3.94546 z"
+             id="path192"
+             inkscape:connector-curvature="0" />
+          <path
+             style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#4d4d4d;stroke-width:0.971403;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+             d="m 40.59375,193.26953 v 12.96875 h 2.636719 v -5.38867 l 3.863281,2.24805 5.673828,3.30078 0.02148,-6.56446 0.02148,-6.56445 -5.695313,3.26367 -3.884765,2.22657 v -5.49024 z"
+             transform="matrix(0.58408769,0,0,0.58408769,20.871472,11.693672)"
+             id="path193"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g223"
+           transform="matrix(0.45298564,0,0,0.45298564,70.301994,97.295743)"
+           style="display:inline;fill:url(#meshgradient205);fill-opacity:1;stroke:none">
+          <circle
+             r="7.3705359"
+             cy="128.42261"
+             cx="48.569942"
+             id="circle221"
+             style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.309;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;filter:url(#filter8730)" />
+          <circle
+             style="opacity:1;fill:url(#meshgradient201);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.309;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+             id="circle222"
+             cx="48.569942"
+             cy="128.42261"
+             r="7.3705359" />
+          <path
+             sodipodi:nodetypes="cccccc"
+             style="opacity:0.1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.709091;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+             d="m 50.971378,125.61477 -5.305165,4.33111 2.847114,5.83126 c 0.14828,0.005 0.296671,0.005 0.444971,0.001 2.61292,-0.12599 4.963284,-1.62752 6.175879,-3.94546 z"
+             id="path222"
+             inkscape:connector-curvature="0" />
+          <path
+             style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#4d4d4d;stroke-width:0.971403;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+             d="m 40.59375,193.26953 v 12.96875 h 2.636719 v -5.38867 l 3.863281,2.24805 5.673828,3.30078 0.02148,-6.56446 0.02148,-6.56445 -5.695313,3.26367 -3.884765,2.22657 v -5.49024 z"
+             transform="matrix(0.58408769,0,0,0.58408769,20.871472,11.693672)"
+             id="path223"
+             inkscape:connector-curvature="0" />
+        </g>
+        <circle
+           r="2.9036574"
+           cy="59.879566"
+           cx="14.72086"
+           id="circle223"
+           style="display:inline;opacity:1;fill:#000000;fill-opacity:0.273438;fill-rule:nonzero;stroke:url(#linearGradient21);stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+           inkscape:tile-cx="90.599331"
+           inkscape:tile-cy="166.05267"
+           inkscape:tile-w="6.6770017"
+           inkscape:tile-h="6.6770017"
+           inkscape:tile-x0="87.26083"
+           inkscape:tile-y0="162.71417"
+           transform="translate(77.58262,95.589775)" />
+        <circle
+           r="2.9036574"
+           cy="47.179562"
+           cx="14.72086"
+           id="circle1"
+           style="display:inline;opacity:1;fill:#1cc6e8;fill-opacity:0.5;fill-rule:nonzero;stroke:none;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers;filter:url(#filter14)"
+           inkscape:tile-cx="90.599331"
+           inkscape:tile-cy="166.05267"
+           inkscape:tile-w="6.6770017"
+           inkscape:tile-h="6.6770017"
+           inkscape:tile-x0="87.26083"
+           inkscape:tile-y0="162.71417"
+           transform="translate(77.58262,95.589775)" />
+        <circle
+           r="2.9036574"
+           cy="59.879566"
+           cx="14.72086"
+           id="circle29"
+           style="display:inline;opacity:1;fill:#1cc6e8;fill-opacity:0.5;fill-rule:nonzero;stroke:none;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+           inkscape:tile-cx="90.599331"
+           inkscape:tile-cy="166.05267"
+           inkscape:tile-w="6.6770017"
+           inkscape:tile-h="6.6770017"
+           inkscape:tile-x0="87.26083"
+           inkscape:tile-y0="162.71417"
+           transform="translate(77.58262,95.589775)" />
+      </g>
+    </g>
+    <g
+       id="button-stop"
+       style="display:inline;opacity:1;mix-blend-mode:normal"
+       transform="translate(77.58262,95.589775)"
+       inkscape:groupmode="layer">
+      <use
+         x="0"
+         y="0"
+         inkscape:tiled-clone-of="#rect197"
+         xlink:href="#rect197"
+         transform="translate(12.699999)"
+         id="use40" />
+      <use
+         x="0"
+         y="0"
+         inkscape:tiled-clone-of="#rect197"
+         xlink:href="#rect197"
+         transform="translate(12.699999,12.699998)"
+         id="use41" />
+      <use
+         x="0"
+         y="0"
+         inkscape:tiled-clone-of="#rect197"
+         xlink:href="#rect197"
+         transform="translate(12.699999,25.400003)"
+         id="use42" />
+      <g
+         inkscape:groupmode="layer"
+         id="layer5"
+         inkscape:label="stop"
+         style="display:inline"
+         transform="translate(-138.1361,-193.87405)">
+        <g
+           id="g6580"
+           transform="matrix(0.45298564,0,0,0.45298564,83.001993,71.860681)"
+           inkscape:export-filename="button-stop.png"
+           inkscape:export-xdpi="96"
+           inkscape:export-ydpi="96"
+           style="display:inline">
+          <circle
+             r="7.3705359"
+             cy="128.42261"
+             cx="48.569942"
+             id="circle8734"
+             style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.309;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;filter:url(#filter8752)" />
+          <circle
+             style="opacity:1;fill:url(#meshgradient8494);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.309;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+             id="circle6572"
+             cx="48.569942"
+             cy="128.42261"
+             r="7.3705359" />
+          <path
+             style="opacity:0.1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.772716;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+             d="m 52.533871,128.24155 -7.751736,3.96875 2.638015,3.56677 a 8.5874945,7.5122152 0 0 0 0.518441,0.001 8.5874945,7.5122152 0 0 0 7.195586,-4.0213 z"
+             id="path6576"
+             inkscape:connector-curvature="0" />
+          <rect
+             style="opacity:1;fill:#ffffff;fill-opacity:0.994898;fill-rule:nonzero;stroke:#4d4d4d;stroke-width:0.743397;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+             id="rect6578"
+             width="6.6369061"
+             height="6.6366849"
+             x="45.251492"
+             y="125.10427" />
+        </g>
+        <g
+           id="g136"
+           transform="matrix(0.45298564,0,0,0.45298564,83.001993,84.595742)"
+           style="display:inline">
+          <circle
+             r="7.3705359"
+             cy="128.42261"
+             cx="48.569942"
+             id="circle135"
+             style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.309;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;filter:url(#filter8752)" />
+          <circle
+             style="opacity:1;fill:url(#meshgradient67);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.309;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+             id="circle136"
+             cx="48.569942"
+             cy="128.42261"
+             r="7.3705359" />
+          <path
+             style="opacity:0.1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.772716;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+             d="m 52.533871,128.24155 -7.751736,3.96875 2.638015,3.56677 a 8.5874945,7.5122152 0 0 0 0.518441,0.001 8.5874945,7.5122152 0 0 0 7.195586,-4.0213 z"
+             id="path136"
+             inkscape:connector-curvature="0" />
+          <rect
+             style="opacity:1;fill:#ffffff;fill-opacity:0.994898;fill-rule:nonzero;stroke:#4d4d4d;stroke-width:0.743397;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+             id="rect136"
+             width="6.6369061"
+             height="6.6366849"
+             x="45.251492"
+             y="125.10427" />
+        </g>
+        <g
+           id="g170"
+           transform="matrix(0.45298564,0,0,0.45298564,83.001993,84.595742)"
+           style="display:inline">
+          <circle
+             r="7.3705359"
+             cy="128.42261"
+             cx="48.569942"
+             id="circle169"
+             style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.309;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;filter:url(#filter8752)" />
+          <circle
+             style="opacity:1;fill:url(#meshgradient91);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.309;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+             id="circle170"
+             cx="48.569942"
+             cy="128.42261"
+             r="7.3705359" />
+          <path
+             style="opacity:0.1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.772716;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+             d="m 52.533871,128.24155 -7.751736,3.96875 2.638015,3.56677 a 8.5874945,7.5122152 0 0 0 0.518441,0.001 8.5874945,7.5122152 0 0 0 7.195586,-4.0213 z"
+             id="path170"
+             inkscape:connector-curvature="0" />
+          <rect
+             style="opacity:1;fill:#ffffff;fill-opacity:0.994898;fill-rule:nonzero;stroke:#4d4d4d;stroke-width:0.743397;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+             id="rect170"
+             width="6.6369061"
+             height="6.6366849"
+             x="45.251492"
+             y="125.10427" />
+        </g>
+        <g
+           id="g178"
+           transform="matrix(0.45298564,0,0,0.45298564,83.001993,84.595742)"
+           style="display:inline">
+          <circle
+             r="7.3705359"
+             cy="128.42261"
+             cx="48.569942"
+             id="circle177"
+             style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.309;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;filter:url(#filter8752)" />
+          <circle
+             style="opacity:1;fill:url(#meshgradient140);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.309;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+             id="circle178"
+             cx="48.569942"
+             cy="128.42261"
+             r="7.3705359" />
+          <path
+             style="opacity:0.1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.772716;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+             d="m 52.533871,128.24155 -7.751736,3.96875 2.638015,3.56677 a 8.5874945,7.5122152 0 0 0 0.518441,0.001 8.5874945,7.5122152 0 0 0 7.195586,-4.0213 z"
+             id="path178"
+             inkscape:connector-curvature="0" />
+          <rect
+             style="opacity:1;fill:#ffffff;fill-opacity:0.994898;fill-rule:nonzero;stroke:#4d4d4d;stroke-width:0.743397;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+             id="rect178"
+             width="6.6369061"
+             height="6.6366849"
+             x="45.251492"
+             y="125.10427" />
+        </g>
+        <g
+           id="g186"
+           transform="matrix(0.45298564,0,0,0.45298564,83.001993,84.595742)"
+           style="display:inline">
+          <circle
+             r="7.3705359"
+             cy="128.42261"
+             cx="48.569942"
+             id="circle185"
+             style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.309;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;filter:url(#filter8752)" />
+          <circle
+             style="opacity:1;fill:url(#meshgradient11);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.309;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+             id="circle186"
+             cx="48.569942"
+             cy="128.42261"
+             r="7.3705359" />
+          <path
+             style="opacity:0.1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.772716;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+             d="m 52.533871,128.24155 -7.751736,3.96875 2.638015,3.56677 a 8.5874945,7.5122152 0 0 0 0.518441,0.001 8.5874945,7.5122152 0 0 0 7.195586,-4.0213 z"
+             id="path186"
+             inkscape:connector-curvature="0" />
+          <rect
+             style="opacity:1;fill:#ffffff;fill-opacity:0.994898;fill-rule:nonzero;stroke:#4d4d4d;stroke-width:0.743397;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+             id="rect186"
+             width="6.6369061"
+             height="6.6366849"
+             x="45.251492"
+             y="125.10427" />
+        </g>
+        <g
+           id="g194"
+           transform="matrix(0.45298564,0,0,0.45298564,83.001993,97.295743)"
+           style="display:inline">
+          <circle
+             r="7.3705359"
+             cy="128.42261"
+             cx="48.569942"
+             id="circle193"
+             style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.309;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;filter:url(#filter8752)" />
+          <circle
+             style="opacity:1;fill:url(#meshgradient198);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.309;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+             id="circle194"
+             cx="48.569942"
+             cy="128.42261"
+             r="7.3705359" />
+          <path
+             style="opacity:0.1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.772716;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+             d="m 52.533871,128.24155 -7.751736,3.96875 2.638015,3.56677 a 8.5874945,7.5122152 0 0 0 0.518441,0.001 8.5874945,7.5122152 0 0 0 7.195586,-4.0213 z"
+             id="path194"
+             inkscape:connector-curvature="0" />
+          <rect
+             style="opacity:1;fill:#ffffff;fill-opacity:0.994898;fill-rule:nonzero;stroke:#4d4d4d;stroke-width:0.743397;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+             id="rect194"
+             width="6.6369061"
+             height="6.6366849"
+             x="45.251492"
+             y="125.10427" />
+        </g>
+        <use
+           x="0"
+           y="0"
+           inkscape:tiled-clone-of="#circle223"
+           xlink:href="#circle223"
+           transform="translate(12.7)"
+           id="use259"
+           style="display:inline" />
+        <use
+           x="0"
+           y="0"
+           inkscape:tiled-clone-of="#circle1"
+           xlink:href="#circle1"
+           id="use9"
+           transform="translate(12.7)"
+           style="display:inline" />
+        <use
+           x="0"
+           y="0"
+           inkscape:tiled-clone-of="#circle1"
+           xlink:href="#circle1"
+           id="use29"
+           transform="translate(12.7,12.700001)"
+           style="display:inline" />
+      </g>
+    </g>
+    <g
+       id="button-next"
+       style="display:inline;opacity:1;mix-blend-mode:normal"
+       transform="translate(77.58262,95.589775)"
+       inkscape:groupmode="layer">
+      <use
+         x="0"
+         y="0"
+         inkscape:tiled-clone-of="#rect197"
+         xlink:href="#rect197"
+         transform="translate(38.099996)"
+         id="use46" />
+      <use
+         x="0"
+         y="0"
+         inkscape:tiled-clone-of="#rect197"
+         xlink:href="#rect197"
+         transform="translate(38.099996,12.699998)"
+         id="use47" />
+      <use
+         x="0"
+         y="0"
+         inkscape:tiled-clone-of="#rect197"
+         xlink:href="#rect197"
+         transform="translate(38.099996,25.400003)"
+         id="use48" />
+      <g
+         inkscape:groupmode="layer"
+         id="next"
+         inkscape:label="next"
+         transform="translate(-77.58262,-95.589775)"
+         style="display:inline">
+        <title
+           id="title117">next</title>
+        <g
+           transform="matrix(0.45298564,0,0,0.45298564,47.848509,-26.423599)"
+           id="g6540"
+           inkscape:export-filename="button-next.png"
+           inkscape:export-xdpi="96"
+           inkscape:export-ydpi="96"
+           style="display:inline">
+          <circle
+             style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.309;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;filter:url(#filter8772)"
+             id="circle8762"
+             cx="48.569942"
+             cy="128.42261"
+             r="7.3705359" />
+          <circle
+             r="7.3705359"
+             cy="128.42261"
+             cx="48.569942"
+             id="circle6534"
+             style="opacity:1;fill:url(#meshgradient8630);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.309;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill" />
+          <path
+             inkscape:connector-curvature="0"
+             id="path6538"
+             d="m 52.902368,128.38374 -6.653215,3.8939 2.264174,3.4995 a 7.3705357,7.3705357 0 0 0 0.444971,0.001 7.3705357,7.3705357 0 0 0 6.175879,-3.94546 z"
+             style="opacity:0.1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.709091;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill" />
+          <path
+             style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#4d4d4d;stroke-width:0.971403;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+             d="m 155.19922,193.26953 0.0215,6.56445 0.0215,6.56446 5.67383,-3.30078 3.23828,-1.88477 v 5.02539 h 2.63672 v -12.96875 h -2.63672 v 5.13086 l -3.25977,-1.86719 z"
+             transform="matrix(0.58408769,0,0,0.58408769,-44.417853,11.693672)"
+             id="path6536"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           transform="matrix(0.45298564,0,0,0.45298564,47.848509,-13.723601)"
+           id="g133"
+           style="display:inline">
+          <circle
+             style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.309;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;filter:url(#filter8772)"
+             id="circle131"
+             cx="48.569942"
+             cy="128.42261"
+             r="7.3705359" />
+          <circle
+             r="7.3705359"
+             cy="128.42261"
+             cx="48.569942"
+             id="circle132"
+             style="opacity:1;fill:url(#meshgradient55);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.309;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill" />
+          <path
+             inkscape:connector-curvature="0"
+             id="path132"
+             d="m 52.902368,128.38374 -6.653215,3.8939 2.264174,3.4995 a 7.3705357,7.3705357 0 0 0 0.444971,0.001 7.3705357,7.3705357 0 0 0 6.175879,-3.94546 z"
+             style="opacity:0.1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.709091;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill" />
+          <path
+             style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#4d4d4d;stroke-width:0.971403;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+             d="m 155.19922,193.26953 0.0215,6.56445 0.0215,6.56446 5.67383,-3.30078 3.23828,-1.88477 v 5.02539 h 2.63672 v -12.96875 h -2.63672 v 5.13086 l -3.25977,-1.86719 z"
+             transform="matrix(0.58408769,0,0,0.58408769,-44.417853,11.693672)"
+             id="path133"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           transform="matrix(0.45298564,0,0,0.45298564,47.848509,-13.723601)"
+           id="g167"
+           style="display:inline">
+          <circle
+             style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.309;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;filter:url(#filter8772)"
+             id="circle165"
+             cx="48.569942"
+             cy="128.42261"
+             r="7.3705359" />
+          <circle
+             r="7.3705359"
+             cy="128.42261"
+             cx="48.569942"
+             id="circle166"
+             style="opacity:1;fill:url(#meshgradient79);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.309;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill" />
+          <path
+             inkscape:connector-curvature="0"
+             id="path166"
+             d="m 52.902368,128.38374 -6.653215,3.8939 2.264174,3.4995 a 7.3705357,7.3705357 0 0 0 0.444971,0.001 7.3705357,7.3705357 0 0 0 6.175879,-3.94546 z"
+             style="opacity:0.1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.709091;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill" />
+          <path
+             style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#4d4d4d;stroke-width:0.971403;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+             d="m 155.19922,193.26953 0.0215,6.56445 0.0215,6.56446 5.67383,-3.30078 3.23828,-1.88477 v 5.02539 h 2.63672 v -12.96875 h -2.63672 v 5.13086 l -3.25977,-1.86719 z"
+             transform="matrix(0.58408769,0,0,0.58408769,-44.417853,11.693672)"
+             id="path167"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           transform="matrix(0.45298564,0,0,0.45298564,47.848509,-13.723601)"
+           id="g175"
+           style="display:inline">
+          <circle
+             style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.309;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;filter:url(#filter8772)"
+             id="circle173"
+             cx="48.569942"
+             cy="128.42261"
+             r="7.3705359" />
+          <circle
+             r="7.3705359"
+             cy="128.42261"
+             cx="48.569942"
+             id="circle174"
+             style="opacity:1;fill:url(#meshgradient103);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.309;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill" />
+          <path
+             inkscape:connector-curvature="0"
+             id="path174"
+             d="m 52.902368,128.38374 -6.653215,3.8939 2.264174,3.4995 a 7.3705357,7.3705357 0 0 0 0.444971,0.001 7.3705357,7.3705357 0 0 0 6.175879,-3.94546 z"
+             style="opacity:0.1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.709091;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill" />
+          <path
+             style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#4d4d4d;stroke-width:0.971403;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+             d="m 155.19922,193.26953 0.0215,6.56445 0.0215,6.56446 5.67383,-3.30078 3.23828,-1.88477 v 5.02539 h 2.63672 v -12.96875 h -2.63672 v 5.13086 l -3.25977,-1.86719 z"
+             transform="matrix(0.58408769,0,0,0.58408769,-44.417853,11.693672)"
+             id="path175"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           transform="matrix(0.45298564,0,0,0.45298564,47.848509,-13.723601)"
+           id="g183"
+           style="display:inline">
+          <circle
+             style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.309;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;filter:url(#filter8772)"
+             id="circle181"
+             cx="48.569942"
+             cy="128.42261"
+             r="7.3705359" />
+          <circle
+             r="7.3705359"
+             cy="128.42261"
+             cx="48.569942"
+             id="circle182"
+             style="opacity:1;fill:url(#meshgradient151);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.309;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill" />
+          <path
+             inkscape:connector-curvature="0"
+             id="path182"
+             d="m 52.902368,128.38374 -6.653215,3.8939 2.264174,3.4995 a 7.3705357,7.3705357 0 0 0 0.444971,0.001 7.3705357,7.3705357 0 0 0 6.175879,-3.94546 z"
+             style="opacity:0.1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.709091;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill" />
+          <path
+             style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#4d4d4d;stroke-width:0.971403;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+             d="m 155.19922,193.26953 0.0215,6.56445 0.0215,6.56446 5.67383,-3.30078 3.23828,-1.88477 v 5.02539 h 2.63672 v -12.96875 h -2.63672 v 5.13086 l -3.25977,-1.86719 z"
+             transform="matrix(0.58408769,0,0,0.58408769,-44.417853,11.693672)"
+             id="path183"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           transform="matrix(0.45298564,0,0,0.45298564,47.848509,-1.0235956)"
+           id="g191"
+           style="display:inline">
+          <circle
+             style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.309;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;filter:url(#filter8772)"
+             id="circle189"
+             cx="48.569942"
+             cy="128.42261"
+             r="7.3705359" />
+          <circle
+             r="7.3705359"
+             cy="128.42261"
+             cx="48.569942"
+             id="circle190"
+             style="opacity:1;fill:url(#meshgradient209);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.309;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill" />
+          <path
+             inkscape:connector-curvature="0"
+             id="path190"
+             d="m 52.902368,128.38374 -6.653215,3.8939 2.264174,3.4995 a 7.3705357,7.3705357 0 0 0 0.444971,0.001 7.3705357,7.3705357 0 0 0 6.175879,-3.94546 z"
+             style="opacity:0.1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.709091;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill" />
+          <path
+             style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#4d4d4d;stroke-width:0.971403;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+             d="m 155.19922,193.26953 0.0215,6.56445 0.0215,6.56446 5.67383,-3.30078 3.23828,-1.88477 v 5.02539 h 2.63672 v -12.96875 h -2.63672 v 5.13086 l -3.25977,-1.86719 z"
+             transform="matrix(0.58408769,0,0,0.58408769,-44.417853,11.693672)"
+             id="path191"
+             inkscape:connector-curvature="0" />
+        </g>
+        <use
+           x="0"
+           y="0"
+           inkscape:tiled-clone-of="#circle223"
+           xlink:href="#circle223"
+           transform="translate(-22.453485,-98.319341)"
+           id="use261"
+           style="display:inline" />
+        <use
+           x="0"
+           y="0"
+           inkscape:tiled-clone-of="#circle1"
+           xlink:href="#circle1"
+           transform="translate(-22.453485,-98.319341)"
+           id="use11"
+           inkscape:export-filename="controls-sprites.png"
+           inkscape:export-xdpi="96"
+           inkscape:export-ydpi="96"
+           style="display:inline" />
+        <use
+           x="0"
+           y="0"
+           inkscape:tiled-clone-of="#circle1"
+           xlink:href="#circle1"
+           transform="translate(-22.453485,-85.619336)"
+           id="use31"
+           inkscape:export-filename="controls-sprites.png"
+           inkscape:export-xdpi="96"
+           inkscape:export-ydpi="96"
+           style="display:inline" />
+      </g>
+    </g>
+    <g
+       id="button-play"
+       style="display:inline;opacity:1;mix-blend-mode:normal"
+       transform="translate(77.58262,95.589775)"
+       inkscape:groupmode="layer">
+      <use
+         x="0"
+         y="0"
+         inkscape:tiled-clone-of="#rect197"
+         xlink:href="#rect197"
+         id="use43"
+         transform="translate(25.400002)" />
+      <use
+         x="0"
+         y="0"
+         inkscape:tiled-clone-of="#rect197"
+         xlink:href="#rect197"
+         transform="translate(25.399996,12.699998)"
+         id="use44" />
+      <use
+         x="0"
+         y="0"
+         inkscape:tiled-clone-of="#rect197"
+         xlink:href="#rect197"
+         transform="translate(25.399996,25.400003)"
+         id="use45" />
+      <g
+         inkscape:groupmode="layer"
+         id="play"
+         inkscape:label="play"
+         transform="translate(-77.58262,-95.589775)"
+         style="display:inline">
+        <g
+           transform="matrix(0.69862507,0,0,0.69862507,23.217816,-57.934193)"
+           id="g6520"
+           style="display:inline;fill:url(#meshgradient8180);fill-opacity:1"
+           inkscape:export-filename="button-play.png"
+           inkscape:export-xdpi="96"
+           inkscape:export-ydpi="96">
+          <circle
+             r="7.3705359"
+             cy="128.42261"
+             cx="48.569942"
+             id="circle8756"
+             style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.309;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;filter:url(#filter8758)" />
+          <circle
+             style="opacity:1;fill:url(#meshgradient8220);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.309;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+             id="path6465"
+             cx="48.569942"
+             cy="128.42261"
+             r="7.3705359" />
+          <path
+             sodipodi:type="star"
+             style="opacity:1;fill:#aad400;fill-opacity:1;fill-rule:nonzero;stroke:#333333;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+             id="path6467"
+             sodipodi:sides="3"
+             sodipodi:cx="73.499123"
+             sodipodi:cy="122.67345"
+             sodipodi:r1="7.8027711"
+             sodipodi:r2="3.9013855"
+             sodipodi:arg1="0.82779698"
+             sodipodi:arg2="1.8749945"
+             inkscape:flatsided="false"
+             inkscape:rounded="0"
+             inkscape:randomized="0"
+             d="m 78.777696,128.41974 -6.447149,-2.02403 -6.447148,-2.02403 4.976437,-4.57138 4.976437,-4.57138 1.470711,6.59541 z"
+             inkscape:transform-center-x="-1.0530276"
+             inkscape:transform-center-y="0.55369459"
+             transform="matrix(0.17170851,0.54077833,-0.54077833,0.17170851,102.17689,67.595997)" />
+          <path
+             style="opacity:0.1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.709091;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+             d="m 52.902368,128.38374 -6.653215,3.8939 2.264174,3.4995 a 7.3705357,7.3705357 0 0 0 0.444971,0.001 7.3705357,7.3705357 0 0 0 6.175879,-3.94546 z"
+             id="circle6484"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           transform="matrix(0.69862507,0,0,0.69862507,23.217816,-45.234196)"
+           id="g131"
+           style="display:inline;fill:url(#meshgradient51);fill-opacity:1">
+          <circle
+             r="7.3705359"
+             cy="128.42261"
+             cx="48.569942"
+             id="circle129"
+             style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.309;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;filter:url(#filter8758)" />
+          <circle
+             style="opacity:1;fill:url(#meshgradient48);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.309;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+             id="circle130"
+             cx="48.569942"
+             cy="128.42261"
+             r="7.3705359" />
+          <path
+             sodipodi:type="star"
+             style="opacity:1;fill:#aad400;fill-opacity:1;fill-rule:nonzero;stroke:#333333;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+             id="path130"
+             sodipodi:sides="3"
+             sodipodi:cx="73.499123"
+             sodipodi:cy="122.67345"
+             sodipodi:r1="7.8027711"
+             sodipodi:r2="3.9013855"
+             sodipodi:arg1="0.82779698"
+             sodipodi:arg2="1.8749945"
+             inkscape:flatsided="false"
+             inkscape:rounded="0"
+             inkscape:randomized="0"
+             d="m 78.777696,128.41974 -6.447149,-2.02403 -6.447148,-2.02403 4.976437,-4.57138 4.976437,-4.57138 1.470711,6.59541 z"
+             inkscape:transform-center-x="-1.0530276"
+             inkscape:transform-center-y="0.55369459"
+             transform="matrix(0.17170851,0.54077833,-0.54077833,0.17170851,102.17689,67.595997)" />
+          <path
+             style="opacity:0.1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.709091;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+             d="m 52.902368,128.38374 -6.653215,3.8939 2.264174,3.4995 a 7.3705357,7.3705357 0 0 0 0.444971,0.001 7.3705357,7.3705357 0 0 0 6.175879,-3.94546 z"
+             id="path131"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           transform="matrix(0.69862507,0,0,0.69862507,23.217816,-45.234196)"
+           id="g165"
+           style="display:inline;fill:url(#meshgradient75);fill-opacity:1">
+          <circle
+             r="7.3705359"
+             cy="128.42261"
+             cx="48.569942"
+             id="circle163"
+             style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.309;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;filter:url(#filter8758)" />
+          <circle
+             style="opacity:1;fill:url(#meshgradient71);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.309;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+             id="circle164"
+             cx="48.569942"
+             cy="128.42261"
+             r="7.3705359" />
+          <path
+             sodipodi:type="star"
+             style="opacity:1;fill:#aad400;fill-opacity:1;fill-rule:nonzero;stroke:#333333;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+             id="path164"
+             sodipodi:sides="3"
+             sodipodi:cx="73.499123"
+             sodipodi:cy="122.67345"
+             sodipodi:r1="7.8027711"
+             sodipodi:r2="3.9013855"
+             sodipodi:arg1="0.82779698"
+             sodipodi:arg2="1.8749945"
+             inkscape:flatsided="false"
+             inkscape:rounded="0"
+             inkscape:randomized="0"
+             d="m 78.777696,128.41974 -6.447149,-2.02403 -6.447148,-2.02403 4.976437,-4.57138 4.976437,-4.57138 1.470711,6.59541 z"
+             inkscape:transform-center-x="-1.0530276"
+             inkscape:transform-center-y="0.55369459"
+             transform="matrix(0.17170851,0.54077833,-0.54077833,0.17170851,102.17689,67.595997)" />
+          <path
+             style="opacity:0.1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.709091;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+             d="m 52.902368,128.38374 -6.653215,3.8939 2.264174,3.4995 a 7.3705357,7.3705357 0 0 0 0.444971,0.001 7.3705357,7.3705357 0 0 0 6.175879,-3.94546 z"
+             id="path165"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           transform="matrix(0.69862507,0,0,0.69862507,23.217816,-45.234196)"
+           id="g173"
+           style="display:inline;fill:url(#meshgradient99);fill-opacity:1">
+          <circle
+             r="7.3705359"
+             cy="128.42261"
+             cx="48.569942"
+             id="circle171"
+             style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.309;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;filter:url(#filter8758)" />
+          <circle
+             style="opacity:1;fill:url(#meshgradient95);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.309;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+             id="circle172"
+             cx="48.569942"
+             cy="128.42261"
+             r="7.3705359" />
+          <path
+             sodipodi:type="star"
+             style="opacity:1;fill:#aad400;fill-opacity:1;fill-rule:nonzero;stroke:#333333;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+             id="path172"
+             sodipodi:sides="3"
+             sodipodi:cx="73.499123"
+             sodipodi:cy="122.67345"
+             sodipodi:r1="7.8027711"
+             sodipodi:r2="3.9013855"
+             sodipodi:arg1="0.82779698"
+             sodipodi:arg2="1.8749945"
+             inkscape:flatsided="false"
+             inkscape:rounded="0"
+             inkscape:randomized="0"
+             d="m 78.777696,128.41974 -6.447149,-2.02403 -6.447148,-2.02403 4.976437,-4.57138 4.976437,-4.57138 1.470711,6.59541 z"
+             inkscape:transform-center-x="-1.0530276"
+             inkscape:transform-center-y="0.55369459"
+             transform="matrix(0.17170851,0.54077833,-0.54077833,0.17170851,102.17689,67.595997)" />
+          <path
+             style="opacity:0.1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.709091;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+             d="m 52.902368,128.38374 -6.653215,3.8939 2.264174,3.4995 a 7.3705357,7.3705357 0 0 0 0.444971,0.001 7.3705357,7.3705357 0 0 0 6.175879,-3.94546 z"
+             id="path173"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           transform="matrix(0.69862507,0,0,0.69862507,23.217816,-45.234196)"
+           id="g181"
+           style="display:inline;fill:url(#meshgradient159);fill-opacity:1">
+          <circle
+             r="7.3705359"
+             cy="128.42261"
+             cx="48.569942"
+             id="circle179"
+             style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.309;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;filter:url(#filter8758)" />
+          <circle
+             style="opacity:1;fill:url(#meshgradient155);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.309;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+             id="circle180"
+             cx="48.569942"
+             cy="128.42261"
+             r="7.3705359" />
+          <path
+             sodipodi:type="star"
+             style="opacity:1;fill:#aad400;fill-opacity:1;fill-rule:nonzero;stroke:#333333;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+             id="path180"
+             sodipodi:sides="3"
+             sodipodi:cx="73.499123"
+             sodipodi:cy="122.67345"
+             sodipodi:r1="7.8027711"
+             sodipodi:r2="3.9013855"
+             sodipodi:arg1="0.82779698"
+             sodipodi:arg2="1.8749945"
+             inkscape:flatsided="false"
+             inkscape:rounded="0"
+             inkscape:randomized="0"
+             d="m 78.777696,128.41974 -6.447149,-2.02403 -6.447148,-2.02403 4.976437,-4.57138 4.976437,-4.57138 1.470711,6.59541 z"
+             inkscape:transform-center-x="-1.0530276"
+             inkscape:transform-center-y="0.55369459"
+             transform="matrix(0.17170851,0.54077833,-0.54077833,0.17170851,102.17689,67.595997)" />
+          <path
+             style="opacity:0.1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.709091;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+             d="m 52.902368,128.38374 -6.653215,3.8939 2.264174,3.4995 a 7.3705357,7.3705357 0 0 0 0.444971,0.001 7.3705357,7.3705357 0 0 0 6.175879,-3.94546 z"
+             id="path181"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           transform="matrix(0.69862507,0,0,0.69862507,23.217816,-32.534193)"
+           id="g189"
+           style="display:inline;fill:url(#meshgradient217);fill-opacity:1">
+          <circle
+             r="7.3705359"
+             cy="128.42261"
+             cx="48.569942"
+             id="circle187"
+             style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.309;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;filter:url(#filter8758)" />
+          <circle
+             style="opacity:1;fill:url(#meshgradient213);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.309;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+             id="circle188"
+             cx="48.569942"
+             cy="128.42261"
+             r="7.3705359" />
+          <path
+             sodipodi:type="star"
+             style="opacity:1;fill:#aad400;fill-opacity:1;fill-rule:nonzero;stroke:#333333;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+             id="path188"
+             sodipodi:sides="3"
+             sodipodi:cx="73.499123"
+             sodipodi:cy="122.67345"
+             sodipodi:r1="7.8027711"
+             sodipodi:r2="3.9013855"
+             sodipodi:arg1="0.82779698"
+             sodipodi:arg2="1.8749945"
+             inkscape:flatsided="false"
+             inkscape:rounded="0"
+             inkscape:randomized="0"
+             d="m 78.777696,128.41974 -6.447149,-2.02403 -6.447148,-2.02403 4.976437,-4.57138 4.976437,-4.57138 1.470711,6.59541 z"
+             inkscape:transform-center-x="-1.0530276"
+             inkscape:transform-center-y="0.55369459"
+             transform="matrix(0.17170851,0.54077833,-0.54077833,0.17170851,102.17689,67.595997)" />
+          <path
+             style="opacity:0.1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.709091;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+             d="m 52.902368,128.38374 -6.653215,3.8939 2.264174,3.4995 a 7.3705357,7.3705357 0 0 0 0.444971,0.001 7.3705357,7.3705357 0 0 0 6.175879,-3.94546 z"
+             id="path189"
+             inkscape:connector-curvature="0" />
+        </g>
+        <use
+           x="0"
+           y="0"
+           inkscape:tiled-clone-of="#circle223"
+           xlink:href="#circle223"
+           transform="matrix(1.6356043,0,0,1.6356043,-93.821972,-197.10126)"
+           id="use260"
+           style="display:inline" />
+        <use
+           x="0"
+           y="0"
+           inkscape:tiled-clone-of="#circle1"
+           xlink:href="#circle1"
+           transform="matrix(1.279177,0,0,1.279177,-60.922495,-138.14219)"
+           id="use10"
+           style="display:inline" />
+        <use
+           x="0"
+           y="0"
+           inkscape:tiled-clone-of="#circle1"
+           xlink:href="#circle1"
+           transform="matrix(1.3455704,0,0,1.3455704,-67.050835,-134.92114)"
+           id="use30"
+           style="display:inline" />
+      </g>
+    </g>
+  </g>
+  <script
+     id="script1"
+     type="text/javascript">&#10;!function(){const t=&quot;http://www.w3.org/2000/svg&quot;,e=&quot;http://www.w3.org/1999/xlink&quot;,s=&quot;http://www.w3.org/1999/xhtml&quot;,r=2;if(document.createElementNS(t,&quot;meshgradient&quot;).x)return;const n=(t,e,s,r)=&gt;{let n=new x(.5*(e.x+s.x),.5*(e.y+s.y)),o=new x(.5*(t.x+e.x),.5*(t.y+e.y)),i=new x(.5*(s.x+r.x),.5*(s.y+r.y)),a=new x(.5*(n.x+o.x),.5*(n.y+o.y)),h=new x(.5*(n.x+i.x),.5*(n.y+i.y)),l=new x(.5*(a.x+h.x),.5*(a.y+h.y));return[[t,o,a,l],[l,h,i,r]]},o=t=&gt;{let e=t[0].distSquared(t[1]),s=t[2].distSquared(t[3]),r=.25*t[0].distSquared(t[2]),n=.25*t[1].distSquared(t[3]),o=e&gt;s?e:s,i=r&gt;n?r:n;return 18*(o&gt;i?o:i)},i=(t,e)=&gt;Math.sqrt(t.distSquared(e)),a=(t,e)=&gt;t.scale(2/3).add(e.scale(1/3)),h=t=&gt;{let e,s,r,n,o,i,a,h=new g;return t.match(/(\w+\(\s*[^)]+\))+/g).forEach(t=&gt;{let l=t.match(/[\w.-]+/g),d=l.shift();switch(d){case&quot;translate&quot;:2===l.length?e=new g(1,0,0,1,l[0],l[1]):(console.error(&quot;mesh.js: translate does not have 2 arguments!&quot;),e=new g(1,0,0,1,0,0)),h=h.append(e);break;case&quot;scale&quot;:1===l.length?s=new g(l[0],0,0,l[0],0,0):2===l.length?s=new g(l[0],0,0,l[1],0,0):(console.error(&quot;mesh.js: scale does not have 1 or 2 arguments!&quot;),s=new g(1,0,0,1,0,0)),h=h.append(s);break;case&quot;rotate&quot;:if(3===l.length&amp;&amp;(e=new g(1,0,0,1,l[1],l[2]),h=h.append(e)),l[0]){r=l[0]*Math.PI/180;let t=Math.cos(r),e=Math.sin(r);Math.abs(t)&lt;1e-16&amp;&amp;(t=0),Math.abs(e)&lt;1e-16&amp;&amp;(e=0),a=new g(t,e,-e,t,0,0),h=h.append(a)}else console.error(&quot;math.js: No argument to rotate transform!&quot;);3===l.length&amp;&amp;(e=new g(1,0,0,1,-l[1],-l[2]),h=h.append(e));break;case&quot;skewX&quot;:l[0]?(r=l[0]*Math.PI/180,n=Math.tan(r),o=new g(1,0,n,1,0,0),h=h.append(o)):console.error(&quot;math.js: No argument to skewX transform!&quot;);break;case&quot;skewY&quot;:l[0]?(r=l[0]*Math.PI/180,n=Math.tan(r),i=new g(1,n,0,1,0,0),h=h.append(i)):console.error(&quot;math.js: No argument to skewY transform!&quot;);break;case&quot;matrix&quot;:6===l.length?h=h.append(new g(...l)):console.error(&quot;math.js: Incorrect number of arguments for matrix!&quot;);break;default:console.error(&quot;mesh.js: Unhandled transform type: &quot;+d)}}),h},l=t=&gt;{let e=[],s=t.split(/[ ,]+/);for(let t=0,r=s.length-1;t&lt;r;t+=2)e.push(new x(parseFloat(s[t]),parseFloat(s[t+1])));return e},d=(t,e)=&gt;{for(let s in e)t.setAttribute(s,e[s])},c=(t,e,s,r,n)=&gt;{let o,i,a=[0,0,0,0];for(let h=0;h&lt;3;++h)e[h]&lt;t[h]&amp;&amp;e[h]&lt;s[h]||t[h]&lt;e[h]&amp;&amp;s[h]&lt;e[h]?a[h]=0:(a[h]=.5*((e[h]-t[h])/r+(s[h]-e[h])/n),o=Math.abs(3*(e[h]-t[h])/r),i=Math.abs(3*(s[h]-e[h])/n),a[h]&gt;o?a[h]=o:a[h]&gt;i&amp;&amp;(a[h]=i));return a},u=[[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0],[-3,3,0,0,-2,-1,0,0,0,0,0,0,0,0,0,0],[2,-2,0,0,1,1,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0],[0,0,0,0,0,0,0,0,-3,3,0,0,-2,-1,0,0],[0,0,0,0,0,0,0,0,2,-2,0,0,1,1,0,0],[-3,0,3,0,0,0,0,0,-2,0,-1,0,0,0,0,0],[0,0,0,0,-3,0,3,0,0,0,0,0,-2,0,-1,0],[9,-9,-9,9,6,3,-6,-3,6,-6,3,-3,4,2,2,1],[-6,6,6,-6,-3,-3,3,3,-4,4,-2,2,-2,-2,-1,-1],[2,0,-2,0,0,0,0,0,1,0,1,0,0,0,0,0],[0,0,0,0,2,0,-2,0,0,0,0,0,1,0,1,0],[-6,6,6,-6,-4,-2,4,2,-3,3,-3,3,-2,-1,-2,-1],[4,-4,-4,4,2,2,-2,-2,2,-2,2,-2,1,1,1,1]],f=t=&gt;{let e=[];for(let s=0;s&lt;16;++s){e[s]=0;for(let r=0;r&lt;16;++r)e[s]+=u[s][r]*t[r]}return e},p=(t,e,s)=&gt;{const r=e*e,n=s*s,o=e*e*e,i=s*s*s;return t[0]+t[1]*e+t[2]*r+t[3]*o+t[4]*s+t[5]*s*e+t[6]*s*r+t[7]*s*o+t[8]*n+t[9]*n*e+t[10]*n*r+t[11]*n*o+t[12]*i+t[13]*i*e+t[14]*i*r+t[15]*i*o},y=t=&gt;{let e=[],s=[],r=[];for(let s=0;s&lt;4;++s)e[s]=[],e[s][0]=n(t[0][s],t[1][s],t[2][s],t[3][s]),e[s][1]=[],e[s][1].push(...n(...e[s][0][0])),e[s][1].push(...n(...e[s][0][1])),e[s][2]=[],e[s][2].push(...n(...e[s][1][0])),e[s][2].push(...n(...e[s][1][1])),e[s][2].push(...n(...e[s][1][2])),e[s][2].push(...n(...e[s][1][3]));for(let t=0;t&lt;8;++t){s[t]=[];for(let r=0;r&lt;4;++r)s[t][r]=[],s[t][r][0]=n(e[0][2][t][r],e[1][2][t][r],e[2][2][t][r],e[3][2][t][r]),s[t][r][1]=[],s[t][r][1].push(...n(...s[t][r][0][0])),s[t][r][1].push(...n(...s[t][r][0][1])),s[t][r][2]=[],s[t][r][2].push(...n(...s[t][r][1][0])),s[t][r][2].push(...n(...s[t][r][1][1])),s[t][r][2].push(...n(...s[t][r][1][2])),s[t][r][2].push(...n(...s[t][r][1][3]))}for(let t=0;t&lt;8;++t){r[t]=[];for(let e=0;e&lt;8;++e)r[t][e]=[],r[t][e][0]=s[t][0][2][e],r[t][e][1]=s[t][1][2][e],r[t][e][2]=s[t][2][2][e],r[t][e][3]=s[t][3][2][e]}return r};class x{constructor(t,e){this.x=t||0,this.y=e||0}toString(){return`(x=${this.x}, y=${this.y})`}clone(){return new x(this.x,this.y)}add(t){return new x(this.x+t.x,this.y+t.y)}scale(t){return void 0===t.x?new x(this.x*t,this.y*t):new x(this.x*t.x,this.y*t.y)}distSquared(t){let e=this.x-t.x,s=this.y-t.y;return e*e+s*s}transform(t){let e=this.x*t.a+this.y*t.c+t.e,s=this.x*t.b+this.y*t.d+t.f;return new x(e,s)}}class g{constructor(t,e,s,r,n,o){void 0===t?(this.a=1,this.b=0,this.c=0,this.d=1,this.e=0,this.f=0):(this.a=t,this.b=e,this.c=s,this.d=r,this.e=n,this.f=o)}toString(){return`affine: ${this.a} ${this.c} ${this.e} \n       ${this.b} ${this.d} ${this.f}`}append(t){t instanceof g||console.error(&quot;mesh.js: argument to Affine.append is not affine!&quot;);let e=this.a*t.a+this.c*t.b,s=this.b*t.a+this.d*t.b,r=this.a*t.c+this.c*t.d,n=this.b*t.c+this.d*t.d,o=this.a*t.e+this.c*t.f+this.e,i=this.b*t.e+this.d*t.f+this.f;return new g(e,s,r,n,o,i)}}class w{constructor(t,e){this.nodes=t,this.colors=e}paintCurve(t,e){if(o(this.nodes)&gt;r){const s=n(...this.nodes);let r=[[],[]],o=[[],[]];for(let t=0;t&lt;4;++t)r[0][t]=this.colors[0][t],r[1][t]=(this.colors[0][t]+this.colors[1][t])/2,o[0][t]=r[1][t],o[1][t]=this.colors[1][t];let i=new w(s[0],r),a=new w(s[1],o);i.paintCurve(t,e),a.paintCurve(t,e)}else{let s=Math.round(this.nodes[0].x);if(s&gt;=0&amp;&amp;s&lt;e){let r=4*(~~this.nodes[0].y*e+s);t[r]=Math.round(this.colors[0][0]),t[r+1]=Math.round(this.colors[0][1]),t[r+2]=Math.round(this.colors[0][2]),t[r+3]=Math.round(this.colors[0][3])}}}}class m{constructor(t,e){this.nodes=t,this.colors=e}split(){let t=[[],[],[],[]],e=[[],[],[],[]],s=[[[],[]],[[],[]]],r=[[[],[]],[[],[]]];for(let s=0;s&lt;4;++s){const r=n(this.nodes[0][s],this.nodes[1][s],this.nodes[2][s],this.nodes[3][s]);t[0][s]=r[0][0],t[1][s]=r[0][1],t[2][s]=r[0][2],t[3][s]=r[0][3],e[0][s]=r[1][0],e[1][s]=r[1][1],e[2][s]=r[1][2],e[3][s]=r[1][3]}for(let t=0;t&lt;4;++t)s[0][0][t]=this.colors[0][0][t],s[0][1][t]=this.colors[0][1][t],s[1][0][t]=(this.colors[0][0][t]+this.colors[1][0][t])/2,s[1][1][t]=(this.colors[0][1][t]+this.colors[1][1][t])/2,r[0][0][t]=s[1][0][t],r[0][1][t]=s[1][1][t],r[1][0][t]=this.colors[1][0][t],r[1][1][t]=this.colors[1][1][t];return[new m(t,s),new m(e,r)]}paint(t,e){let s,n=!1;for(let t=0;t&lt;4;++t)if((s=o([this.nodes[0][t],this.nodes[1][t],this.nodes[2][t],this.nodes[3][t]]))&gt;r){n=!0;break}if(n){let s=this.split();s[0].paint(t,e),s[1].paint(t,e)}else{new w([...this.nodes[0]],[...this.colors[0]]).paintCurve(t,e)}}}class b{constructor(t){this.readMesh(t),this.type=t.getAttribute(&quot;type&quot;)||&quot;bilinear&quot;}readMesh(t){let e=[[]],s=[[]],r=Number(t.getAttribute(&quot;x&quot;)),n=Number(t.getAttribute(&quot;y&quot;));e[0][0]=new x(r,n);let o=t.children;for(let t=0,r=o.length;t&lt;r;++t){e[3*t+1]=[],e[3*t+2]=[],e[3*t+3]=[],s[t+1]=[];let r=o[t].children;for(let n=0,o=r.length;n&lt;o;++n){let o=r[n].children;for(let r=0,i=o.length;r&lt;i;++r){let i=r;0!==t&amp;&amp;++i;let h,d=o[r].getAttribute(&quot;path&quot;),c=&quot;l&quot;;null!=d&amp;&amp;(c=(h=d.match(/\s*([lLcC])\s*(.*)/))[1]);let u=l(h[2]);switch(c){case&quot;l&quot;:0===i?(e[3*t][3*n+3]=u[0].add(e[3*t][3*n]),e[3*t][3*n+1]=a(e[3*t][3*n],e[3*t][3*n+3]),e[3*t][3*n+2]=a(e[3*t][3*n+3],e[3*t][3*n])):1===i?(e[3*t+3][3*n+3]=u[0].add(e[3*t][3*n+3]),e[3*t+1][3*n+3]=a(e[3*t][3*n+3],e[3*t+3][3*n+3]),e[3*t+2][3*n+3]=a(e[3*t+3][3*n+3],e[3*t][3*n+3])):2===i?(0===n&amp;&amp;(e[3*t+3][3*n+0]=u[0].add(e[3*t+3][3*n+3])),e[3*t+3][3*n+1]=a(e[3*t+3][3*n],e[3*t+3][3*n+3]),e[3*t+3][3*n+2]=a(e[3*t+3][3*n+3],e[3*t+3][3*n])):(e[3*t+1][3*n]=a(e[3*t][3*n],e[3*t+3][3*n]),e[3*t+2][3*n]=a(e[3*t+3][3*n],e[3*t][3*n]));break;case&quot;L&quot;:0===i?(e[3*t][3*n+3]=u[0],e[3*t][3*n+1]=a(e[3*t][3*n],e[3*t][3*n+3]),e[3*t][3*n+2]=a(e[3*t][3*n+3],e[3*t][3*n])):1===i?(e[3*t+3][3*n+3]=u[0],e[3*t+1][3*n+3]=a(e[3*t][3*n+3],e[3*t+3][3*n+3]),e[3*t+2][3*n+3]=a(e[3*t+3][3*n+3],e[3*t][3*n+3])):2===i?(0===n&amp;&amp;(e[3*t+3][3*n+0]=u[0]),e[3*t+3][3*n+1]=a(e[3*t+3][3*n],e[3*t+3][3*n+3]),e[3*t+3][3*n+2]=a(e[3*t+3][3*n+3],e[3*t+3][3*n])):(e[3*t+1][3*n]=a(e[3*t][3*n],e[3*t+3][3*n]),e[3*t+2][3*n]=a(e[3*t+3][3*n],e[3*t][3*n]));break;case&quot;c&quot;:0===i?(e[3*t][3*n+1]=u[0].add(e[3*t][3*n]),e[3*t][3*n+2]=u[1].add(e[3*t][3*n]),e[3*t][3*n+3]=u[2].add(e[3*t][3*n])):1===i?(e[3*t+1][3*n+3]=u[0].add(e[3*t][3*n+3]),e[3*t+2][3*n+3]=u[1].add(e[3*t][3*n+3]),e[3*t+3][3*n+3]=u[2].add(e[3*t][3*n+3])):2===i?(e[3*t+3][3*n+2]=u[0].add(e[3*t+3][3*n+3]),e[3*t+3][3*n+1]=u[1].add(e[3*t+3][3*n+3]),0===n&amp;&amp;(e[3*t+3][3*n+0]=u[2].add(e[3*t+3][3*n+3]))):(e[3*t+2][3*n]=u[0].add(e[3*t+3][3*n]),e[3*t+1][3*n]=u[1].add(e[3*t+3][3*n]));break;case&quot;C&quot;:0===i?(e[3*t][3*n+1]=u[0],e[3*t][3*n+2]=u[1],e[3*t][3*n+3]=u[2]):1===i?(e[3*t+1][3*n+3]=u[0],e[3*t+2][3*n+3]=u[1],e[3*t+3][3*n+3]=u[2]):2===i?(e[3*t+3][3*n+2]=u[0],e[3*t+3][3*n+1]=u[1],0===n&amp;&amp;(e[3*t+3][3*n+0]=u[2])):(e[3*t+2][3*n]=u[0],e[3*t+1][3*n]=u[1]);break;default:console.error(&quot;mesh.js: &quot;+c+&quot; invalid path type.&quot;)}if(0===t&amp;&amp;0===n||r&gt;0){let e=window.getComputedStyle(o[r]).stopColor.match(/^rgb\s*\(\s*(\d+)\s*,\s*(\d+)\s*,\s*(\d+)\s*\)$/i),a=window.getComputedStyle(o[r]).stopOpacity,h=255;a&amp;&amp;(h=Math.floor(255*a)),e&amp;&amp;(0===i?(s[t][n]=[],s[t][n][0]=Math.floor(e[1]),s[t][n][1]=Math.floor(e[2]),s[t][n][2]=Math.floor(e[3]),s[t][n][3]=h):1===i?(s[t][n+1]=[],s[t][n+1][0]=Math.floor(e[1]),s[t][n+1][1]=Math.floor(e[2]),s[t][n+1][2]=Math.floor(e[3]),s[t][n+1][3]=h):2===i?(s[t+1][n+1]=[],s[t+1][n+1][0]=Math.floor(e[1]),s[t+1][n+1][1]=Math.floor(e[2]),s[t+1][n+1][2]=Math.floor(e[3]),s[t+1][n+1][3]=h):3===i&amp;&amp;(s[t+1][n]=[],s[t+1][n][0]=Math.floor(e[1]),s[t+1][n][1]=Math.floor(e[2]),s[t+1][n][2]=Math.floor(e[3]),s[t+1][n][3]=h))}}e[3*t+1][3*n+1]=new x,e[3*t+1][3*n+2]=new x,e[3*t+2][3*n+1]=new x,e[3*t+2][3*n+2]=new x,e[3*t+1][3*n+1].x=(-4*e[3*t][3*n].x+6*(e[3*t][3*n+1].x+e[3*t+1][3*n].x)+-2*(e[3*t][3*n+3].x+e[3*t+3][3*n].x)+3*(e[3*t+3][3*n+1].x+e[3*t+1][3*n+3].x)+-1*e[3*t+3][3*n+3].x)/9,e[3*t+1][3*n+2].x=(-4*e[3*t][3*n+3].x+6*(e[3*t][3*n+2].x+e[3*t+1][3*n+3].x)+-2*(e[3*t][3*n].x+e[3*t+3][3*n+3].x)+3*(e[3*t+3][3*n+2].x+e[3*t+1][3*n].x)+-1*e[3*t+3][3*n].x)/9,e[3*t+2][3*n+1].x=(-4*e[3*t+3][3*n].x+6*(e[3*t+3][3*n+1].x+e[3*t+2][3*n].x)+-2*(e[3*t+3][3*n+3].x+e[3*t][3*n].x)+3*(e[3*t][3*n+1].x+e[3*t+2][3*n+3].x)+-1*e[3*t][3*n+3].x)/9,e[3*t+2][3*n+2].x=(-4*e[3*t+3][3*n+3].x+6*(e[3*t+3][3*n+2].x+e[3*t+2][3*n+3].x)+-2*(e[3*t+3][3*n].x+e[3*t][3*n+3].x)+3*(e[3*t][3*n+2].x+e[3*t+2][3*n].x)+-1*e[3*t][3*n].x)/9,e[3*t+1][3*n+1].y=(-4*e[3*t][3*n].y+6*(e[3*t][3*n+1].y+e[3*t+1][3*n].y)+-2*(e[3*t][3*n+3].y+e[3*t+3][3*n].y)+3*(e[3*t+3][3*n+1].y+e[3*t+1][3*n+3].y)+-1*e[3*t+3][3*n+3].y)/9,e[3*t+1][3*n+2].y=(-4*e[3*t][3*n+3].y+6*(e[3*t][3*n+2].y+e[3*t+1][3*n+3].y)+-2*(e[3*t][3*n].y+e[3*t+3][3*n+3].y)+3*(e[3*t+3][3*n+2].y+e[3*t+1][3*n].y)+-1*e[3*t+3][3*n].y)/9,e[3*t+2][3*n+1].y=(-4*e[3*t+3][3*n].y+6*(e[3*t+3][3*n+1].y+e[3*t+2][3*n].y)+-2*(e[3*t+3][3*n+3].y+e[3*t][3*n].y)+3*(e[3*t][3*n+1].y+e[3*t+2][3*n+3].y)+-1*e[3*t][3*n+3].y)/9,e[3*t+2][3*n+2].y=(-4*e[3*t+3][3*n+3].y+6*(e[3*t+3][3*n+2].y+e[3*t+2][3*n+3].y)+-2*(e[3*t+3][3*n].y+e[3*t][3*n+3].y)+3*(e[3*t][3*n+2].y+e[3*t+2][3*n].y)+-1*e[3*t][3*n].y)/9}}this.nodes=e,this.colors=s}paintMesh(t,e){let s=(this.nodes.length-1)/3,r=(this.nodes[0].length-1)/3;if(&quot;bilinear&quot;===this.type||s&lt;2||r&lt;2){let n;for(let o=0;o&lt;s;++o)for(let s=0;s&lt;r;++s){let r=[];for(let t=3*o,e=3*o+4;t&lt;e;++t)r.push(this.nodes[t].slice(3*s,3*s+4));let i=[];i.push(this.colors[o].slice(s,s+2)),i.push(this.colors[o+1].slice(s,s+2)),(n=new m(r,i)).paint(t,e)}}else{let n,o,a,h,l,d,u;const x=s,g=r;s++,r++;let w=new Array(s);for(let t=0;t&lt;s;++t){w[t]=new Array(r);for(let e=0;e&lt;r;++e)w[t][e]=[],w[t][e][0]=this.nodes[3*t][3*e],w[t][e][1]=this.colors[t][e]}for(let t=0;t&lt;s;++t)for(let e=0;e&lt;r;++e)0!==t&amp;&amp;t!==x&amp;&amp;(n=i(w[t-1][e][0],w[t][e][0]),o=i(w[t+1][e][0],w[t][e][0]),w[t][e][2]=c(w[t-1][e][1],w[t][e][1],w[t+1][e][1],n,o)),0!==e&amp;&amp;e!==g&amp;&amp;(n=i(w[t][e-1][0],w[t][e][0]),o=i(w[t][e+1][0],w[t][e][0]),w[t][e][3]=c(w[t][e-1][1],w[t][e][1],w[t][e+1][1],n,o));for(let t=0;t&lt;r;++t){w[0][t][2]=[],w[x][t][2]=[];for(let e=0;e&lt;4;++e)n=i(w[1][t][0],w[0][t][0]),o=i(w[x][t][0],w[x-1][t][0]),w[0][t][2][e]=n&gt;0?2*(w[1][t][1][e]-w[0][t][1][e])/n-w[1][t][2][e]:0,w[x][t][2][e]=o&gt;0?2*(w[x][t][1][e]-w[x-1][t][1][e])/o-w[x-1][t][2][e]:0}for(let t=0;t&lt;s;++t){w[t][0][3]=[],w[t][g][3]=[];for(let e=0;e&lt;4;++e)n=i(w[t][1][0],w[t][0][0]),o=i(w[t][g][0],w[t][g-1][0]),w[t][0][3][e]=n&gt;0?2*(w[t][1][1][e]-w[t][0][1][e])/n-w[t][1][3][e]:0,w[t][g][3][e]=o&gt;0?2*(w[t][g][1][e]-w[t][g-1][1][e])/o-w[t][g-1][3][e]:0}for(let s=0;s&lt;x;++s)for(let r=0;r&lt;g;++r){let n=i(w[s][r][0],w[s+1][r][0]),o=i(w[s][r+1][0],w[s+1][r+1][0]),c=i(w[s][r][0],w[s][r+1][0]),x=i(w[s+1][r][0],w[s+1][r+1][0]),g=[[],[],[],[]];for(let t=0;t&lt;4;++t){(d=[])[0]=w[s][r][1][t],d[1]=w[s+1][r][1][t],d[2]=w[s][r+1][1][t],d[3]=w[s+1][r+1][1][t],d[4]=w[s][r][2][t]*n,d[5]=w[s+1][r][2][t]*n,d[6]=w[s][r+1][2][t]*o,d[7]=w[s+1][r+1][2][t]*o,d[8]=w[s][r][3][t]*c,d[9]=w[s+1][r][3][t]*x,d[10]=w[s][r+1][3][t]*c,d[11]=w[s+1][r+1][3][t]*x,d[12]=0,d[13]=0,d[14]=0,d[15]=0,u=f(d);for(let e=0;e&lt;9;++e){g[t][e]=[];for(let s=0;s&lt;9;++s)g[t][e][s]=p(u,e/8,s/8),g[t][e][s]&gt;255?g[t][e][s]=255:g[t][e][s]&lt;0&amp;&amp;(g[t][e][s]=0)}}h=[];for(let t=3*s,e=3*s+4;t&lt;e;++t)h.push(this.nodes[t].slice(3*r,3*r+4));l=y(h);for(let s=0;s&lt;8;++s)for(let r=0;r&lt;8;++r)(a=new m(l[s][r],[[[g[0][s][r],g[1][s][r],g[2][s][r],g[3][s][r]],[g[0][s][r+1],g[1][s][r+1],g[2][s][r+1],g[3][s][r+1]]],[[g[0][s+1][r],g[1][s+1][r],g[2][s+1][r],g[3][s+1][r]],[g[0][s+1][r+1],g[1][s+1][r+1],g[2][s+1][r+1],g[3][s+1][r+1]]]])).paint(t,e)}}}transform(t){if(t instanceof x)for(let e=0,s=this.nodes.length;e&lt;s;++e)for(let s=0,r=this.nodes[0].length;s&lt;r;++s)this.nodes[e][s]=this.nodes[e][s].add(t);else if(t instanceof g)for(let e=0,s=this.nodes.length;e&lt;s;++e)for(let s=0,r=this.nodes[0].length;s&lt;r;++s)this.nodes[e][s]=this.nodes[e][s].transform(t)}scale(t){for(let e=0,s=this.nodes.length;e&lt;s;++e)for(let s=0,r=this.nodes[0].length;s&lt;r;++s)this.nodes[e][s]=this.nodes[e][s].scale(t)}}document.querySelectorAll(&quot;rect,circle,ellipse,path,text&quot;).forEach((r,n)=&gt;{let o=r.getAttribute(&quot;id&quot;);o||(o=&quot;patchjs_shape&quot;+n,r.setAttribute(&quot;id&quot;,o));const i=r.style.fill.match(/^url\(\s*&quot;?\s*#([^\s&quot;]+)&quot;?\s*\)/),a=r.style.stroke.match(/^url\(\s*&quot;?\s*#([^\s&quot;]+)&quot;?\s*\)/);if(i&amp;&amp;i[1]){const a=document.getElementById(i[1]);if(a&amp;&amp;&quot;meshgradient&quot;===a.nodeName){const i=r.getBBox();let l=document.createElementNS(s,&quot;canvas&quot;);d(l,{width:i.width,height:i.height});const c=l.getContext(&quot;2d&quot;);let u=c.createImageData(i.width,i.height);const f=new b(a);&quot;objectBoundingBox&quot;===a.getAttribute(&quot;gradientUnits&quot;)&amp;&amp;f.scale(new x(i.width,i.height));const p=a.getAttribute(&quot;gradientTransform&quot;);null!=p&amp;&amp;f.transform(h(p)),&quot;userSpaceOnUse&quot;===a.getAttribute(&quot;gradientUnits&quot;)&amp;&amp;f.transform(new x(-i.x,-i.y)),f.paintMesh(u.data,l.width),c.putImageData(u,0,0);const y=document.createElementNS(t,&quot;image&quot;);d(y,{width:i.width,height:i.height,x:i.x,y:i.y});let g=l.toDataURL();y.setAttributeNS(e,&quot;xlink:href&quot;,g),r.parentNode.insertBefore(y,r),r.style.fill=&quot;none&quot;;const w=document.createElementNS(t,&quot;use&quot;);w.setAttributeNS(e,&quot;xlink:href&quot;,&quot;#&quot;+o);const m=&quot;patchjs_clip&quot;+n,M=document.createElementNS(t,&quot;clipPath&quot;);M.setAttribute(&quot;id&quot;,m),M.appendChild(w),r.parentElement.insertBefore(M,r),y.setAttribute(&quot;clip-path&quot;,&quot;url(#&quot;+m+&quot;)&quot;),u=null,l=null,g=null}}if(a&amp;&amp;a[1]){const o=document.getElementById(a[1]);if(o&amp;&amp;&quot;meshgradient&quot;===o.nodeName){const i=parseFloat(r.style.strokeWidth.slice(0,-2))*(parseFloat(r.style.strokeMiterlimit)||parseFloat(r.getAttribute(&quot;stroke-miterlimit&quot;))||1),a=r.getBBox(),l=Math.trunc(a.width+i),c=Math.trunc(a.height+i),u=Math.trunc(a.x-i/2),f=Math.trunc(a.y-i/2);let p=document.createElementNS(s,&quot;canvas&quot;);d(p,{width:l,height:c});const y=p.getContext(&quot;2d&quot;);let g=y.createImageData(l,c);const w=new b(o);&quot;objectBoundingBox&quot;===o.getAttribute(&quot;gradientUnits&quot;)&amp;&amp;w.scale(new x(l,c));const m=o.getAttribute(&quot;gradientTransform&quot;);null!=m&amp;&amp;w.transform(h(m)),&quot;userSpaceOnUse&quot;===o.getAttribute(&quot;gradientUnits&quot;)&amp;&amp;w.transform(new x(-u,-f)),w.paintMesh(g.data,p.width),y.putImageData(g,0,0);const M=document.createElementNS(t,&quot;image&quot;);d(M,{width:l,height:c,x:0,y:0});let S=p.toDataURL();M.setAttributeNS(e,&quot;xlink:href&quot;,S);const k=&quot;pattern_clip&quot;+n,A=document.createElementNS(t,&quot;pattern&quot;);d(A,{id:k,patternUnits:&quot;userSpaceOnUse&quot;,width:l,height:c,x:u,y:f}),A.appendChild(M),o.parentNode.appendChild(A),r.style.stroke=&quot;url(#&quot;+k+&quot;)&quot;,g=null,p=null,S=null}}})}();&#10;</script>
+  <script
+     id="script2"
+     type="text/javascript">&#10;!function(){const t=&quot;http://www.w3.org/2000/svg&quot;,e=&quot;http://www.w3.org/1999/xlink&quot;,s=&quot;http://www.w3.org/1999/xhtml&quot;,r=2;if(document.createElementNS(t,&quot;meshgradient&quot;).x)return;const n=(t,e,s,r)=&gt;{let n=new x(.5*(e.x+s.x),.5*(e.y+s.y)),o=new x(.5*(t.x+e.x),.5*(t.y+e.y)),i=new x(.5*(s.x+r.x),.5*(s.y+r.y)),a=new x(.5*(n.x+o.x),.5*(n.y+o.y)),h=new x(.5*(n.x+i.x),.5*(n.y+i.y)),l=new x(.5*(a.x+h.x),.5*(a.y+h.y));return[[t,o,a,l],[l,h,i,r]]},o=t=&gt;{let e=t[0].distSquared(t[1]),s=t[2].distSquared(t[3]),r=.25*t[0].distSquared(t[2]),n=.25*t[1].distSquared(t[3]),o=e&gt;s?e:s,i=r&gt;n?r:n;return 18*(o&gt;i?o:i)},i=(t,e)=&gt;Math.sqrt(t.distSquared(e)),a=(t,e)=&gt;t.scale(2/3).add(e.scale(1/3)),h=t=&gt;{let e,s,r,n,o,i,a,h=new g;return t.match(/(\w+\(\s*[^)]+\))+/g).forEach(t=&gt;{let l=t.match(/[\w.-]+/g),d=l.shift();switch(d){case&quot;translate&quot;:2===l.length?e=new g(1,0,0,1,l[0],l[1]):(console.error(&quot;mesh.js: translate does not have 2 arguments!&quot;),e=new g(1,0,0,1,0,0)),h=h.append(e);break;case&quot;scale&quot;:1===l.length?s=new g(l[0],0,0,l[0],0,0):2===l.length?s=new g(l[0],0,0,l[1],0,0):(console.error(&quot;mesh.js: scale does not have 1 or 2 arguments!&quot;),s=new g(1,0,0,1,0,0)),h=h.append(s);break;case&quot;rotate&quot;:if(3===l.length&amp;&amp;(e=new g(1,0,0,1,l[1],l[2]),h=h.append(e)),l[0]){r=l[0]*Math.PI/180;let t=Math.cos(r),e=Math.sin(r);Math.abs(t)&lt;1e-16&amp;&amp;(t=0),Math.abs(e)&lt;1e-16&amp;&amp;(e=0),a=new g(t,e,-e,t,0,0),h=h.append(a)}else console.error(&quot;math.js: No argument to rotate transform!&quot;);3===l.length&amp;&amp;(e=new g(1,0,0,1,-l[1],-l[2]),h=h.append(e));break;case&quot;skewX&quot;:l[0]?(r=l[0]*Math.PI/180,n=Math.tan(r),o=new g(1,0,n,1,0,0),h=h.append(o)):console.error(&quot;math.js: No argument to skewX transform!&quot;);break;case&quot;skewY&quot;:l[0]?(r=l[0]*Math.PI/180,n=Math.tan(r),i=new g(1,n,0,1,0,0),h=h.append(i)):console.error(&quot;math.js: No argument to skewY transform!&quot;);break;case&quot;matrix&quot;:6===l.length?h=h.append(new g(...l)):console.error(&quot;math.js: Incorrect number of arguments for matrix!&quot;);break;default:console.error(&quot;mesh.js: Unhandled transform type: &quot;+d)}}),h},l=t=&gt;{let e=[],s=t.split(/[ ,]+/);for(let t=0,r=s.length-1;t&lt;r;t+=2)e.push(new x(parseFloat(s[t]),parseFloat(s[t+1])));return e},d=(t,e)=&gt;{for(let s in e)t.setAttribute(s,e[s])},c=(t,e,s,r,n)=&gt;{let o,i,a=[0,0,0,0];for(let h=0;h&lt;3;++h)e[h]&lt;t[h]&amp;&amp;e[h]&lt;s[h]||t[h]&lt;e[h]&amp;&amp;s[h]&lt;e[h]?a[h]=0:(a[h]=.5*((e[h]-t[h])/r+(s[h]-e[h])/n),o=Math.abs(3*(e[h]-t[h])/r),i=Math.abs(3*(s[h]-e[h])/n),a[h]&gt;o?a[h]=o:a[h]&gt;i&amp;&amp;(a[h]=i));return a},u=[[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0],[-3,3,0,0,-2,-1,0,0,0,0,0,0,0,0,0,0],[2,-2,0,0,1,1,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0],[0,0,0,0,0,0,0,0,-3,3,0,0,-2,-1,0,0],[0,0,0,0,0,0,0,0,2,-2,0,0,1,1,0,0],[-3,0,3,0,0,0,0,0,-2,0,-1,0,0,0,0,0],[0,0,0,0,-3,0,3,0,0,0,0,0,-2,0,-1,0],[9,-9,-9,9,6,3,-6,-3,6,-6,3,-3,4,2,2,1],[-6,6,6,-6,-3,-3,3,3,-4,4,-2,2,-2,-2,-1,-1],[2,0,-2,0,0,0,0,0,1,0,1,0,0,0,0,0],[0,0,0,0,2,0,-2,0,0,0,0,0,1,0,1,0],[-6,6,6,-6,-4,-2,4,2,-3,3,-3,3,-2,-1,-2,-1],[4,-4,-4,4,2,2,-2,-2,2,-2,2,-2,1,1,1,1]],f=t=&gt;{let e=[];for(let s=0;s&lt;16;++s){e[s]=0;for(let r=0;r&lt;16;++r)e[s]+=u[s][r]*t[r]}return e},p=(t,e,s)=&gt;{const r=e*e,n=s*s,o=e*e*e,i=s*s*s;return t[0]+t[1]*e+t[2]*r+t[3]*o+t[4]*s+t[5]*s*e+t[6]*s*r+t[7]*s*o+t[8]*n+t[9]*n*e+t[10]*n*r+t[11]*n*o+t[12]*i+t[13]*i*e+t[14]*i*r+t[15]*i*o},y=t=&gt;{let e=[],s=[],r=[];for(let s=0;s&lt;4;++s)e[s]=[],e[s][0]=n(t[0][s],t[1][s],t[2][s],t[3][s]),e[s][1]=[],e[s][1].push(...n(...e[s][0][0])),e[s][1].push(...n(...e[s][0][1])),e[s][2]=[],e[s][2].push(...n(...e[s][1][0])),e[s][2].push(...n(...e[s][1][1])),e[s][2].push(...n(...e[s][1][2])),e[s][2].push(...n(...e[s][1][3]));for(let t=0;t&lt;8;++t){s[t]=[];for(let r=0;r&lt;4;++r)s[t][r]=[],s[t][r][0]=n(e[0][2][t][r],e[1][2][t][r],e[2][2][t][r],e[3][2][t][r]),s[t][r][1]=[],s[t][r][1].push(...n(...s[t][r][0][0])),s[t][r][1].push(...n(...s[t][r][0][1])),s[t][r][2]=[],s[t][r][2].push(...n(...s[t][r][1][0])),s[t][r][2].push(...n(...s[t][r][1][1])),s[t][r][2].push(...n(...s[t][r][1][2])),s[t][r][2].push(...n(...s[t][r][1][3]))}for(let t=0;t&lt;8;++t){r[t]=[];for(let e=0;e&lt;8;++e)r[t][e]=[],r[t][e][0]=s[t][0][2][e],r[t][e][1]=s[t][1][2][e],r[t][e][2]=s[t][2][2][e],r[t][e][3]=s[t][3][2][e]}return r};class x{constructor(t,e){this.x=t||0,this.y=e||0}toString(){return`(x=${this.x}, y=${this.y})`}clone(){return new x(this.x,this.y)}add(t){return new x(this.x+t.x,this.y+t.y)}scale(t){return void 0===t.x?new x(this.x*t,this.y*t):new x(this.x*t.x,this.y*t.y)}distSquared(t){let e=this.x-t.x,s=this.y-t.y;return e*e+s*s}transform(t){let e=this.x*t.a+this.y*t.c+t.e,s=this.x*t.b+this.y*t.d+t.f;return new x(e,s)}}class g{constructor(t,e,s,r,n,o){void 0===t?(this.a=1,this.b=0,this.c=0,this.d=1,this.e=0,this.f=0):(this.a=t,this.b=e,this.c=s,this.d=r,this.e=n,this.f=o)}toString(){return`affine: ${this.a} ${this.c} ${this.e} \n       ${this.b} ${this.d} ${this.f}`}append(t){t instanceof g||console.error(&quot;mesh.js: argument to Affine.append is not affine!&quot;);let e=this.a*t.a+this.c*t.b,s=this.b*t.a+this.d*t.b,r=this.a*t.c+this.c*t.d,n=this.b*t.c+this.d*t.d,o=this.a*t.e+this.c*t.f+this.e,i=this.b*t.e+this.d*t.f+this.f;return new g(e,s,r,n,o,i)}}class w{constructor(t,e){this.nodes=t,this.colors=e}paintCurve(t,e){if(o(this.nodes)&gt;r){const s=n(...this.nodes);let r=[[],[]],o=[[],[]];for(let t=0;t&lt;4;++t)r[0][t]=this.colors[0][t],r[1][t]=(this.colors[0][t]+this.colors[1][t])/2,o[0][t]=r[1][t],o[1][t]=this.colors[1][t];let i=new w(s[0],r),a=new w(s[1],o);i.paintCurve(t,e),a.paintCurve(t,e)}else{let s=Math.round(this.nodes[0].x);if(s&gt;=0&amp;&amp;s&lt;e){let r=4*(~~this.nodes[0].y*e+s);t[r]=Math.round(this.colors[0][0]),t[r+1]=Math.round(this.colors[0][1]),t[r+2]=Math.round(this.colors[0][2]),t[r+3]=Math.round(this.colors[0][3])}}}}class m{constructor(t,e){this.nodes=t,this.colors=e}split(){let t=[[],[],[],[]],e=[[],[],[],[]],s=[[[],[]],[[],[]]],r=[[[],[]],[[],[]]];for(let s=0;s&lt;4;++s){const r=n(this.nodes[0][s],this.nodes[1][s],this.nodes[2][s],this.nodes[3][s]);t[0][s]=r[0][0],t[1][s]=r[0][1],t[2][s]=r[0][2],t[3][s]=r[0][3],e[0][s]=r[1][0],e[1][s]=r[1][1],e[2][s]=r[1][2],e[3][s]=r[1][3]}for(let t=0;t&lt;4;++t)s[0][0][t]=this.colors[0][0][t],s[0][1][t]=this.colors[0][1][t],s[1][0][t]=(this.colors[0][0][t]+this.colors[1][0][t])/2,s[1][1][t]=(this.colors[0][1][t]+this.colors[1][1][t])/2,r[0][0][t]=s[1][0][t],r[0][1][t]=s[1][1][t],r[1][0][t]=this.colors[1][0][t],r[1][1][t]=this.colors[1][1][t];return[new m(t,s),new m(e,r)]}paint(t,e){let s,n=!1;for(let t=0;t&lt;4;++t)if((s=o([this.nodes[0][t],this.nodes[1][t],this.nodes[2][t],this.nodes[3][t]]))&gt;r){n=!0;break}if(n){let s=this.split();s[0].paint(t,e),s[1].paint(t,e)}else{new w([...this.nodes[0]],[...this.colors[0]]).paintCurve(t,e)}}}class b{constructor(t){this.readMesh(t),this.type=t.getAttribute(&quot;type&quot;)||&quot;bilinear&quot;}readMesh(t){let e=[[]],s=[[]],r=Number(t.getAttribute(&quot;x&quot;)),n=Number(t.getAttribute(&quot;y&quot;));e[0][0]=new x(r,n);let o=t.children;for(let t=0,r=o.length;t&lt;r;++t){e[3*t+1]=[],e[3*t+2]=[],e[3*t+3]=[],s[t+1]=[];let r=o[t].children;for(let n=0,o=r.length;n&lt;o;++n){let o=r[n].children;for(let r=0,i=o.length;r&lt;i;++r){let i=r;0!==t&amp;&amp;++i;let h,d=o[r].getAttribute(&quot;path&quot;),c=&quot;l&quot;;null!=d&amp;&amp;(c=(h=d.match(/\s*([lLcC])\s*(.*)/))[1]);let u=l(h[2]);switch(c){case&quot;l&quot;:0===i?(e[3*t][3*n+3]=u[0].add(e[3*t][3*n]),e[3*t][3*n+1]=a(e[3*t][3*n],e[3*t][3*n+3]),e[3*t][3*n+2]=a(e[3*t][3*n+3],e[3*t][3*n])):1===i?(e[3*t+3][3*n+3]=u[0].add(e[3*t][3*n+3]),e[3*t+1][3*n+3]=a(e[3*t][3*n+3],e[3*t+3][3*n+3]),e[3*t+2][3*n+3]=a(e[3*t+3][3*n+3],e[3*t][3*n+3])):2===i?(0===n&amp;&amp;(e[3*t+3][3*n+0]=u[0].add(e[3*t+3][3*n+3])),e[3*t+3][3*n+1]=a(e[3*t+3][3*n],e[3*t+3][3*n+3]),e[3*t+3][3*n+2]=a(e[3*t+3][3*n+3],e[3*t+3][3*n])):(e[3*t+1][3*n]=a(e[3*t][3*n],e[3*t+3][3*n]),e[3*t+2][3*n]=a(e[3*t+3][3*n],e[3*t][3*n]));break;case&quot;L&quot;:0===i?(e[3*t][3*n+3]=u[0],e[3*t][3*n+1]=a(e[3*t][3*n],e[3*t][3*n+3]),e[3*t][3*n+2]=a(e[3*t][3*n+3],e[3*t][3*n])):1===i?(e[3*t+3][3*n+3]=u[0],e[3*t+1][3*n+3]=a(e[3*t][3*n+3],e[3*t+3][3*n+3]),e[3*t+2][3*n+3]=a(e[3*t+3][3*n+3],e[3*t][3*n+3])):2===i?(0===n&amp;&amp;(e[3*t+3][3*n+0]=u[0]),e[3*t+3][3*n+1]=a(e[3*t+3][3*n],e[3*t+3][3*n+3]),e[3*t+3][3*n+2]=a(e[3*t+3][3*n+3],e[3*t+3][3*n])):(e[3*t+1][3*n]=a(e[3*t][3*n],e[3*t+3][3*n]),e[3*t+2][3*n]=a(e[3*t+3][3*n],e[3*t][3*n]));break;case&quot;c&quot;:0===i?(e[3*t][3*n+1]=u[0].add(e[3*t][3*n]),e[3*t][3*n+2]=u[1].add(e[3*t][3*n]),e[3*t][3*n+3]=u[2].add(e[3*t][3*n])):1===i?(e[3*t+1][3*n+3]=u[0].add(e[3*t][3*n+3]),e[3*t+2][3*n+3]=u[1].add(e[3*t][3*n+3]),e[3*t+3][3*n+3]=u[2].add(e[3*t][3*n+3])):2===i?(e[3*t+3][3*n+2]=u[0].add(e[3*t+3][3*n+3]),e[3*t+3][3*n+1]=u[1].add(e[3*t+3][3*n+3]),0===n&amp;&amp;(e[3*t+3][3*n+0]=u[2].add(e[3*t+3][3*n+3]))):(e[3*t+2][3*n]=u[0].add(e[3*t+3][3*n]),e[3*t+1][3*n]=u[1].add(e[3*t+3][3*n]));break;case&quot;C&quot;:0===i?(e[3*t][3*n+1]=u[0],e[3*t][3*n+2]=u[1],e[3*t][3*n+3]=u[2]):1===i?(e[3*t+1][3*n+3]=u[0],e[3*t+2][3*n+3]=u[1],e[3*t+3][3*n+3]=u[2]):2===i?(e[3*t+3][3*n+2]=u[0],e[3*t+3][3*n+1]=u[1],0===n&amp;&amp;(e[3*t+3][3*n+0]=u[2])):(e[3*t+2][3*n]=u[0],e[3*t+1][3*n]=u[1]);break;default:console.error(&quot;mesh.js: &quot;+c+&quot; invalid path type.&quot;)}if(0===t&amp;&amp;0===n||r&gt;0){let e=window.getComputedStyle(o[r]).stopColor.match(/^rgb\s*\(\s*(\d+)\s*,\s*(\d+)\s*,\s*(\d+)\s*\)$/i),a=window.getComputedStyle(o[r]).stopOpacity,h=255;a&amp;&amp;(h=Math.floor(255*a)),e&amp;&amp;(0===i?(s[t][n]=[],s[t][n][0]=Math.floor(e[1]),s[t][n][1]=Math.floor(e[2]),s[t][n][2]=Math.floor(e[3]),s[t][n][3]=h):1===i?(s[t][n+1]=[],s[t][n+1][0]=Math.floor(e[1]),s[t][n+1][1]=Math.floor(e[2]),s[t][n+1][2]=Math.floor(e[3]),s[t][n+1][3]=h):2===i?(s[t+1][n+1]=[],s[t+1][n+1][0]=Math.floor(e[1]),s[t+1][n+1][1]=Math.floor(e[2]),s[t+1][n+1][2]=Math.floor(e[3]),s[t+1][n+1][3]=h):3===i&amp;&amp;(s[t+1][n]=[],s[t+1][n][0]=Math.floor(e[1]),s[t+1][n][1]=Math.floor(e[2]),s[t+1][n][2]=Math.floor(e[3]),s[t+1][n][3]=h))}}e[3*t+1][3*n+1]=new x,e[3*t+1][3*n+2]=new x,e[3*t+2][3*n+1]=new x,e[3*t+2][3*n+2]=new x,e[3*t+1][3*n+1].x=(-4*e[3*t][3*n].x+6*(e[3*t][3*n+1].x+e[3*t+1][3*n].x)+-2*(e[3*t][3*n+3].x+e[3*t+3][3*n].x)+3*(e[3*t+3][3*n+1].x+e[3*t+1][3*n+3].x)+-1*e[3*t+3][3*n+3].x)/9,e[3*t+1][3*n+2].x=(-4*e[3*t][3*n+3].x+6*(e[3*t][3*n+2].x+e[3*t+1][3*n+3].x)+-2*(e[3*t][3*n].x+e[3*t+3][3*n+3].x)+3*(e[3*t+3][3*n+2].x+e[3*t+1][3*n].x)+-1*e[3*t+3][3*n].x)/9,e[3*t+2][3*n+1].x=(-4*e[3*t+3][3*n].x+6*(e[3*t+3][3*n+1].x+e[3*t+2][3*n].x)+-2*(e[3*t+3][3*n+3].x+e[3*t][3*n].x)+3*(e[3*t][3*n+1].x+e[3*t+2][3*n+3].x)+-1*e[3*t][3*n+3].x)/9,e[3*t+2][3*n+2].x=(-4*e[3*t+3][3*n+3].x+6*(e[3*t+3][3*n+2].x+e[3*t+2][3*n+3].x)+-2*(e[3*t+3][3*n].x+e[3*t][3*n+3].x)+3*(e[3*t][3*n+2].x+e[3*t+2][3*n].x)+-1*e[3*t][3*n].x)/9,e[3*t+1][3*n+1].y=(-4*e[3*t][3*n].y+6*(e[3*t][3*n+1].y+e[3*t+1][3*n].y)+-2*(e[3*t][3*n+3].y+e[3*t+3][3*n].y)+3*(e[3*t+3][3*n+1].y+e[3*t+1][3*n+3].y)+-1*e[3*t+3][3*n+3].y)/9,e[3*t+1][3*n+2].y=(-4*e[3*t][3*n+3].y+6*(e[3*t][3*n+2].y+e[3*t+1][3*n+3].y)+-2*(e[3*t][3*n].y+e[3*t+3][3*n+3].y)+3*(e[3*t+3][3*n+2].y+e[3*t+1][3*n].y)+-1*e[3*t+3][3*n].y)/9,e[3*t+2][3*n+1].y=(-4*e[3*t+3][3*n].y+6*(e[3*t+3][3*n+1].y+e[3*t+2][3*n].y)+-2*(e[3*t+3][3*n+3].y+e[3*t][3*n].y)+3*(e[3*t][3*n+1].y+e[3*t+2][3*n+3].y)+-1*e[3*t][3*n+3].y)/9,e[3*t+2][3*n+2].y=(-4*e[3*t+3][3*n+3].y+6*(e[3*t+3][3*n+2].y+e[3*t+2][3*n+3].y)+-2*(e[3*t+3][3*n].y+e[3*t][3*n+3].y)+3*(e[3*t][3*n+2].y+e[3*t+2][3*n].y)+-1*e[3*t][3*n].y)/9}}this.nodes=e,this.colors=s}paintMesh(t,e){let s=(this.nodes.length-1)/3,r=(this.nodes[0].length-1)/3;if(&quot;bilinear&quot;===this.type||s&lt;2||r&lt;2){let n;for(let o=0;o&lt;s;++o)for(let s=0;s&lt;r;++s){let r=[];for(let t=3*o,e=3*o+4;t&lt;e;++t)r.push(this.nodes[t].slice(3*s,3*s+4));let i=[];i.push(this.colors[o].slice(s,s+2)),i.push(this.colors[o+1].slice(s,s+2)),(n=new m(r,i)).paint(t,e)}}else{let n,o,a,h,l,d,u;const x=s,g=r;s++,r++;let w=new Array(s);for(let t=0;t&lt;s;++t){w[t]=new Array(r);for(let e=0;e&lt;r;++e)w[t][e]=[],w[t][e][0]=this.nodes[3*t][3*e],w[t][e][1]=this.colors[t][e]}for(let t=0;t&lt;s;++t)for(let e=0;e&lt;r;++e)0!==t&amp;&amp;t!==x&amp;&amp;(n=i(w[t-1][e][0],w[t][e][0]),o=i(w[t+1][e][0],w[t][e][0]),w[t][e][2]=c(w[t-1][e][1],w[t][e][1],w[t+1][e][1],n,o)),0!==e&amp;&amp;e!==g&amp;&amp;(n=i(w[t][e-1][0],w[t][e][0]),o=i(w[t][e+1][0],w[t][e][0]),w[t][e][3]=c(w[t][e-1][1],w[t][e][1],w[t][e+1][1],n,o));for(let t=0;t&lt;r;++t){w[0][t][2]=[],w[x][t][2]=[];for(let e=0;e&lt;4;++e)n=i(w[1][t][0],w[0][t][0]),o=i(w[x][t][0],w[x-1][t][0]),w[0][t][2][e]=n&gt;0?2*(w[1][t][1][e]-w[0][t][1][e])/n-w[1][t][2][e]:0,w[x][t][2][e]=o&gt;0?2*(w[x][t][1][e]-w[x-1][t][1][e])/o-w[x-1][t][2][e]:0}for(let t=0;t&lt;s;++t){w[t][0][3]=[],w[t][g][3]=[];for(let e=0;e&lt;4;++e)n=i(w[t][1][0],w[t][0][0]),o=i(w[t][g][0],w[t][g-1][0]),w[t][0][3][e]=n&gt;0?2*(w[t][1][1][e]-w[t][0][1][e])/n-w[t][1][3][e]:0,w[t][g][3][e]=o&gt;0?2*(w[t][g][1][e]-w[t][g-1][1][e])/o-w[t][g-1][3][e]:0}for(let s=0;s&lt;x;++s)for(let r=0;r&lt;g;++r){let n=i(w[s][r][0],w[s+1][r][0]),o=i(w[s][r+1][0],w[s+1][r+1][0]),c=i(w[s][r][0],w[s][r+1][0]),x=i(w[s+1][r][0],w[s+1][r+1][0]),g=[[],[],[],[]];for(let t=0;t&lt;4;++t){(d=[])[0]=w[s][r][1][t],d[1]=w[s+1][r][1][t],d[2]=w[s][r+1][1][t],d[3]=w[s+1][r+1][1][t],d[4]=w[s][r][2][t]*n,d[5]=w[s+1][r][2][t]*n,d[6]=w[s][r+1][2][t]*o,d[7]=w[s+1][r+1][2][t]*o,d[8]=w[s][r][3][t]*c,d[9]=w[s+1][r][3][t]*x,d[10]=w[s][r+1][3][t]*c,d[11]=w[s+1][r+1][3][t]*x,d[12]=0,d[13]=0,d[14]=0,d[15]=0,u=f(d);for(let e=0;e&lt;9;++e){g[t][e]=[];for(let s=0;s&lt;9;++s)g[t][e][s]=p(u,e/8,s/8),g[t][e][s]&gt;255?g[t][e][s]=255:g[t][e][s]&lt;0&amp;&amp;(g[t][e][s]=0)}}h=[];for(let t=3*s,e=3*s+4;t&lt;e;++t)h.push(this.nodes[t].slice(3*r,3*r+4));l=y(h);for(let s=0;s&lt;8;++s)for(let r=0;r&lt;8;++r)(a=new m(l[s][r],[[[g[0][s][r],g[1][s][r],g[2][s][r],g[3][s][r]],[g[0][s][r+1],g[1][s][r+1],g[2][s][r+1],g[3][s][r+1]]],[[g[0][s+1][r],g[1][s+1][r],g[2][s+1][r],g[3][s+1][r]],[g[0][s+1][r+1],g[1][s+1][r+1],g[2][s+1][r+1],g[3][s+1][r+1]]]])).paint(t,e)}}}transform(t){if(t instanceof x)for(let e=0,s=this.nodes.length;e&lt;s;++e)for(let s=0,r=this.nodes[0].length;s&lt;r;++s)this.nodes[e][s]=this.nodes[e][s].add(t);else if(t instanceof g)for(let e=0,s=this.nodes.length;e&lt;s;++e)for(let s=0,r=this.nodes[0].length;s&lt;r;++s)this.nodes[e][s]=this.nodes[e][s].transform(t)}scale(t){for(let e=0,s=this.nodes.length;e&lt;s;++e)for(let s=0,r=this.nodes[0].length;s&lt;r;++s)this.nodes[e][s]=this.nodes[e][s].scale(t)}}document.querySelectorAll(&quot;rect,circle,ellipse,path,text&quot;).forEach((r,n)=&gt;{let o=r.getAttribute(&quot;id&quot;);o||(o=&quot;patchjs_shape&quot;+n,r.setAttribute(&quot;id&quot;,o));const i=r.style.fill.match(/^url\(\s*&quot;?\s*#([^\s&quot;]+)&quot;?\s*\)/),a=r.style.stroke.match(/^url\(\s*&quot;?\s*#([^\s&quot;]+)&quot;?\s*\)/);if(i&amp;&amp;i[1]){const a=document.getElementById(i[1]);if(a&amp;&amp;&quot;meshgradient&quot;===a.nodeName){const i=r.getBBox();let l=document.createElementNS(s,&quot;canvas&quot;);d(l,{width:i.width,height:i.height});const c=l.getContext(&quot;2d&quot;);let u=c.createImageData(i.width,i.height);const f=new b(a);&quot;objectBoundingBox&quot;===a.getAttribute(&quot;gradientUnits&quot;)&amp;&amp;f.scale(new x(i.width,i.height));const p=a.getAttribute(&quot;gradientTransform&quot;);null!=p&amp;&amp;f.transform(h(p)),&quot;userSpaceOnUse&quot;===a.getAttribute(&quot;gradientUnits&quot;)&amp;&amp;f.transform(new x(-i.x,-i.y)),f.paintMesh(u.data,l.width),c.putImageData(u,0,0);const y=document.createElementNS(t,&quot;image&quot;);d(y,{width:i.width,height:i.height,x:i.x,y:i.y});let g=l.toDataURL();y.setAttributeNS(e,&quot;xlink:href&quot;,g),r.parentNode.insertBefore(y,r),r.style.fill=&quot;none&quot;;const w=document.createElementNS(t,&quot;use&quot;);w.setAttributeNS(e,&quot;xlink:href&quot;,&quot;#&quot;+o);const m=&quot;patchjs_clip&quot;+n,M=document.createElementNS(t,&quot;clipPath&quot;);M.setAttribute(&quot;id&quot;,m),M.appendChild(w),r.parentElement.insertBefore(M,r),y.setAttribute(&quot;clip-path&quot;,&quot;url(#&quot;+m+&quot;)&quot;),u=null,l=null,g=null}}if(a&amp;&amp;a[1]){const o=document.getElementById(a[1]);if(o&amp;&amp;&quot;meshgradient&quot;===o.nodeName){const i=parseFloat(r.style.strokeWidth.slice(0,-2))*(parseFloat(r.style.strokeMiterlimit)||parseFloat(r.getAttribute(&quot;stroke-miterlimit&quot;))||1),a=r.getBBox(),l=Math.trunc(a.width+i),c=Math.trunc(a.height+i),u=Math.trunc(a.x-i/2),f=Math.trunc(a.y-i/2);let p=document.createElementNS(s,&quot;canvas&quot;);d(p,{width:l,height:c});const y=p.getContext(&quot;2d&quot;);let g=y.createImageData(l,c);const w=new b(o);&quot;objectBoundingBox&quot;===o.getAttribute(&quot;gradientUnits&quot;)&amp;&amp;w.scale(new x(l,c));const m=o.getAttribute(&quot;gradientTransform&quot;);null!=m&amp;&amp;w.transform(h(m)),&quot;userSpaceOnUse&quot;===o.getAttribute(&quot;gradientUnits&quot;)&amp;&amp;w.transform(new x(-u,-f)),w.paintMesh(g.data,p.width),y.putImageData(g,0,0);const M=document.createElementNS(t,&quot;image&quot;);d(M,{width:l,height:c,x:0,y:0});let S=p.toDataURL();M.setAttributeNS(e,&quot;xlink:href&quot;,S);const k=&quot;pattern_clip&quot;+n,A=document.createElementNS(t,&quot;pattern&quot;);d(A,{id:k,patternUnits:&quot;userSpaceOnUse&quot;,width:l,height:c,x:u,y:f}),A.appendChild(M),o.parentNode.appendChild(A),r.style.stroke=&quot;url(#&quot;+k+&quot;)&quot;,g=null,p=null,S=null}}})}();&#10;</script>
+  <script
+     id="mesh_polyfill"
+     type="text/javascript">&#10;!function(){const t=&quot;http://www.w3.org/2000/svg&quot;,e=&quot;http://www.w3.org/1999/xlink&quot;,s=&quot;http://www.w3.org/1999/xhtml&quot;,r=2;if(document.createElementNS(t,&quot;meshgradient&quot;).x)return;const n=(t,e,s,r)=&gt;{let n=new x(.5*(e.x+s.x),.5*(e.y+s.y)),o=new x(.5*(t.x+e.x),.5*(t.y+e.y)),i=new x(.5*(s.x+r.x),.5*(s.y+r.y)),a=new x(.5*(n.x+o.x),.5*(n.y+o.y)),h=new x(.5*(n.x+i.x),.5*(n.y+i.y)),l=new x(.5*(a.x+h.x),.5*(a.y+h.y));return[[t,o,a,l],[l,h,i,r]]},o=t=&gt;{let e=t[0].distSquared(t[1]),s=t[2].distSquared(t[3]),r=.25*t[0].distSquared(t[2]),n=.25*t[1].distSquared(t[3]),o=e&gt;s?e:s,i=r&gt;n?r:n;return 18*(o&gt;i?o:i)},i=(t,e)=&gt;Math.sqrt(t.distSquared(e)),a=(t,e)=&gt;t.scale(2/3).add(e.scale(1/3)),h=t=&gt;{let e,s,r,n,o,i,a,h=new g;return t.match(/(\w+\(\s*[^)]+\))+/g).forEach(t=&gt;{let l=t.match(/[\w.-]+/g),d=l.shift();switch(d){case&quot;translate&quot;:2===l.length?e=new g(1,0,0,1,l[0],l[1]):(console.error(&quot;mesh.js: translate does not have 2 arguments!&quot;),e=new g(1,0,0,1,0,0)),h=h.append(e);break;case&quot;scale&quot;:1===l.length?s=new g(l[0],0,0,l[0],0,0):2===l.length?s=new g(l[0],0,0,l[1],0,0):(console.error(&quot;mesh.js: scale does not have 1 or 2 arguments!&quot;),s=new g(1,0,0,1,0,0)),h=h.append(s);break;case&quot;rotate&quot;:if(3===l.length&amp;&amp;(e=new g(1,0,0,1,l[1],l[2]),h=h.append(e)),l[0]){r=l[0]*Math.PI/180;let t=Math.cos(r),e=Math.sin(r);Math.abs(t)&lt;1e-16&amp;&amp;(t=0),Math.abs(e)&lt;1e-16&amp;&amp;(e=0),a=new g(t,e,-e,t,0,0),h=h.append(a)}else console.error(&quot;math.js: No argument to rotate transform!&quot;);3===l.length&amp;&amp;(e=new g(1,0,0,1,-l[1],-l[2]),h=h.append(e));break;case&quot;skewX&quot;:l[0]?(r=l[0]*Math.PI/180,n=Math.tan(r),o=new g(1,0,n,1,0,0),h=h.append(o)):console.error(&quot;math.js: No argument to skewX transform!&quot;);break;case&quot;skewY&quot;:l[0]?(r=l[0]*Math.PI/180,n=Math.tan(r),i=new g(1,n,0,1,0,0),h=h.append(i)):console.error(&quot;math.js: No argument to skewY transform!&quot;);break;case&quot;matrix&quot;:6===l.length?h=h.append(new g(...l)):console.error(&quot;math.js: Incorrect number of arguments for matrix!&quot;);break;default:console.error(&quot;mesh.js: Unhandled transform type: &quot;+d)}}),h},l=t=&gt;{let e=[],s=t.split(/[ ,]+/);for(let t=0,r=s.length-1;t&lt;r;t+=2)e.push(new x(parseFloat(s[t]),parseFloat(s[t+1])));return e},d=(t,e)=&gt;{for(let s in e)t.setAttribute(s,e[s])},c=(t,e,s,r,n)=&gt;{let o,i,a=[0,0,0,0];for(let h=0;h&lt;3;++h)e[h]&lt;t[h]&amp;&amp;e[h]&lt;s[h]||t[h]&lt;e[h]&amp;&amp;s[h]&lt;e[h]?a[h]=0:(a[h]=.5*((e[h]-t[h])/r+(s[h]-e[h])/n),o=Math.abs(3*(e[h]-t[h])/r),i=Math.abs(3*(s[h]-e[h])/n),a[h]&gt;o?a[h]=o:a[h]&gt;i&amp;&amp;(a[h]=i));return a},u=[[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0],[-3,3,0,0,-2,-1,0,0,0,0,0,0,0,0,0,0],[2,-2,0,0,1,1,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0],[0,0,0,0,0,0,0,0,-3,3,0,0,-2,-1,0,0],[0,0,0,0,0,0,0,0,2,-2,0,0,1,1,0,0],[-3,0,3,0,0,0,0,0,-2,0,-1,0,0,0,0,0],[0,0,0,0,-3,0,3,0,0,0,0,0,-2,0,-1,0],[9,-9,-9,9,6,3,-6,-3,6,-6,3,-3,4,2,2,1],[-6,6,6,-6,-3,-3,3,3,-4,4,-2,2,-2,-2,-1,-1],[2,0,-2,0,0,0,0,0,1,0,1,0,0,0,0,0],[0,0,0,0,2,0,-2,0,0,0,0,0,1,0,1,0],[-6,6,6,-6,-4,-2,4,2,-3,3,-3,3,-2,-1,-2,-1],[4,-4,-4,4,2,2,-2,-2,2,-2,2,-2,1,1,1,1]],f=t=&gt;{let e=[];for(let s=0;s&lt;16;++s){e[s]=0;for(let r=0;r&lt;16;++r)e[s]+=u[s][r]*t[r]}return e},p=(t,e,s)=&gt;{const r=e*e,n=s*s,o=e*e*e,i=s*s*s;return t[0]+t[1]*e+t[2]*r+t[3]*o+t[4]*s+t[5]*s*e+t[6]*s*r+t[7]*s*o+t[8]*n+t[9]*n*e+t[10]*n*r+t[11]*n*o+t[12]*i+t[13]*i*e+t[14]*i*r+t[15]*i*o},y=t=&gt;{let e=[],s=[],r=[];for(let s=0;s&lt;4;++s)e[s]=[],e[s][0]=n(t[0][s],t[1][s],t[2][s],t[3][s]),e[s][1]=[],e[s][1].push(...n(...e[s][0][0])),e[s][1].push(...n(...e[s][0][1])),e[s][2]=[],e[s][2].push(...n(...e[s][1][0])),e[s][2].push(...n(...e[s][1][1])),e[s][2].push(...n(...e[s][1][2])),e[s][2].push(...n(...e[s][1][3]));for(let t=0;t&lt;8;++t){s[t]=[];for(let r=0;r&lt;4;++r)s[t][r]=[],s[t][r][0]=n(e[0][2][t][r],e[1][2][t][r],e[2][2][t][r],e[3][2][t][r]),s[t][r][1]=[],s[t][r][1].push(...n(...s[t][r][0][0])),s[t][r][1].push(...n(...s[t][r][0][1])),s[t][r][2]=[],s[t][r][2].push(...n(...s[t][r][1][0])),s[t][r][2].push(...n(...s[t][r][1][1])),s[t][r][2].push(...n(...s[t][r][1][2])),s[t][r][2].push(...n(...s[t][r][1][3]))}for(let t=0;t&lt;8;++t){r[t]=[];for(let e=0;e&lt;8;++e)r[t][e]=[],r[t][e][0]=s[t][0][2][e],r[t][e][1]=s[t][1][2][e],r[t][e][2]=s[t][2][2][e],r[t][e][3]=s[t][3][2][e]}return r};class x{constructor(t,e){this.x=t||0,this.y=e||0}toString(){return`(x=${this.x}, y=${this.y})`}clone(){return new x(this.x,this.y)}add(t){return new x(this.x+t.x,this.y+t.y)}scale(t){return void 0===t.x?new x(this.x*t,this.y*t):new x(this.x*t.x,this.y*t.y)}distSquared(t){let e=this.x-t.x,s=this.y-t.y;return e*e+s*s}transform(t){let e=this.x*t.a+this.y*t.c+t.e,s=this.x*t.b+this.y*t.d+t.f;return new x(e,s)}}class g{constructor(t,e,s,r,n,o){void 0===t?(this.a=1,this.b=0,this.c=0,this.d=1,this.e=0,this.f=0):(this.a=t,this.b=e,this.c=s,this.d=r,this.e=n,this.f=o)}toString(){return`affine: ${this.a} ${this.c} ${this.e} \n       ${this.b} ${this.d} ${this.f}`}append(t){t instanceof g||console.error(&quot;mesh.js: argument to Affine.append is not affine!&quot;);let e=this.a*t.a+this.c*t.b,s=this.b*t.a+this.d*t.b,r=this.a*t.c+this.c*t.d,n=this.b*t.c+this.d*t.d,o=this.a*t.e+this.c*t.f+this.e,i=this.b*t.e+this.d*t.f+this.f;return new g(e,s,r,n,o,i)}}class w{constructor(t,e){this.nodes=t,this.colors=e}paintCurve(t,e){if(o(this.nodes)&gt;r){const s=n(...this.nodes);let r=[[],[]],o=[[],[]];for(let t=0;t&lt;4;++t)r[0][t]=this.colors[0][t],r[1][t]=(this.colors[0][t]+this.colors[1][t])/2,o[0][t]=r[1][t],o[1][t]=this.colors[1][t];let i=new w(s[0],r),a=new w(s[1],o);i.paintCurve(t,e),a.paintCurve(t,e)}else{let s=Math.round(this.nodes[0].x);if(s&gt;=0&amp;&amp;s&lt;e){let r=4*(~~this.nodes[0].y*e+s);t[r]=Math.round(this.colors[0][0]),t[r+1]=Math.round(this.colors[0][1]),t[r+2]=Math.round(this.colors[0][2]),t[r+3]=Math.round(this.colors[0][3])}}}}class m{constructor(t,e){this.nodes=t,this.colors=e}split(){let t=[[],[],[],[]],e=[[],[],[],[]],s=[[[],[]],[[],[]]],r=[[[],[]],[[],[]]];for(let s=0;s&lt;4;++s){const r=n(this.nodes[0][s],this.nodes[1][s],this.nodes[2][s],this.nodes[3][s]);t[0][s]=r[0][0],t[1][s]=r[0][1],t[2][s]=r[0][2],t[3][s]=r[0][3],e[0][s]=r[1][0],e[1][s]=r[1][1],e[2][s]=r[1][2],e[3][s]=r[1][3]}for(let t=0;t&lt;4;++t)s[0][0][t]=this.colors[0][0][t],s[0][1][t]=this.colors[0][1][t],s[1][0][t]=(this.colors[0][0][t]+this.colors[1][0][t])/2,s[1][1][t]=(this.colors[0][1][t]+this.colors[1][1][t])/2,r[0][0][t]=s[1][0][t],r[0][1][t]=s[1][1][t],r[1][0][t]=this.colors[1][0][t],r[1][1][t]=this.colors[1][1][t];return[new m(t,s),new m(e,r)]}paint(t,e){let s,n=!1;for(let t=0;t&lt;4;++t)if((s=o([this.nodes[0][t],this.nodes[1][t],this.nodes[2][t],this.nodes[3][t]]))&gt;r){n=!0;break}if(n){let s=this.split();s[0].paint(t,e),s[1].paint(t,e)}else{new w([...this.nodes[0]],[...this.colors[0]]).paintCurve(t,e)}}}class b{constructor(t){this.readMesh(t),this.type=t.getAttribute(&quot;type&quot;)||&quot;bilinear&quot;}readMesh(t){let e=[[]],s=[[]],r=Number(t.getAttribute(&quot;x&quot;)),n=Number(t.getAttribute(&quot;y&quot;));e[0][0]=new x(r,n);let o=t.children;for(let t=0,r=o.length;t&lt;r;++t){e[3*t+1]=[],e[3*t+2]=[],e[3*t+3]=[],s[t+1]=[];let r=o[t].children;for(let n=0,o=r.length;n&lt;o;++n){let o=r[n].children;for(let r=0,i=o.length;r&lt;i;++r){let i=r;0!==t&amp;&amp;++i;let h,d=o[r].getAttribute(&quot;path&quot;),c=&quot;l&quot;;null!=d&amp;&amp;(c=(h=d.match(/\s*([lLcC])\s*(.*)/))[1]);let u=l(h[2]);switch(c){case&quot;l&quot;:0===i?(e[3*t][3*n+3]=u[0].add(e[3*t][3*n]),e[3*t][3*n+1]=a(e[3*t][3*n],e[3*t][3*n+3]),e[3*t][3*n+2]=a(e[3*t][3*n+3],e[3*t][3*n])):1===i?(e[3*t+3][3*n+3]=u[0].add(e[3*t][3*n+3]),e[3*t+1][3*n+3]=a(e[3*t][3*n+3],e[3*t+3][3*n+3]),e[3*t+2][3*n+3]=a(e[3*t+3][3*n+3],e[3*t][3*n+3])):2===i?(0===n&amp;&amp;(e[3*t+3][3*n+0]=u[0].add(e[3*t+3][3*n+3])),e[3*t+3][3*n+1]=a(e[3*t+3][3*n],e[3*t+3][3*n+3]),e[3*t+3][3*n+2]=a(e[3*t+3][3*n+3],e[3*t+3][3*n])):(e[3*t+1][3*n]=a(e[3*t][3*n],e[3*t+3][3*n]),e[3*t+2][3*n]=a(e[3*t+3][3*n],e[3*t][3*n]));break;case&quot;L&quot;:0===i?(e[3*t][3*n+3]=u[0],e[3*t][3*n+1]=a(e[3*t][3*n],e[3*t][3*n+3]),e[3*t][3*n+2]=a(e[3*t][3*n+3],e[3*t][3*n])):1===i?(e[3*t+3][3*n+3]=u[0],e[3*t+1][3*n+3]=a(e[3*t][3*n+3],e[3*t+3][3*n+3]),e[3*t+2][3*n+3]=a(e[3*t+3][3*n+3],e[3*t][3*n+3])):2===i?(0===n&amp;&amp;(e[3*t+3][3*n+0]=u[0]),e[3*t+3][3*n+1]=a(e[3*t+3][3*n],e[3*t+3][3*n+3]),e[3*t+3][3*n+2]=a(e[3*t+3][3*n+3],e[3*t+3][3*n])):(e[3*t+1][3*n]=a(e[3*t][3*n],e[3*t+3][3*n]),e[3*t+2][3*n]=a(e[3*t+3][3*n],e[3*t][3*n]));break;case&quot;c&quot;:0===i?(e[3*t][3*n+1]=u[0].add(e[3*t][3*n]),e[3*t][3*n+2]=u[1].add(e[3*t][3*n]),e[3*t][3*n+3]=u[2].add(e[3*t][3*n])):1===i?(e[3*t+1][3*n+3]=u[0].add(e[3*t][3*n+3]),e[3*t+2][3*n+3]=u[1].add(e[3*t][3*n+3]),e[3*t+3][3*n+3]=u[2].add(e[3*t][3*n+3])):2===i?(e[3*t+3][3*n+2]=u[0].add(e[3*t+3][3*n+3]),e[3*t+3][3*n+1]=u[1].add(e[3*t+3][3*n+3]),0===n&amp;&amp;(e[3*t+3][3*n+0]=u[2].add(e[3*t+3][3*n+3]))):(e[3*t+2][3*n]=u[0].add(e[3*t+3][3*n]),e[3*t+1][3*n]=u[1].add(e[3*t+3][3*n]));break;case&quot;C&quot;:0===i?(e[3*t][3*n+1]=u[0],e[3*t][3*n+2]=u[1],e[3*t][3*n+3]=u[2]):1===i?(e[3*t+1][3*n+3]=u[0],e[3*t+2][3*n+3]=u[1],e[3*t+3][3*n+3]=u[2]):2===i?(e[3*t+3][3*n+2]=u[0],e[3*t+3][3*n+1]=u[1],0===n&amp;&amp;(e[3*t+3][3*n+0]=u[2])):(e[3*t+2][3*n]=u[0],e[3*t+1][3*n]=u[1]);break;default:console.error(&quot;mesh.js: &quot;+c+&quot; invalid path type.&quot;)}if(0===t&amp;&amp;0===n||r&gt;0){let e=window.getComputedStyle(o[r]).stopColor.match(/^rgb\s*\(\s*(\d+)\s*,\s*(\d+)\s*,\s*(\d+)\s*\)$/i),a=window.getComputedStyle(o[r]).stopOpacity,h=255;a&amp;&amp;(h=Math.floor(255*a)),e&amp;&amp;(0===i?(s[t][n]=[],s[t][n][0]=Math.floor(e[1]),s[t][n][1]=Math.floor(e[2]),s[t][n][2]=Math.floor(e[3]),s[t][n][3]=h):1===i?(s[t][n+1]=[],s[t][n+1][0]=Math.floor(e[1]),s[t][n+1][1]=Math.floor(e[2]),s[t][n+1][2]=Math.floor(e[3]),s[t][n+1][3]=h):2===i?(s[t+1][n+1]=[],s[t+1][n+1][0]=Math.floor(e[1]),s[t+1][n+1][1]=Math.floor(e[2]),s[t+1][n+1][2]=Math.floor(e[3]),s[t+1][n+1][3]=h):3===i&amp;&amp;(s[t+1][n]=[],s[t+1][n][0]=Math.floor(e[1]),s[t+1][n][1]=Math.floor(e[2]),s[t+1][n][2]=Math.floor(e[3]),s[t+1][n][3]=h))}}e[3*t+1][3*n+1]=new x,e[3*t+1][3*n+2]=new x,e[3*t+2][3*n+1]=new x,e[3*t+2][3*n+2]=new x,e[3*t+1][3*n+1].x=(-4*e[3*t][3*n].x+6*(e[3*t][3*n+1].x+e[3*t+1][3*n].x)+-2*(e[3*t][3*n+3].x+e[3*t+3][3*n].x)+3*(e[3*t+3][3*n+1].x+e[3*t+1][3*n+3].x)+-1*e[3*t+3][3*n+3].x)/9,e[3*t+1][3*n+2].x=(-4*e[3*t][3*n+3].x+6*(e[3*t][3*n+2].x+e[3*t+1][3*n+3].x)+-2*(e[3*t][3*n].x+e[3*t+3][3*n+3].x)+3*(e[3*t+3][3*n+2].x+e[3*t+1][3*n].x)+-1*e[3*t+3][3*n].x)/9,e[3*t+2][3*n+1].x=(-4*e[3*t+3][3*n].x+6*(e[3*t+3][3*n+1].x+e[3*t+2][3*n].x)+-2*(e[3*t+3][3*n+3].x+e[3*t][3*n].x)+3*(e[3*t][3*n+1].x+e[3*t+2][3*n+3].x)+-1*e[3*t][3*n+3].x)/9,e[3*t+2][3*n+2].x=(-4*e[3*t+3][3*n+3].x+6*(e[3*t+3][3*n+2].x+e[3*t+2][3*n+3].x)+-2*(e[3*t+3][3*n].x+e[3*t][3*n+3].x)+3*(e[3*t][3*n+2].x+e[3*t+2][3*n].x)+-1*e[3*t][3*n].x)/9,e[3*t+1][3*n+1].y=(-4*e[3*t][3*n].y+6*(e[3*t][3*n+1].y+e[3*t+1][3*n].y)+-2*(e[3*t][3*n+3].y+e[3*t+3][3*n].y)+3*(e[3*t+3][3*n+1].y+e[3*t+1][3*n+3].y)+-1*e[3*t+3][3*n+3].y)/9,e[3*t+1][3*n+2].y=(-4*e[3*t][3*n+3].y+6*(e[3*t][3*n+2].y+e[3*t+1][3*n+3].y)+-2*(e[3*t][3*n].y+e[3*t+3][3*n+3].y)+3*(e[3*t+3][3*n+2].y+e[3*t+1][3*n].y)+-1*e[3*t+3][3*n].y)/9,e[3*t+2][3*n+1].y=(-4*e[3*t+3][3*n].y+6*(e[3*t+3][3*n+1].y+e[3*t+2][3*n].y)+-2*(e[3*t+3][3*n+3].y+e[3*t][3*n].y)+3*(e[3*t][3*n+1].y+e[3*t+2][3*n+3].y)+-1*e[3*t][3*n+3].y)/9,e[3*t+2][3*n+2].y=(-4*e[3*t+3][3*n+3].y+6*(e[3*t+3][3*n+2].y+e[3*t+2][3*n+3].y)+-2*(e[3*t+3][3*n].y+e[3*t][3*n+3].y)+3*(e[3*t][3*n+2].y+e[3*t+2][3*n].y)+-1*e[3*t][3*n].y)/9}}this.nodes=e,this.colors=s}paintMesh(t,e){let s=(this.nodes.length-1)/3,r=(this.nodes[0].length-1)/3;if(&quot;bilinear&quot;===this.type||s&lt;2||r&lt;2){let n;for(let o=0;o&lt;s;++o)for(let s=0;s&lt;r;++s){let r=[];for(let t=3*o,e=3*o+4;t&lt;e;++t)r.push(this.nodes[t].slice(3*s,3*s+4));let i=[];i.push(this.colors[o].slice(s,s+2)),i.push(this.colors[o+1].slice(s,s+2)),(n=new m(r,i)).paint(t,e)}}else{let n,o,a,h,l,d,u;const x=s,g=r;s++,r++;let w=new Array(s);for(let t=0;t&lt;s;++t){w[t]=new Array(r);for(let e=0;e&lt;r;++e)w[t][e]=[],w[t][e][0]=this.nodes[3*t][3*e],w[t][e][1]=this.colors[t][e]}for(let t=0;t&lt;s;++t)for(let e=0;e&lt;r;++e)0!==t&amp;&amp;t!==x&amp;&amp;(n=i(w[t-1][e][0],w[t][e][0]),o=i(w[t+1][e][0],w[t][e][0]),w[t][e][2]=c(w[t-1][e][1],w[t][e][1],w[t+1][e][1],n,o)),0!==e&amp;&amp;e!==g&amp;&amp;(n=i(w[t][e-1][0],w[t][e][0]),o=i(w[t][e+1][0],w[t][e][0]),w[t][e][3]=c(w[t][e-1][1],w[t][e][1],w[t][e+1][1],n,o));for(let t=0;t&lt;r;++t){w[0][t][2]=[],w[x][t][2]=[];for(let e=0;e&lt;4;++e)n=i(w[1][t][0],w[0][t][0]),o=i(w[x][t][0],w[x-1][t][0]),w[0][t][2][e]=n&gt;0?2*(w[1][t][1][e]-w[0][t][1][e])/n-w[1][t][2][e]:0,w[x][t][2][e]=o&gt;0?2*(w[x][t][1][e]-w[x-1][t][1][e])/o-w[x-1][t][2][e]:0}for(let t=0;t&lt;s;++t){w[t][0][3]=[],w[t][g][3]=[];for(let e=0;e&lt;4;++e)n=i(w[t][1][0],w[t][0][0]),o=i(w[t][g][0],w[t][g-1][0]),w[t][0][3][e]=n&gt;0?2*(w[t][1][1][e]-w[t][0][1][e])/n-w[t][1][3][e]:0,w[t][g][3][e]=o&gt;0?2*(w[t][g][1][e]-w[t][g-1][1][e])/o-w[t][g-1][3][e]:0}for(let s=0;s&lt;x;++s)for(let r=0;r&lt;g;++r){let n=i(w[s][r][0],w[s+1][r][0]),o=i(w[s][r+1][0],w[s+1][r+1][0]),c=i(w[s][r][0],w[s][r+1][0]),x=i(w[s+1][r][0],w[s+1][r+1][0]),g=[[],[],[],[]];for(let t=0;t&lt;4;++t){(d=[])[0]=w[s][r][1][t],d[1]=w[s+1][r][1][t],d[2]=w[s][r+1][1][t],d[3]=w[s+1][r+1][1][t],d[4]=w[s][r][2][t]*n,d[5]=w[s+1][r][2][t]*n,d[6]=w[s][r+1][2][t]*o,d[7]=w[s+1][r+1][2][t]*o,d[8]=w[s][r][3][t]*c,d[9]=w[s+1][r][3][t]*x,d[10]=w[s][r+1][3][t]*c,d[11]=w[s+1][r+1][3][t]*x,d[12]=0,d[13]=0,d[14]=0,d[15]=0,u=f(d);for(let e=0;e&lt;9;++e){g[t][e]=[];for(let s=0;s&lt;9;++s)g[t][e][s]=p(u,e/8,s/8),g[t][e][s]&gt;255?g[t][e][s]=255:g[t][e][s]&lt;0&amp;&amp;(g[t][e][s]=0)}}h=[];for(let t=3*s,e=3*s+4;t&lt;e;++t)h.push(this.nodes[t].slice(3*r,3*r+4));l=y(h);for(let s=0;s&lt;8;++s)for(let r=0;r&lt;8;++r)(a=new m(l[s][r],[[[g[0][s][r],g[1][s][r],g[2][s][r],g[3][s][r]],[g[0][s][r+1],g[1][s][r+1],g[2][s][r+1],g[3][s][r+1]]],[[g[0][s+1][r],g[1][s+1][r],g[2][s+1][r],g[3][s+1][r]],[g[0][s+1][r+1],g[1][s+1][r+1],g[2][s+1][r+1],g[3][s+1][r+1]]]])).paint(t,e)}}}transform(t){if(t instanceof x)for(let e=0,s=this.nodes.length;e&lt;s;++e)for(let s=0,r=this.nodes[0].length;s&lt;r;++s)this.nodes[e][s]=this.nodes[e][s].add(t);else if(t instanceof g)for(let e=0,s=this.nodes.length;e&lt;s;++e)for(let s=0,r=this.nodes[0].length;s&lt;r;++s)this.nodes[e][s]=this.nodes[e][s].transform(t)}scale(t){for(let e=0,s=this.nodes.length;e&lt;s;++e)for(let s=0,r=this.nodes[0].length;s&lt;r;++s)this.nodes[e][s]=this.nodes[e][s].scale(t)}}document.querySelectorAll(&quot;rect,circle,ellipse,path,text&quot;).forEach((r,n)=&gt;{let o=r.getAttribute(&quot;id&quot;);o||(o=&quot;patchjs_shape&quot;+n,r.setAttribute(&quot;id&quot;,o));const i=r.style.fill.match(/^url\(\s*&quot;?\s*#([^\s&quot;]+)&quot;?\s*\)/),a=r.style.stroke.match(/^url\(\s*&quot;?\s*#([^\s&quot;]+)&quot;?\s*\)/);if(i&amp;&amp;i[1]){const a=document.getElementById(i[1]);if(a&amp;&amp;&quot;meshgradient&quot;===a.nodeName){const i=r.getBBox();let l=document.createElementNS(s,&quot;canvas&quot;);d(l,{width:i.width,height:i.height});const c=l.getContext(&quot;2d&quot;);let u=c.createImageData(i.width,i.height);const f=new b(a);&quot;objectBoundingBox&quot;===a.getAttribute(&quot;gradientUnits&quot;)&amp;&amp;f.scale(new x(i.width,i.height));const p=a.getAttribute(&quot;gradientTransform&quot;);null!=p&amp;&amp;f.transform(h(p)),&quot;userSpaceOnUse&quot;===a.getAttribute(&quot;gradientUnits&quot;)&amp;&amp;f.transform(new x(-i.x,-i.y)),f.paintMesh(u.data,l.width),c.putImageData(u,0,0);const y=document.createElementNS(t,&quot;image&quot;);d(y,{width:i.width,height:i.height,x:i.x,y:i.y});let g=l.toDataURL();y.setAttributeNS(e,&quot;xlink:href&quot;,g),r.parentNode.insertBefore(y,r),r.style.fill=&quot;none&quot;;const w=document.createElementNS(t,&quot;use&quot;);w.setAttributeNS(e,&quot;xlink:href&quot;,&quot;#&quot;+o);const m=&quot;patchjs_clip&quot;+n,M=document.createElementNS(t,&quot;clipPath&quot;);M.setAttribute(&quot;id&quot;,m),M.appendChild(w),r.parentElement.insertBefore(M,r),y.setAttribute(&quot;clip-path&quot;,&quot;url(#&quot;+m+&quot;)&quot;),u=null,l=null,g=null}}if(a&amp;&amp;a[1]){const o=document.getElementById(a[1]);if(o&amp;&amp;&quot;meshgradient&quot;===o.nodeName){const i=parseFloat(r.style.strokeWidth.slice(0,-2))*(parseFloat(r.style.strokeMiterlimit)||parseFloat(r.getAttribute(&quot;stroke-miterlimit&quot;))||1),a=r.getBBox(),l=Math.trunc(a.width+i),c=Math.trunc(a.height+i),u=Math.trunc(a.x-i/2),f=Math.trunc(a.y-i/2);let p=document.createElementNS(s,&quot;canvas&quot;);d(p,{width:l,height:c});const y=p.getContext(&quot;2d&quot;);let g=y.createImageData(l,c);const w=new b(o);&quot;objectBoundingBox&quot;===o.getAttribute(&quot;gradientUnits&quot;)&amp;&amp;w.scale(new x(l,c));const m=o.getAttribute(&quot;gradientTransform&quot;);null!=m&amp;&amp;w.transform(h(m)),&quot;userSpaceOnUse&quot;===o.getAttribute(&quot;gradientUnits&quot;)&amp;&amp;w.transform(new x(-u,-f)),w.paintMesh(g.data,p.width),y.putImageData(g,0,0);const M=document.createElementNS(t,&quot;image&quot;);d(M,{width:l,height:c,x:0,y:0});let S=p.toDataURL();M.setAttributeNS(e,&quot;xlink:href&quot;,S);const k=&quot;pattern_clip&quot;+n,A=document.createElementNS(t,&quot;pattern&quot;);d(A,{id:k,patternUnits:&quot;userSpaceOnUse&quot;,width:l,height:c,x:u,y:f}),A.appendChild(M),o.parentNode.appendChild(A),r.style.stroke=&quot;url(#&quot;+k+&quot;)&quot;,g=null,p=null,S=null}}})}();&#10;</script>
+</svg>
