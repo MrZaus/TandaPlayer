@@ -4,6 +4,9 @@
         <file alias="bg-controls1.png">img/bg-controls1.png</file>
         <file alias="logo.png">img/logo.png</file>
         <file alias="button-play.png">img/button-play.png</file>
+        <file alias="button-next.png">img/button-next.png</file>
+        <file alias="button-prev.png">img/button-prev.png</file>
+        <file alias="button-stop.png">img/button-stop.png</file>
     </qresource>
     <qresource prefix="/qss">
         <file>default.qss</file>

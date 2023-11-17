@@ -18,7 +18,11 @@ class ControlsWidget : public QFrame {
   QHBoxLayout layout;
   QLabel logoLabel;
   QPixmap logo;
+  QHBoxLayout buttons;
   QPushButton playButton;
+  QPushButton stopButton;
+  QPushButton prevButton;
+  QPushButton nextButton;
 };
 
 #endif  // CONTROLSWIDGET_H

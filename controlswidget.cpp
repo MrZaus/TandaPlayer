@@ -12,11 +12,17 @@ ControlsWidget::ControlsWidget(QWidget *parent)
   setMaximumHeight(MAX_HEIGHT);
   setMinimumHeight(MIN_HEIGHT);
 
-//  playButton.setText("Play/Pause");
   playButton.setObjectName("playButton");
+  stopButton.setObjectName("stopButton");
+  prevButton.setObjectName("prevButton");
+  nextButton.setObjectName("nextButton");
+  buttons.setObjectName("buttons");
   logoLabel.setPixmap(logo);
-  layout.addWidget(&playButton);
-
+  buttons.addWidget(&prevButton);
+  buttons.addWidget(&stopButton);
+  buttons.addWidget(&playButton);
+  buttons.addWidget(&nextButton);
+  layout.addLayout(&buttons);
   layout.addWidget(&logoLabel);
 
   layout.setAlignment(Qt::AlignCenter | Qt::AlignHCenter);

@@ -1,5 +1,5 @@
 MainWindow {
-    background: url(":/img/bg.png");
+    background: black url(":/img/bg.png") no-repeat;
 }
 
 DisplayWidget QLabel {
@@ -58,34 +58,46 @@ ControlsWidget {
     max-height: 70px;
     min-height: 70px;
     padding: 5px 0 5px 0;
-    border:2px solid #d05;
 }
 
+ControlsWidget QPushButton {
+    border: 0;
+    background-position: top center;
+    min-width: 48px; /*button-size*/
+    min-height: 47px; /*button-size*/    
+    max-width: 48px; /*button-size*/
+    max-height: 47px; /*button-size*/
+    margin: 0 -10px;
+}
+
+#prevButton {
+    background-image: url(":/img/button-prev.png");
+}
+
+#stopButton {
+    background-image: url(":/img/button-stop.png");
+}
 
 #playButton {
-    border: none;
-    background: url(":/img/button-play.png");
-    background-position: top center;
-    border:2px solid #d05;
-    min-width: 48px; /*button-size*/
-    min-height: 48px; /*button-size*/    
-    max-width: 48px; /*button-size*/
-    max-height: 48px; /*button-size*/
-    margin: 0;
-    margin-top: -0px;
-}
-#playButton:hover {
-    background-position:  center center;
-    margin-top:-6px;
+    background-image: url(":/img/button-play.png");
+    margin-left: -5px;
+    margin-right: -5px;
 }
 
-#playButton:pressed {
-    margin-top:-4px;
-    background-position:  bottom center;
+#nextButton {
+    background-image: url(":/img/button-next.png");
+}
+
+ControlsWidget QPushButton:hover {
+    background-position: center center;
+}
+
+ControlsWidget QPushButton:pressed {
+    background-position: bottom center;
 }
 
 QSplitter {
     border: 1px solid #fff;
 }
 
-* {border: 1px solid #2264dd;}
+/* * {border: 1px solid #2264dd;} */
