@@ -6,15 +6,16 @@
 #include <QLabel>
 #include <QPushButton>
 
-class ControlsWidget : public QFrame {
+class ControlsWidget : public QFrame
+{
   Q_OBJECT
- public:
+public:
   explicit ControlsWidget(QWidget *parent = nullptr);
 
- signals:
+signals:
 
- public slots:
- private:
+public slots:
+private:
   QHBoxLayout layout;
   QLabel logoLabel;
   QPixmap logo;
@@ -25,4 +26,4 @@ class ControlsWidget : public QFrame {
   QPushButton nextButton;
 };
 
-#endif  // CONTROLSWIDGET_H
+#endif // CONTROLSWIDGET_H

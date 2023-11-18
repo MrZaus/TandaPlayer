@@ -7,10 +7,11 @@
 
 class TandaTreeItem;
 
-class TandaTreeModel : public QAbstractItemModel {
+class TandaTreeModel : public QAbstractItemModel
+{
   Q_OBJECT
 
- public:
+public:
   TandaTreeModel(const QStringList &headers, const QString &data,
                  QObject *parent = nullptr);
   ~TandaTreeModel() override;
@@ -38,10 +39,10 @@ class TandaTreeModel : public QAbstractItemModel {
   bool removeRows(int position, int rows,
                   const QModelIndex &parent = QModelIndex()) override;
 
- private:
+private:
   void setupModelData(const QStringList &lines, TandaTreeItem *parent);
   TandaTreeItem *getItem(const QModelIndex &index) const;
   TandaTreeItem *rootItem;
 };
 
-#endif  // TANDATREEMODEL_H
+#endif // TANDATREEMODEL_H

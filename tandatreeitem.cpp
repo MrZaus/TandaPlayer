@@ -25,7 +25,7 @@ int TandaTreeItem::childCount() const
 int TandaTreeItem::childNumber() const
 {
     if (parentItem)
-        return parentItem->childItems.indexOf(const_cast<TandaTreeItem*>(this));
+        return parentItem->childItems.indexOf(const_cast<TandaTreeItem *>(this));
 
     return 0;
 }
@@ -45,7 +45,8 @@ bool TandaTreeItem::insertChildren(int position, int count, int columns)
     if (position < 0 || position > childItems.size())
         return false;
 
-    for (int row = 0; row < count; ++row) {
+    for (int row = 0; row < count; ++row)
+    {
         QVector<QVariant> data(columns);
         TandaTreeItem *item = new TandaTreeItem(data, this);
         childItems.insert(position, item);

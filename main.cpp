@@ -4,7 +4,8 @@
 #include <QFile>
 #include "mainwindow.h"
 
-int main(int argc, char *argv[]) {
+int main(int argc, char *argv[])
+{
   QApplication tandaPlayer(argc, argv);
   qDebug() << "Current path: " << QDir::currentPath();
 

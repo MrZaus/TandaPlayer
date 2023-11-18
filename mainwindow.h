@@ -3,13 +3,14 @@
 
 #include <QMainWindow>
 
-class MainWindow : public QMainWindow {
+class MainWindow : public QMainWindow
+{
   Q_OBJECT
 
- public:
+public:
   MainWindow(QWidget *parent = nullptr);
   bool eventFilter(QObject *o, QEvent *e);
   virtual ~MainWindow() = default;
 };
 
-#endif  // MAINWINDOW_H
+#endif // MAINWINDOW_H

@@ -1,103 +1,175 @@
 MainWindow {
-    background: black url(":/img/bg.png") no-repeat;
+  background: 1a1a1a;
 }
 
 DisplayWidget QLabel {
-    font-size: 20px;
-    padding-top: 0px;
-    color: #fff;
-    max-height: 20px;
+  font-size: 20px;
+  padding-top: 0px;
+  color: #fff;
+  max-height: 20px;
 }
 
 DisplayWidget {
-    padding-top: 15px;
-    background: #1a1a1a;
-    min-height: 40px;
-    max-height: 40px;
-    padding: 0;
-    padding-top: 5px;
+  background: #1a1a1a;
+  min-height: 40px;
+  max-height: 40px;
+  padding: 15px;
+  border-bottom: 2px solid #000;
+
 }
 
 #artistLabel {
-    padding-right:1em;
-    color: #aaa;
+  padding-right: 1em;
+  color: #aaa;
 }
+
 #elapsedTimeLabel {
-    padding-left: 20px;
-    color: #ddd;
+  color: #ddd;
 }
 
 #trackDurationLabel {
-    padding-left: 20px;
-    color: #ac3;
+  color: #ac3;
 }
 
 #timeLeftLabel {
-    padding-left: 10px;
-    max-height: 40px;
-    font-size: 40px;
-    color: #d05;
+  padding-left: 10px;
+  max-height: 40px;
+  font-size: 40px;
+  color: #d05;
 }
 
 #tandaTimeLeftLabel {
-    color: #ff0;
+  color: #ff0;
 }
 
 WaveWidget {
-    margin-top: 10px;
-    background: rgba(200, 0, 0, 0);
-    height: 55px;
-    max-height: 55px;
-    min-height: 55px;
+  background: #1a1a1a;
+  max-height: 55px;
+  min-height: 55px;
+  border-top: 1px solid #444;
+  border-bottom: 2px solid #000;
 }
 
 ControlsWidget {
-    margin-top: 0px;
-    background: url(":/img/bg-controls1.png") rgba(200, 0, 10, 148);
-    height: 70px;
-    max-height: 70px;
-    min-height: 70px;
-    padding: 5px 0 5px 0;
+  margin: 0px;
+  background: url(":/img/bg-controls1.png") rgba(200, 0, 10, 148);
+  height: 70px;
+  max-height: 70px;
+  min-height: 70px;
+  padding: 5px 0 5px 0;
+  padding-left: 20px;
+  border-top: 1px solid #444;
+  border-bottom: 2px solid #000;
 }
 
 ControlsWidget QPushButton {
-    border: 0;
-    background-position: top center;
-    min-width: 48px; /*button-size*/
-    min-height: 47px; /*button-size*/    
-    max-width: 48px; /*button-size*/
-    max-height: 47px; /*button-size*/
-    margin: 0 -10px;
+  border: 0;
+  background-position: top center;
+  min-width: 48px;
+  min-height: 47px;
+  max-width: 48px;
+  max-height: 47px;
+  margin: 0 -10px;
 }
 
 #prevButton {
-    background-image: url(":/img/button-prev.png");
+  background-image: url(":/img/button-prev.png");
 }
 
 #stopButton {
-    background-image: url(":/img/button-stop.png");
+  background-image: url(":/img/button-stop.png");
 }
 
 #playButton {
-    background-image: url(":/img/button-play.png");
-    margin-left: -5px;
-    margin-right: -5px;
+  background-image: url(":/img/button-play.png");
+  margin-left: -5px;
+  margin-right: -5px;
 }
 
 #nextButton {
-    background-image: url(":/img/button-next.png");
+  background-image: url(":/img/button-next.png");
 }
 
 ControlsWidget QPushButton:hover {
-    background-position: center center;
+  background-position: center center;
 }
 
 ControlsWidget QPushButton:pressed {
-    background-position: bottom center;
+  background-position: bottom center;
+}
+
+QHeaderView:section {
+  background-color: #222;
+  color: #666;
+}
+
+QTreeView {
+  background-color: #222;
+  color: #aaa;
+  border: 1px solid #000;
+  margin-top: 2px;
 }
 
 QSplitter {
-    border: 1px solid #fff;
+  border-top: 1px solid #444;
+  background-color: #2a2a2a;
+  background-color: qradialgradient(cx: 0.5, cy: 0.5, fx: 0.3, fy: -0.4, radius: 1.35, stop: 0 #000, stop: 1 #666);
+
+  /* background-size: 16px 16px; */
 }
+
+QSplitter::handle {
+  /* background: #444; */
+  border: 12px solid #000;
+  /* background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0,
+            stop:0 rgba(255, 255, 255, 0),
+            stop:0.407273 rgba(200, 200, 200, 255),
+            stop:0.4825 rgba(101, 104, 113, 235),
+            stop:0.6 rgba(255, 255, 255, 0)); */
+}
+
+QSplitter::handle:horizontal {
+  background: qlineargradient(x1:0, y1:0, x2:1, y2:1, stop:0 #222git config core.autocrlf, stop:1 transparent);
+  border: 3px none #222;
+  width: 123px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  border-radius: 4px;
+}
+
+QScrollBar:horizontal {
+  height: 15px;
+  margin: 3px 5px;
+  border-radius: 4px;
+  background-color: #111;
+}
+
+QScrollBar::handle:horizontal {
+  background-color: #333;
+  min-width: 5px;
+  border-radius: 4px;
+}
+
+QScrollBar:vertical {
+  background-color: #111;
+  width: 15px;
+  margin: 5px 3px;
+  border-radius: 4px;
+}
+
+QScrollBar::handle:vertical {
+  background-color: #333;
+  min-height: 5px;
+  border-radius: 4px;
+}
+
+QScrollBar::sub-line, QScrollBar::add-line {
+  border: none;
+}
+
+QScrollBar::add-page, QScrollBar::sub-page {
+  background: none;
+}
+
 
 /* * {border: 1px solid #2264dd;} */

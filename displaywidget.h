@@ -6,15 +6,16 @@
 #include <QLabel>
 #include <QVBoxLayout>
 
-class DisplayWidget : public QFrame {
+class DisplayWidget : public QFrame
+{
   Q_OBJECT
- public:
+public:
   explicit DisplayWidget(QWidget *parent = nullptr);
   virtual ~DisplayWidget() = default;
- signals:
+signals:
 
- public slots:
- private:
+public slots:
+private:
   QHBoxLayout layout;
   QVBoxLayout trackDurationLayout;
   QVBoxLayout tandaInfoLayout;
@@ -27,4 +28,4 @@ class DisplayWidget : public QFrame {
   QLabel tandaIndexLabel;
 };
 
-#endif  // DISPLAYWIDGET_H
+#endif // DISPLAYWIDGET_H

@@ -3,8 +3,10 @@
 
 #include <QList>
 #include <QVariant>
-class TandaTreeItem {
- public:
+
+class TandaTreeItem
+{
+public:
   explicit TandaTreeItem(const QVector<QVariant> &data,
                          TandaTreeItem *parent = nullptr);
   ~TandaTreeItem();
@@ -21,10 +23,10 @@ class TandaTreeItem {
   int childNumber() const;
   bool setData(int column, const QVariant &value);
 
- private:
+private:
   QList<TandaTreeItem *> childItems;
   QVector<QVariant> itemData;
   TandaTreeItem *parentItem;
 };
 
-#endif  // TANDATREEITEM_H
+#endif // TANDATREEITEM_H

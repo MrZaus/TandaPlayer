@@ -6,7 +6,7 @@
 #include <QHBoxLayout>
 #include <QLabel>
 #include <QListWidget>
-//#include <QMediaPlayer>
+// #include <QMediaPlayer>
 #include <QMessageBox>
 #include <QMouseEvent>
 #include <QPushButton>
@@ -20,27 +20,32 @@
 #include "controlswidget.h"
 #include "displaywidget.h"
 #include "mimefilterproxymodel.h"
-//#include "tandatreemodel.h"
+// #include "tandatreemodel.h"
 #include "wavewidget.h"
 
-void insertRow(const QAbstractItemView *view) {
+void insertRow(const QAbstractItemView *view)
+{
   //    const QModelIndex index = view.selectionModel()->currentIndex();
   QAbstractItemModel *model = view->model();
 
-  if (!model->insertRows(0, 4)) {
+  if (!model->insertRows(0, 4))
+  {
     qDebug() << "InsertRows error!";
     exit(1);
   }
 
-  for (int column = 0; column < model->columnCount(); ++column) {
+  for (int column = 0; column < model->columnCount(); ++column)
+  {
     QModelIndex child = model->index(1, column);
     model->setData(child, QVariant("[No data]"), Qt::EditRole);
   }
 }
 
-bool MainWindow::eventFilter(QObject *o, QEvent *e) {
+bool MainWindow::eventFilter(QObject *o, QEvent *e)
+{
   if (o == centralWidget() && (e->type() == QMouseEvent::MouseButtonPress ||
-                               e->type() == QEvent::WindowActivate)) {
+                               e->type() == QEvent::WindowActivate))
+  {
     qDebug() << "Reloading style from a file on an event!";
     QFile file("../TandaPlayer/default.qss");
     file.open(QFile::ReadOnly);
@@ -51,9 +56,10 @@ bool MainWindow::eventFilter(QObject *o, QEvent *e) {
   return QObject::eventFilter(o, e);
 }
 
-MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent) {
-  //  this->setWindowFlags(Qt::FramelessWindowHint);
-  //  this->setAttribute(Qt::WA_TranslucentBackground);
+MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent)
+{
+  //    this->setWindowFlags(Qt::FramelessWindowHint);
+  //    this->setAttribute(Qt::WA_TranslucentBackground);
 
   auto *mainWidget = new QWidget(this);
   auto *mainLayout = new QVBoxLayout(mainWidget);
@@ -94,7 +100,8 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent) {
   mainWidget->installEventFilter(this);
 
   connect(qtrv, &QTreeView::doubleClicked,
-          [proxyModel, fsmodel](const QModelIndex &index) {
+          [proxyModel, fsmodel](const QModelIndex &index)
+          {
             QMessageBox msgBox;
             msgBox.setText("The item has been double clicked.");
             auto const sourceIndex = proxyModel->mapToSource(index);
