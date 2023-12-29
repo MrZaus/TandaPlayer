@@ -15,7 +15,10 @@ HEADERS = \
    $$PWD/mimefilterproxymodel.h \
    $$PWD/tandatreeitem.h \
    $$PWD/tandatreemodel.h \
-   $$PWD/wavewidget.h
+   $$PWD/wavewidget.h \
+   cortina.h \
+   tanda.h \
+   track.h
 
 SOURCES = \
    $$PWD/controlswidget.cpp \
@@ -25,7 +28,10 @@ SOURCES = \
    $$PWD/mimefilterproxymodel.cpp \
    $$PWD/tandatreeitem.cpp \
    $$PWD/tandatreemodel.cpp \
-   $$PWD/wavewidget.cpp
+   $$PWD/wavewidget.cpp \
+   cortina.cpp \
+   tanda.cpp \
+   track.cpp
 
 RESOURCES = \
    $$PWD/resources.qrc

@@ -9,7 +9,7 @@ namespace
 {
   const QString TIME_NA("00:00");
   const QString INDEX_NA("0/0");
-  const QString UNKNOWN("unknown");
+  const QString UNKNOWN("-");
   namespace HEIGHT
   {
     constexpr int MAX = 70;
