@@ -17,6 +17,7 @@ HEADERS = \
    $$PWD/tandatreemodel.h \
    $$PWD/wavewidget.h \
    cortina.h \
+   playlist.h \
    tanda.h \
    track.h
 
@@ -30,6 +31,7 @@ SOURCES = \
    $$PWD/tandatreemodel.cpp \
    $$PWD/wavewidget.cpp \
    cortina.cpp \
+   playlist.cpp \
    tanda.cpp \
    track.cpp
 
