@@ -1,24 +1,25 @@
 #ifndef CORTINA_H
 #define CORTINA_H
 
-#include <string>
-#include <chrono>
 #include "track.h"
+#include <chrono>
+#include <string>
 
-enum class CortinaMode {
+enum class CortinaMode
+{
     RandomFromFolder,
     File
 };
 
 class Cortina
 {
-    CortinaMode mode;
+    CortinaMode mode{CortinaMode::RandomFromFolder};
     std::string folderPath;
-    Track track;
-    std::chrono::seconds totalTime;
-    std::chrono::seconds pauseBefore;
-    std::chrono::seconds pauseAfter;
-    bool fadeout;
+    Track track{};
+    std::chrono::seconds totalTime{};
+    std::chrono::seconds pauseBefore{1};
+    std::chrono::seconds pauseAfter{1};
+    bool fadeout{true};
 
 public:
     Cortina();

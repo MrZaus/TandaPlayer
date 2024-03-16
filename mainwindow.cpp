@@ -1,4 +1,5 @@
 #include "mainwindow.h"
+
 #include <QApplication>
 #include <QEvent>
 #include <QFileSystemModel>
@@ -47,11 +48,18 @@ bool MainWindow::eventFilter(QObject *o, QEvent *e)
                                e->type() == QEvent::WindowActivate))
   {
     qDebug() << "Reloading style from a file on an event!";
-    QFile file("../TandaPlayer/default.qss");
-    file.open(QFile::ReadOnly);
-    auto qapp = static_cast<QApplication *>(QApplication::instance());
-    qapp->setStyleSheet(file.readAll());
-    file.close();
+    QFile file("../default.qss");
+    if (file.exists())
+    {
+      file.open(QFile::ReadOnly);
+      auto qapp = static_cast<QApplication *>(QApplication::instance());
+      qapp->setStyleSheet(file.readAll());
+      file.close();
+    }
+    else
+    {
+      qDebug() << "File ../default.qss not found!";
+    }
   }
   return QObject::eventFilter(o, e);
 }
@@ -87,9 +95,9 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent)
           << "*.wav"
           << "*.ogg"
           << "*.flac";
-  fsmodel->setRootPath("C:\\Users\\Marcin\\Desktop\\nagrania");
+  fsmodel->setRootPath("C:\\");
   fsmodel->setNameFilters(filters);
-  auto idx = fsmodel->index("C:\\Users\\Marcin\\Desktop\\nagrania");
+  auto idx = fsmodel->index("C:\\");
 
   auto *proxyModel = new MimeFilterProxyModel(this);
   // TODO: filter on mimetype
@@ -112,14 +120,11 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent)
             msgBox.setStandardButtons(QMessageBox::Ok);
             msgBox.exec();
           });
-  /*
 
+  // QStringList headers;
+  // headers << tr("Artist") << tr("Title") << tr("Length");
 
-  QStringList headers;
-  headers << tr("Artist") << tr("Title") << tr("Length");
-  auto tandaTreeModel = new TandaTreeModel(headers, "", this);
-  tandaTree->setModel(tandaTreeModel);
-  insertRow(tandaTree);
-
-  */
+  // auto tandaTreeModel = new TandaTreeModel(headers, "", this);
+  // tandaTree->setModel(tandaTreeModel);
+  // insertRow(tandaTree);
 }
