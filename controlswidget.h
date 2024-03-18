@@ -11,6 +11,11 @@ class ControlsWidget : public QFrame
   Q_OBJECT
 public:
   explicit ControlsWidget(QWidget *parent = nullptr);
+  ~ControlsWidget() override = default;
+  ControlsWidget(const ControlsWidget &) = delete;
+  ControlsWidget &operator=(const ControlsWidget &) = delete;
+  ControlsWidget(ControlsWidget &&) = delete;
+  ControlsWidget &operator=(ControlsWidget &&) = delete;
 
 signals:
 

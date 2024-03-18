@@ -1,9 +1,6 @@
 #include "displaywidget.h"
-#include "common.h"
 
-#include <QHBoxLayout>
-#include <QLabel>
-#include <QVBoxLayout>
+#include "common.h"
 
 namespace
 {

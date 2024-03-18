@@ -15,7 +15,11 @@ public:
     setMaximumHeight(MAX_HEIGHT);
     setMinimumHeight(MIN_HEIGHT);
   }
-  virtual ~WaveWidget() = default;
+  ~WaveWidget() override = default;
+  WaveWidget(const WaveWidget &) = delete;
+  WaveWidget &operator=(const WaveWidget &) = delete;
+  WaveWidget(WaveWidget &&) = delete;
+  WaveWidget &operator=(WaveWidget &&) = delete;
 signals:
 
 public slots:

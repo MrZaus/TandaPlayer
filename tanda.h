@@ -21,8 +21,19 @@ class Tanda : public PlaylistItem
 public:
     Tanda(TandaType type, std::uint8_t maxSize = 4);
     ~Tanda() override = default;
+    Tanda() = default;
+    Tanda(const Tanda &) = default;
+    Tanda(Tanda &&) noexcept = default;
+    // since type is const as we don't want to change it due to strictly  following the playlist pattern, we don't want to allow it to be copied nor assigned
+    Tanda &operator=(const Tanda &) = delete;
+    Tanda &operator=(Tanda &&) = delete;
+
+
     const TandaType type{TandaType::Tango};
     std::uint8_t maxSize{4};
+
+    //PlaylistItem
+    [[nodiscard]] std::chrono::seconds getTotalTime() const override;
 
 private:
     std::chrono::seconds interspace{1};

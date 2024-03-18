@@ -1,5 +1,8 @@
 #include "playlist.h"
 
+#include "cortina.h"
+#include "tanda.h"
+
 #include <memory>
 
 TandaDetails Playlist::geNextTandaDetails() const

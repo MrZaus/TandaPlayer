@@ -9,6 +9,7 @@
 #include <cstdint>
 #include <type_traits>
 #include <variant>
+#include <functional>
 
 using TandaSize = std::uint8_t;
 using TandaDetails = std::pair<TandaType, TandaSize>;
@@ -17,14 +18,14 @@ template <typename T>
 class CircularIndex
 {
     T::size_type index{};
-    const T &container;
+    std::function<typename T::size_type()> size;
 
-public:
-    CircularIndex(const T &container) : container(container){};
+public: CircularIndex(const T &container) : size([&container](){
+        return container.size();}){};
     operator typename T::size_type() const { return index; }
     CircularIndex &operator++()
     {
-        index = ++index % container.size();
+        index = ++index % size();
         return *this;
     }
 
@@ -50,15 +51,14 @@ class Playlist
 
     PatternIndex index{pattern};
     std::vector<std::unique_ptr<PlaylistItem>> items;
-    TandaDetails geNextTandaDetails() const;
+    [[nodiscard]] TandaDetails geNextTandaDetails() const;
 
 public:
-    Playlist() = default;
-    ~Playlist() = default;
+    Playlist() = default; // TOOD remove (rule of 5)b
     void addNextCortina();
     void addNextTanda();
-    std::size_t size() const { return items.size(); }
-    const PlaylistItem *getItem(std::size_t i) const { return items[i].get(); }
+    [[nodiscard]] std::size_t size() const { return items.size(); }
+    [[nodiscard]] const PlaylistItem *getItem(std::size_t i) const { return items[i].get(); }
 };
 
 #endif // PLAYLIST_H

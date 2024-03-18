@@ -9,8 +9,12 @@ class MainWindow : public QMainWindow
 
 public:
   MainWindow(QWidget *parent = nullptr);
-  bool eventFilter(QObject *o, QEvent *e);
-  virtual ~MainWindow() = default;
+  bool eventFilter(QObject *o, QEvent *e) override;
+  ~MainWindow() override = default;
+  MainWindow(const MainWindow &) = delete;
+  MainWindow &operator=(const MainWindow &) = delete;
+  MainWindow(MainWindow &&) = delete;
+  MainWindow &operator=(MainWindow &&) = delete;
 };
 
 #endif // MAINWINDOW_H

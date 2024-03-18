@@ -1,8 +1,10 @@
 #include <QApplication>
-#include <QDebug>
-#include <QDir>
 #include <QFile>
+#include <QDir>
+#include <QDebug>
+
 #include "mainwindow.h"
+
 
 int main(int argc, char *argv[])
 {
@@ -14,7 +16,8 @@ int main(int argc, char *argv[])
   tandaPlayer.setStyleSheet(file.readAll());
   file.close();
 
-  MainWindow w;
-  w.show();
+  MainWindow window;
+  window.show();
+
   return tandaPlayer.exec();
 }

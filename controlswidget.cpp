@@ -21,7 +21,8 @@ ControlsWidget::ControlsWidget(QWidget *parent)
   nextButton.setObjectName("nextButton");
   buttons.setObjectName("buttons");
   logoLabel.setPixmap(logo);
-  logoLabel.setFixedWidth(278);
+  constexpr auto LogoWidth = 278u;
+  logoLabel.setFixedWidth(LogoWidth);
   buttons.addWidget(&prevButton);
   buttons.addWidget(&stopButton);
   buttons.addWidget(&playButton);

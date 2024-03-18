@@ -7,15 +7,13 @@
 #include <QHBoxLayout>
 #include <QLabel>
 #include <QListWidget>
-// #include <QMediaPlayer>
 #include <QMessageBox>
 #include <QMouseEvent>
-#include <QPushButton>
-#include <QSortFilterProxyModel>
 #include <QSplitter>
-#include <QToolBar>
-#include <QToolButton>
 #include <QTreeView>
+// #include <QMediaPlayer>
+
+#include <cstdlib>
 
 #include "common.h"
 #include "controlswidget.h"
@@ -37,7 +35,7 @@ void insertRow(const QAbstractItemView *view)
 
   for (int column = 0; column < model->columnCount(); ++column)
   {
-    QModelIndex child = model->index(1, column);
+    const QModelIndex child = model->index(1, column);
     model->setData(child, QVariant("[No data]"), Qt::EditRole);
   }
 }
@@ -52,7 +50,7 @@ bool MainWindow::eventFilter(QObject *o, QEvent *e)
     if (file.exists())
     {
       file.open(QFile::ReadOnly);
-      auto qapp = static_cast<QApplication *>(QApplication::instance());
+      auto *qapp = dynamic_cast<QApplication *>(QApplication::instance());
       qapp->setStyleSheet(file.readAll());
       file.close();
     }
@@ -89,7 +87,7 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent)
   splitter->addWidget(qtrv);
   splitter->addWidget(foo);
 
-  auto fsmodel = new QFileSystemModel(this);
+  auto *fsmodel = new QFileSystemModel(this);
   QStringList filters;
   filters << "*.mp3"
           << "*.wav"
@@ -104,7 +102,9 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent)
   proxyModel->setSourceModel(fsmodel);
   qtrv->setModel(proxyModel);
   qtrv->setRootIndex(proxyModel->mapFromSource(idx));
-  resize(700, 480);
+  constexpr auto WinWidth = 700u;
+  constexpr auto WinHeight = 480u;
+  resize(WinWidth, WinHeight);
   mainWidget->installEventFilter(this);
 
   connect(qtrv, &QTreeView::doubleClicked,

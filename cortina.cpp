@@ -1,3 +1,10 @@
 #include "cortina.h"
+#include <utility>
 
-// Cortina::Cortina() {}
+// TODO: implement this
+
+std::chrono::seconds Cortina::getTotalTime() const
+{
+    std::unreachable(); // TODO implement
+    return {};
+}

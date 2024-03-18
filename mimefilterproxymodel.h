@@ -6,9 +6,9 @@
 
 class MimeFilterProxyModel : public QSortFilterProxyModel
 {
-protected:
-  bool filterAcceptsRow(int sourceRow,
-                        const QModelIndex &sourceParent) const override;
+private:
+  [[nodiscard]] bool filterAcceptsRow(int sourceRow,
+                                      const QModelIndex &sourceParent) const override;
   std::function<bool()> predicate;
 
 public:

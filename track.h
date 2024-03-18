@@ -4,7 +4,7 @@
 class Track
 {
 public:
-    Track() = default;
+    // TODO implement this
 };
 
 #endif // TRACK_H

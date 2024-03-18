@@ -11,7 +11,11 @@ class DisplayWidget : public QFrame
   Q_OBJECT
 public:
   explicit DisplayWidget(QWidget *parent = nullptr);
-  virtual ~DisplayWidget() = default;
+  ~DisplayWidget() override = default;
+  DisplayWidget(const DisplayWidget &) = delete;
+  DisplayWidget &operator=(const DisplayWidget &) = delete;
+  DisplayWidget(DisplayWidget &&) = delete;
+  DisplayWidget &operator=(DisplayWidget &&) = delete;
 signals:
 
 public slots:
