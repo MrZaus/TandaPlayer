@@ -4,7 +4,7 @@
 class Track
 {
 public:
-    Track();
+    Track() = default;
 };
 
 #endif // TRACK_H

@@ -4,7 +4,7 @@
 class PlaylistItem
 {
 public:
-    PlaylistItem();
+    virtual ~PlaylistItem() = 0;
 };
-
+inline PlaylistItem::~PlaylistItem() = default;
 #endif // PLAYLISTITEM_H

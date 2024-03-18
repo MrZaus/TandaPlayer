@@ -2,6 +2,8 @@
 #define CORTINA_H
 
 #include "track.h"
+#include "playlistitem.h"
+
 #include <chrono>
 #include <string>
 
@@ -11,7 +13,7 @@ enum class CortinaMode
     File
 };
 
-class Cortina
+class Cortina: public PlaylistItem
 {
     CortinaMode mode{CortinaMode::RandomFromFolder};
     std::string folderPath;
@@ -22,7 +24,8 @@ class Cortina
     bool fadeout{true};
 
 public:
-    Cortina();
+    Cortina() = default;
+    ~Cortina() override = default;
 };
 
 #endif // CORTINA_H
