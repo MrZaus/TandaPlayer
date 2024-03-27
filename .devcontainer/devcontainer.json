@@ -1,0 +1,48 @@
+{
+    "image": "mcr.microsoft.com/vscode/devcontainers/cpp:ubuntu22.04",
+    "features": {
+        // "ghcr.io/devcontainers-contrib/features/actions-runner:1": {},
+        "desktop-lite": {
+            "password": "disarli",
+            "webPort": "6080",
+            "vncPort": "5901"
+        },
+        "ghcr.io/devcontainers-contrib/features/apt-packages:1": {"packages": "libgl1-mesa-dev, build-essential, qt6-base-dev, lsb-release, wget, software-properties-common, gnupg"}
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-vscode.cpptools",
+                "ms-vscode.cmake-tools",
+                "matepek.vscode-catch2-test-adapter",
+                "ms-vscode.cpptools-extension-pack",
+                "akiramiyakoda.cppincludeguard",
+                "Gruntfuggly.todo-tree",
+                "CS128.cs128-clang-tidy",
+                "Guyutongxue.cpp-reference",
+                "Codeium.codeium",
+                "Novaturion.cpp-classes-creator",
+                "JuleeSan.cpp-getter-setter-generator",
+                "bbenoist.togglehs",
+                "Tibotix.definition-autocompletion",
+                "reignofwebber.c-cpp-definition-generator",
+                "GitHub.codespaces",
+                "eamodio.gitlens",
+                "fudd.toggle-zen-mode",
+                "ibm.output-colorizer"
+            ]
+        }
+    },
+    "forwardPorts": [
+        5900,
+        5901,
+        6080
+    ],
+    "portsAttributes": {
+        "6080": {
+            "label": "Open TandaPlayer"
+        }
+    },
+    "remoteUser": "vscode",
+    "postCreateCommand": "sudo bash -c \"$(wget -O - https://apt.llvm.org/llvm.sh)\""
+}
