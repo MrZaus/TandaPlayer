@@ -7,7 +7,7 @@
             "webPort": "6080",
             "vncPort": "5901"
         },
-        "ghcr.io/devcontainers-contrib/features/apt-packages:1": {"packages": "libgl1-mesa-dev, build-essential, qt6-base-dev, lsb-release, wget, software-properties-common, gnupg"}
+        "ghcr.io/devcontainers-contrib/features/apt-packages:1": {"packages": "libgl1-mesa-dev, build-essential, qt6-base-dev, lsb-release, wget, software-properties-common, gnupg, libxkbcommon-dev, libvulkan-dev"}
     },
     "customizations": {
         "vscode": {
@@ -44,5 +44,5 @@
         }
     },
     "remoteUser": "vscode",
-    "postCreateCommand": "sudo bash -c \"$(wget -O - https://apt.llvm.org/llvm.sh)\""
+    "postCreateCommand": "sudo bash -c \"$(wget -O - https://apt.llvm.org/llvm.sh) all\"; sudo apt install libc++-18-dev"
 }

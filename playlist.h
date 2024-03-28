@@ -5,6 +5,7 @@
 #include "playlistitem.h"
 #include "tanda.h"
 
+#include <memory>
 #include <concepts>
 #include <cstdint>
 #include <type_traits>

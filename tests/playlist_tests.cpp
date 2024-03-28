@@ -2,10 +2,6 @@
 
 #include "../playlist.h"
 
-#include <cassert>
-#include <print>
-#include <ranges>
-#include <vector>
 
 TEST(CircularIndexTest, RestartsFromZeroWhenIndexIsEqualToContainerSize)
 {
