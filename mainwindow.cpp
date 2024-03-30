@@ -114,8 +114,8 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent)
             msgBox.setText("The item has been double clicked.");
             auto const sourceIndex = proxyModel->mapToSource(index);
             auto fi = fsmodel->fileInfo(sourceIndex);
-            QString fname = fi.filePath();
-            QString str = "Do you want it to be double clicked? Path: " + fname;
+            const QString fname = fi.filePath();
+            const QString str = "Do you want it to be double clicked? Path: " + fname;
             msgBox.setInformativeText(str);
             msgBox.setStandardButtons(QMessageBox::Ok);
             msgBox.exec();
