@@ -26,23 +26,6 @@
 #include "tandawidget.h"
 #include "wavewidget.h"
 
-void insertRow(const QAbstractItemView *view)
-{
-  //    const QModelIndex index = view.selectionModel()->currentIndex();
-  QAbstractItemModel *model = view->model();
-
-  if (!model->insertRows(0, 4))
-  {
-    qDebug() << "InsertRows error!";
-    exit(1);
-  }
-
-  for (int column = 0; column < model->columnCount(); ++column)
-  {
-    const QModelIndex child = model->index(1, column);
-    model->setData(child, QVariant("[No data]"), Qt::EditRole);
-  }
-}
 bool MainWindow::eventFilter(QObject *o, QEvent *e)
 {
 #ifndef NDEBUG
@@ -93,12 +76,11 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent)
   mainLayout->addWidget(controlsWidget, STRETCH::NO);
   mainLayout->addWidget(splitter, STRETCH::HI);
   auto *qtrv = new QTreeView(splitter);
-  auto *playlistWidget = new TandaWidget(this);
   splitter->addWidget(qtrv);
-  splitter->addWidget(playlistWidget);
 
   auto *playlistView = new QListView(this);
   playlistView->setItemDelegate(new TandaDelegate(playlistView));
+  playlistView->setEditTriggers(playlistView->AllEditTriggers);
   splitter->addWidget(qtrv);
   splitter->addWidget(playlistView);
   playlistView->setModel(new PlaylistModel(this));
@@ -135,11 +117,4 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent)
             msgBox.setStandardButtons(QMessageBox::Ok);
             msgBox.exec();
           });
-
-  // QStringList headers;
-  // headers << tr("Artist") << tr("Title") << tr("Length");
-
-  // auto tandaTreeModel = new TandaTreeModel(headers, "", this);
-  // tandaTree->setModel(tandaTreeModel);
-  // insertRow(tandaTree);
 }

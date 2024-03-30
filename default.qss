@@ -176,9 +176,9 @@ QScrollBar::add-page, QScrollBar::sub-page {
 }
 
 TandaWidget {
-  /* background-color: #000; */
-  border-top: 5px solid #000;
-  border-bottom: 5px solid #000;
+  background-color: #333;
+  border-top: 1px solid #444;
+  border-bottom: 5px solid #222;
 }
 
 #tandaTypeLabel {
@@ -202,7 +202,6 @@ TandaWidget {
   width: 25px;
   height: 25px;
   subcontrol-position: right;
-  /* border: none; */
 }
 
 #tandaSizeSpinBox::up-arrow:focus {}
@@ -225,21 +224,7 @@ TandaWidget {
 }
 
 QListView {
-  background-color: #222;
-  /* color: #aaa; */
-  /* border: 1px solid #000; */
+  background-color: #1a1a1a;
   margin-top: 2px;
-}
-#tandaButton {
-  background-color: rgb(20, 138, 65);
-  /* padding: 50px; */
-  /* float:left; */
-  border: 1px solid #ac3;
-  color: rgb(0, 38, 255);
-  /* size:2em; */
-  /* font-weight: bold; */
-  text-transform: uppercase;
-  text-align: left;
-  font-style: oblique;
 }
 /* * {border: 1px solid #2264dd;} */
