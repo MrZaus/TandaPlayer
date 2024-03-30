@@ -3,7 +3,7 @@ include(CTest)
 
 list (APPEND ${CMAKE_PROJECT_NAME} "--output-on-failure;--schedule-random;--extra-verbose;--stop-on-failure;")
 
-cmake_policy(SET CMP0135 NEW)
+# cmake_policy(SET CMP0135 NEW)
 
 include(FetchContent)
 

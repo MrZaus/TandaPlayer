@@ -1,6 +1,7 @@
 #include "tanda.h"
 
 #include <functional>
+#include <utility>
 
 Tanda::Tanda(TandaType type, std::uint8_t maxSize) : type(type), maxSize(maxSize)
 {

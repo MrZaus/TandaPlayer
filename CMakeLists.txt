@@ -8,18 +8,23 @@ set(CMAKE_AUTORCC ON)
 
 set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
-set(CMAKE_PREFIX_PATH "C:/Qt/6.6.2/msvc2019_64/")
+# set(CMAKE_PREFIX_PATH "C:/Qt/6.6.2/msvc2019_64/")
 # set(QT_QMAKE_EXECUTABLE )
 set(CMAKE_COLOR_DIAGNOSTICS ON)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fcolor-diagnostics -fdiagnostics-color=always -O3 -g")
-
+add_compile_options(-stdlib=libc++)
+add_link_options(-stdlib=libc++)
 find_package(QT NAMES Qt6 REQUIRED COMPONENTS Widgets)
 find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets)
-qt_standard_project_setup()
+# qt_standard_project_setup()
+set(CMAKE_AUTOMOC ON)
+set(CMAKE_AUTORCC ON)
+set(CMAKE_AUTOUIC ON)
 file(GLOB TandaPlayer_SRC
      "*.cpp"
      "*.h"
      "*.qrc"
+     "*.h"
 )
 set(PROJECT_SOURCES
 ${TandaPlayer_SRC}
