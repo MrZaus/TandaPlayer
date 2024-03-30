@@ -1,10 +1,9 @@
 #include <QApplication>
-#include <QFile>
-#include <QDir>
 #include <QDebug>
+#include <QDir>
+#include <QFile>
 
 #include "mainwindow.h"
-
 
 int main(int argc, char *argv[])
 {
@@ -17,6 +16,7 @@ int main(int argc, char *argv[])
   file.close();
 
   MainWindow window;
+  window.setWindowState(Qt::WindowFullScreen);
   window.show();
 
   return tandaPlayer.exec();

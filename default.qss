@@ -224,4 +224,22 @@ TandaWidget {
   margin-left: 10px;
 }
 
+QListView {
+  background-color: #222;
+  /* color: #aaa; */
+  /* border: 1px solid #000; */
+  margin-top: 2px;
+}
+#tandaButton {
+  background-color: rgb(20, 138, 65);
+  /* padding: 50px; */
+  /* float:left; */
+  border: 1px solid #ac3;
+  color: rgb(0, 38, 255);
+  /* size:2em; */
+  /* font-weight: bold; */
+  text-transform: uppercase;
+  text-align: left;
+  font-style: oblique;
+}
 /* * {border: 1px solid #2264dd;} */

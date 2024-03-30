@@ -2,6 +2,7 @@
 #define WAVEWIDGET_H
 
 #include <QFrame>
+#include <QHBoxLayout>
 
 constexpr int MAX_HEIGHT = 52;
 constexpr int MIN_HEIGHT = MAX_HEIGHT;
@@ -14,6 +15,8 @@ public:
   {
     setMaximumHeight(MAX_HEIGHT);
     setMinimumHeight(MIN_HEIGHT);
+    setObjectName("WaveWidget");
+    setLayout(new QHBoxLayout(this));
   }
   ~WaveWidget() override = default;
   WaveWidget(const WaveWidget &) = delete;

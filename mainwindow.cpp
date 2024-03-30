@@ -2,14 +2,17 @@
 
 #include <QApplication>
 #include <QEvent>
+#include <QFile>
 #include <QFileSystemModel>
 #include <QGraphicsDropShadowEffect>
 #include <QHBoxLayout>
 #include <QLabel>
 #include <QListWidget>
 #include <QMessageBox>
+#include <QModelIndex>
 #include <QMouseEvent>
 #include <QSplitter>
+#include <QStringList>
 #include <QTreeView>
 // #include <QMediaPlayer>
 
@@ -19,8 +22,8 @@
 #include "controlswidget.h"
 #include "displaywidget.h"
 #include "mimefilterproxymodel.h"
+#include "tandadelegate.h"
 #include "tandawidget.h"
-// #include "tandatreemodel.h"
 #include "wavewidget.h"
 
 void insertRow(const QAbstractItemView *view)
@@ -61,6 +64,11 @@ bool MainWindow::eventFilter(QObject *o, QEvent *e)
     }
   }
 #endif // NDEBUG
+  if (e->type() == QKeyEvent::KeyRelease && static_cast<QKeyEvent *>(e)->key() == Qt::Key_Escape)
+  {
+    qDebug() << "Quitting on Esc!";
+    QApplication::quit();
+  }
   return QObject::eventFilter(o, e);
 }
 
@@ -89,6 +97,11 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent)
   splitter->addWidget(qtrv);
   splitter->addWidget(playlistWidget);
 
+  auto *playlistView = new QListView(this);
+  playlistView->setItemDelegate(new TandaDelegate(playlistView));
+  splitter->addWidget(qtrv);
+  splitter->addWidget(playlistView);
+  playlistView->setModel(new PlaylistModel(this));
   auto *fsmodel = new QFileSystemModel(this);
   QStringList filters;
   filters << "*.mp3"
