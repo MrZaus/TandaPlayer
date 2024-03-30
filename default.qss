@@ -175,4 +175,53 @@ QScrollBar::add-page, QScrollBar::sub-page {
   background: none;
 }
 
+TandaWidget {
+  /* background-color: #000; */
+  border-top: 5px solid #000;
+  border-bottom: 5px solid #000;
+}
+
+#tandaTypeLabel {
+  color: #0cf;
+  background: #1a1a1a;
+  border: 1px solid #0a0a0a;
+  padding: 5px 20px;
+  border-radius: 5px;
+}
+
+#tandaSizeSpinBox {
+  color: #aaa;
+  background: #1a1a1a;
+  border: 1px solid #0a0a0a;
+  padding: 5px 2px 5px 8px;
+  border-radius: 5px;
+  width: 40px;
+}
+
+#tandaSizeSpinBox::up-button {
+  width: 25px;
+  height: 25px;
+  subcontrol-position: right;
+  /* border: none; */
+}
+
+#tandaSizeSpinBox::up-arrow:focus {}
+
+#tandaSizeSpinBox::up-button:hover {}
+
+#tandaSizeSpinBox::down-button {
+  width: 25px;
+  height: 25px;
+  subcontrol-position: left;
+}
+
+#tandaTotalTimeLabel {
+  color: #0cf;
+  background: #1a1a1a;
+  border: 1px solid #0a0a0a;
+  padding: 5px 20px;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
 /* * {border: 1px solid #2264dd;} */

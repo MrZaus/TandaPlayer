@@ -18,6 +18,7 @@ find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets)
 qt_standard_project_setup()
 file(GLOB TandaPlayer_SRC
      "*.cpp"
+     "*.h"
      "*.qrc"
 )
 set(PROJECT_SOURCES

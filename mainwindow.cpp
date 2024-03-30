@@ -19,6 +19,7 @@
 #include "controlswidget.h"
 #include "displaywidget.h"
 #include "mimefilterproxymodel.h"
+#include "tandawidget.h"
 // #include "tandatreemodel.h"
 #include "wavewidget.h"
 
@@ -39,9 +40,9 @@ void insertRow(const QAbstractItemView *view)
     model->setData(child, QVariant("[No data]"), Qt::EditRole);
   }
 }
-
 bool MainWindow::eventFilter(QObject *o, QEvent *e)
 {
+#ifndef NDEBUG
   if (o == centralWidget() && (e->type() == QMouseEvent::MouseButtonPress ||
                                e->type() == QEvent::WindowActivate))
   {
@@ -59,6 +60,7 @@ bool MainWindow::eventFilter(QObject *o, QEvent *e)
       qDebug() << "File ../default.qss not found!";
     }
   }
+#endif // NDEBUG
   return QObject::eventFilter(o, e);
 }
 
@@ -83,9 +85,9 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent)
   mainLayout->addWidget(controlsWidget, STRETCH::NO);
   mainLayout->addWidget(splitter, STRETCH::HI);
   auto *qtrv = new QTreeView(splitter);
-  auto *foo = new QWidget(this);
+  auto *playlistWidget = new TandaWidget(this);
   splitter->addWidget(qtrv);
-  splitter->addWidget(foo);
+  splitter->addWidget(playlistWidget);
 
   auto *fsmodel = new QFileSystemModel(this);
   QStringList filters;
