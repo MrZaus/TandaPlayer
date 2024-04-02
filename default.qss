@@ -1,5 +1,5 @@
 MainWindow {
-  background: 1a1a1a;
+  background: #1a1a1a;
 }
 
 DisplayWidget QLabel {
@@ -124,7 +124,7 @@ QSplitter {
 
 QSplitter::handle {
   /* background: #444; */
-  border: 12px solid #000;
+  border: 2px solid #000;
   /* background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0,
             stop:0 rgba(255, 255, 255, 0),
             stop:0.407273 rgba(200, 200, 200, 255),
@@ -135,7 +135,7 @@ QSplitter::handle {
 QSplitter::handle:horizontal {
   background: qlineargradient(x1:0, y1:0, x2:1, y2:1, stop:0 #222, stop:1 transparent);
   border: 3px solid transparent;
-  width: 123px;
+  width: 2px;
   margin-top: 2px;
   margin-bottom: 2px;
   /* border-radius: 10px; */
@@ -176,9 +176,9 @@ QScrollBar::add-page, QScrollBar::sub-page {
 }
 
 TandaWidget {
-  background-color: #333;
+  background: #333 url(":/img/bg-playlist.png") repeat-y;
   border-top: 1px solid #444;
-  border-bottom: 5px solid #222;
+  border-bottom: 3px solid #222;
 }
 
 #tandaTypeLabel {
@@ -225,6 +225,9 @@ TandaWidget {
 
 QListView {
   background-color: #1a1a1a;
+  /* background: url(":/img/bg-playlist.png") repeat-y; */
   margin-top: 2px;
+  border: none;
 }
+
 /* * {border: 1px solid #2264dd;} */

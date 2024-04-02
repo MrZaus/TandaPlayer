@@ -12,7 +12,7 @@
 
 class TandaDelegate : public QStyledItemDelegate
 {
-
+    Q_OBJECT
 public:
     TandaDelegate(QObject *parent = nullptr) : QStyledItemDelegate(parent){};
     // TODO rule of 5
@@ -30,13 +30,10 @@ public:
         tandaWidget.render(&pixmap);
         painter->drawPixmap(option.rect, pixmap);
         painter->restore();
-        qDebug()
-            << "painted " << index.row();
     };
 
     virtual QWidget *createEditor(QWidget *parent, const QStyleOptionViewItem &option, const QModelIndex &index) const override
     {
-        qDebug() << "createEditor " << index.row();
         return new TandaWidget(parent);
     }
 
@@ -63,35 +60,10 @@ private:
 
     bool editorEvent(QEvent *event, QAbstractItemModel *model, const QStyleOptionViewItem &option, const QModelIndex &index) override
     {
-        qDebug() << "editorEvent " << index.row();
         return QStyledItemDelegate::editorEvent(event, model, option, index);
     }
 
     TandaWidget tandaWidget;
-};
-
-class PlaylistModel : public QAbstractListModel // TODO move to playlistmodel.h
-{
-    Q_OBJECT
-
-public:
-    PlaylistModel(QObject *parent = nullptr) : QAbstractListModel(parent){};
-    int rowCount(const QModelIndex &parent = QModelIndex()) const override
-    {
-        return 4;
-    }
-    QVariant data(const QModelIndex &index, int role = Qt::DisplayRole) const override
-    {
-        return QVariant(); // TODO implement
-    }
-    Qt::ItemFlags flags(const QModelIndex &index) const override
-    {
-        return Qt::ItemIsSelectable | Qt::ItemIsEditable | Qt::ItemIsDragEnabled | Qt::ItemIsDropEnabled | Qt::ItemIsUserCheckable | Qt::ItemIsEnabled;
-    }
-    QVariant headerData(int section, Qt::Orientation orientation, int role = Qt::DisplayRole) const override
-    {
-        return QVariant(); // TODO implement
-    }
 };
 
 #endif /* TANDADELEGATE */

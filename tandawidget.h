@@ -4,8 +4,8 @@
 #include <QFrame>
 #include <QHBoxLayout>
 #include <QLabel>
+#include <QListWidget>
 #include <QSpinBox>
-#include <QTreeView>
 #include <QVBoxLayout>
 
 class TandaWidget : public QFrame
@@ -27,7 +27,7 @@ private:
     QLabel tandaTypeLabel;
     QSpinBox tandaSizeSpinBox;
     QLabel tandaTotalTimeLabel;
-    QTreeView tandaItemsWidget;
+    QListWidget tandaItemsWidget;
 };
 
 #endif // TANDAWIDGET_H

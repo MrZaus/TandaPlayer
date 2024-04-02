@@ -22,6 +22,8 @@
 #include "controlswidget.h"
 #include "displaywidget.h"
 #include "mimefilterproxymodel.h"
+#include "playlistmodel.h"
+#include "playlistview.h"
 #include "tandadelegate.h"
 #include "tandawidget.h"
 #include "wavewidget.h"
@@ -78,7 +80,7 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent)
   auto *qtrv = new QTreeView(splitter);
   splitter->addWidget(qtrv);
 
-  auto *playlistView = new QListView(this);
+  auto *playlistView = new PlaylistView(this);
   playlistView->setItemDelegate(new TandaDelegate(playlistView));
   playlistView->setEditTriggers(playlistView->AllEditTriggers);
   splitter->addWidget(qtrv);
@@ -99,8 +101,8 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent)
   proxyModel->setSourceModel(fsmodel);
   qtrv->setModel(proxyModel);
   qtrv->setRootIndex(proxyModel->mapFromSource(idx));
-  constexpr auto WinWidth = 700u;
-  constexpr auto WinHeight = 480u;
+  constexpr auto WinWidth = 800u;
+  constexpr auto WinHeight = 900u;
   resize(WinWidth, WinHeight);
   mainWidget->installEventFilter(this);
 

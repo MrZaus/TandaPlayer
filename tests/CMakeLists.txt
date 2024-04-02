@@ -18,7 +18,6 @@ set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
 FetchContent_MakeAvailable(googletest)
 INCLUDE_DIRECTORIES(${gtest_SOURCE_DIR}/include ${COMMON_INCLUDES})
 
-message(MZ: gtest_SOURCE_DIR  ${gtest_SOURCE_DIR})
 # find_package(googletest REQUIRED)
 file(GLOB TESTS_SRC
      "*_tests.cpp"

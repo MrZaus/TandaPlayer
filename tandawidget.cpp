@@ -16,12 +16,12 @@ TandaWidget::TandaWidget(QWidget *parent) : QFrame(parent), layout(this)
     headerLayout.addStretch(STRETCH::MID);
     headerLayout.addWidget(&tandaSizeSpinBox);
     tandaSizeSpinBox.setObjectName("tandaSizeSpinBox");
+    tandaSizeSpinBox.setValue(4);
     tandaTotalTimeLabel.setObjectName("tandaTotalTimeLabel");
     tandaTotalTimeLabel.setText("00:00");
     headerLayout.addWidget(&tandaTotalTimeLabel);
     layout.addLayout(&headerLayout);
 
     layout.addWidget(&tandaItemsWidget);
-    // setMaximumHeight(MAX_HEIGHT);
-    // setMinimumHeight(MIN_HEIGHT);
+    tandaItemsWidget.addItem("Hello World");
 }
