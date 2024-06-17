@@ -44,5 +44,5 @@
         }
     },
     "remoteUser": "vscode",
-    "postCreateCommand": "sudo bash -c \"$(wget -O - https://apt.llvm.org/llvm.sh) all\"; sudo apt install libc++-18-dev"
+    "postCreateCommand": "sudo bash -c \"$(wget -O - https://apt.llvm.org/llvm.sh) all\"; sudo apt install -y libc++-18-dev"
 }
