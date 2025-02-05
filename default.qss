@@ -116,25 +116,16 @@ QTreeView {
 
 QSplitter {
   border-top: 1px solid #444;
-  background-color: #2a2a2a;
-  background-color: qradialgradient(cx: 0.5, cy: 0.5, fx: 0.3, fy: -0.4, radius: 1.35, stop: 0 #000, stop: 1 #666);
-
-  /* background-size: 16px 16px; */
+  background: #2a2a2a;
 }
 
 QSplitter::handle {
-  /* background: #444; */
   border: 2px solid #000;
-  /* background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0,
-            stop:0 rgba(255, 255, 255, 0),
-            stop:0.407273 rgba(200, 200, 200, 255),
-            stop:0.4825 rgba(101, 104, 113, 235),
-            stop:0.6 rgba(255, 255, 255, 0)); */
 }
 
 QSplitter::handle:horizontal {
-  background: qlineargradient(x1:0, y1:0, x2:1, y2:1, stop:0 #222, stop:1 transparent);
-  border: 3px solid transparent;
+  background: transparent;
+  border: none;
   width: 2px;
   margin-top: 2px;
   margin-bottom: 2px;
@@ -181,6 +172,16 @@ TandaWidget {
   border-bottom: 3px solid #222;
 }
 
+TandaWidget QListWidget {
+  background-color: #222;
+  border: none;
+}
+
+TandaWidget QListWidget::item {
+
+  color: whitesmoke;
+}
+
 #tandaTypeLabel {
   color: #0cf;
   background: #1a1a1a;
@@ -204,9 +205,9 @@ TandaWidget {
   subcontrol-position: right;
 }
 
-#tandaSizeSpinBox::up-arrow:focus {}
+/* #tandaSizeSpinBox::up-arrow:focus {} */
 
-#tandaSizeSpinBox::up-button:hover {}
+/* #tandaSizeSpinBox::up-button:hover {} */
 
 #tandaSizeSpinBox::down-button {
   width: 25px;
@@ -223,11 +224,17 @@ TandaWidget {
   margin-left: 10px;
 }
 
-QListView {
-  background-color: #1a1a1a;
-  /* background: url(":/img/bg-playlist.png") repeat-y; */
-  margin-top: 2px;
+#tandaItemsWidget {
+  background: red;
+  border: none;
+  max-height: 5em;
+  height: 2em;
+}
+
+PlaylistView {
+  background: #1a1a1a;
   border: none;
 }
+
 
 /* * {border: 1px solid #2264dd;} */

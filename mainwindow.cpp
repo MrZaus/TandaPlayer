@@ -31,8 +31,7 @@
 bool MainWindow::eventFilter(QObject *o, QEvent *e)
 {
 #ifndef NDEBUG
-  if (o == centralWidget() && (e->type() == QMouseEvent::MouseButtonPress ||
-                               e->type() == QEvent::WindowActivate))
+  if (e->type() == QKeyEvent::KeyRelease && static_cast<QKeyEvent *>(e)->key() == Qt::Key_F5)
   {
     qDebug() << "Reloading style from a file on an event!";
     QFile file("../default.qss");
@@ -84,8 +83,18 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent)
   playlistView->setItemDelegate(new TandaDelegate(playlistView));
   playlistView->setEditTriggers(playlistView->AllEditTriggers);
   splitter->addWidget(qtrv);
-  splitter->addWidget(playlistView);
-  playlistView->setModel(new PlaylistModel(this));
+  auto *playlistLayout = new QVBoxLayout(splitter);
+  playlistLayout->addWidget(playlistView);
+  auto *addButton = new QPushButton("Add", this);
+  connect(addButton, &QPushButton::clicked, [playlistView]()
+          { playlistView->model()->insertRow(0); });
+  playlistLayout->addWidget(addButton);
+  auto *playlistWidget = new QWidget(this);
+  playlistWidget->setLayout(playlistLayout);
+  splitter->addWidget(playlistWidget);
+  auto *plModel = new PlaylistModel(this);
+
+  playlistView->setModel(plModel);
   auto *fsmodel = new QFileSystemModel(this);
   QStringList filters;
   filters << "*.mp3"

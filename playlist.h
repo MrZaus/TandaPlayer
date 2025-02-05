@@ -1,16 +1,15 @@
 #ifndef PLAYLIST_H
 #define PLAYLIST_H
 
-#include "cortina.h"
 #include "playlistitem.h"
 #include "tanda.h"
 
-#include <memory>
-#include <concepts>
+#include <cstddef>
 #include <cstdint>
-#include <type_traits>
-#include <variant>
 #include <functional>
+#include <memory>
+#include <utility>
+#include <vector>
 
 using TandaSize = std::uint8_t;
 using TandaDetails = std::pair<TandaType, TandaSize>;
@@ -21,8 +20,9 @@ class CircularIndex
     T::size_type index{};
     std::function<typename T::size_type()> size;
 
-public: CircularIndex(const T &container) : size([&container](){
-        return container.size();}){};
+public:
+    CircularIndex(const T &container) : size([&container]()
+                                             { return container.size(); }) {};
     operator typename T::size_type() const { return index; }
     CircularIndex &operator++()
     {
@@ -55,11 +55,10 @@ class Playlist
     [[nodiscard]] TandaDetails geNextTandaDetails() const;
 
 public:
-    Playlist() = default; // TOOD remove (rule of 5)b
     void addNextCortina();
     void addNextTanda();
     [[nodiscard]] std::size_t size() const { return items.size(); }
-    [[nodiscard]] const PlaylistItem *getItem(std::size_t i) const { return items[i].get(); }
+    [[nodiscard]] const PlaylistItem *getItem(std::size_t index) const { return items[index].get(); }
 };
 
 #endif // PLAYLIST_H

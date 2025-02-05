@@ -1,7 +1,7 @@
 #include <gtest/gtest.h>
 
+#include "../cortina.h"
 #include "../playlist.h"
-
 
 TEST(CircularIndexTest, RestartsFromZeroWhenIndexIsEqualToContainerSize)
 {

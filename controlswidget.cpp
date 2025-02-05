@@ -1,5 +1,6 @@
 #include "controlswidget.h"
 #include "common.h"
+#include <QtCore/Qt>
 
 namespace
 {
@@ -21,7 +22,7 @@ ControlsWidget::ControlsWidget(QWidget *parent)
   nextButton.setObjectName("nextButton");
   buttons.setObjectName("buttons");
   logoLabel.setPixmap(logo);
-  constexpr auto LogoWidth = 278u;
+  constexpr auto LogoWidth = 278U;
   logoLabel.setFixedWidth(LogoWidth);
   buttons.addWidget(&prevButton);
   buttons.addWidget(&stopButton);

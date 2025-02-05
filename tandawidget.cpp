@@ -23,5 +23,9 @@ TandaWidget::TandaWidget(QWidget *parent) : QFrame(parent), layout(this)
     layout.addLayout(&headerLayout);
 
     layout.addWidget(&tandaItemsWidget);
+    tandaItemsWidget.setObjectName("tandaItemsWidget");
+    tandaItemsWidget.setResizeMode(QListWidget::ResizeMode::Adjust);
+    tandaItemsWidget.setSizeAdjustPolicy(QAbstractScrollArea::AdjustToContents);
+    tandaItemsWidget.setSizePolicy(QSizePolicy::MinimumExpanding, QSizePolicy::MinimumExpanding);
     tandaItemsWidget.addItem("Hello World");
 }
