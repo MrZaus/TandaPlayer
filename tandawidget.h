@@ -7,7 +7,15 @@
 #include <QListWidget>
 #include <QSpinBox>
 #include <QVBoxLayout>
-
+#include <cstdint>
+#include <qboxlayout.h>
+#include <qframe.h>
+#include <qlabel.h>
+#include <qlistwidget.h>
+#include <qspinbox.h>
+#include <qtmetamacros.h>
+#include <qwidget.h>
+#include <string>
 class TandaWidget : public QFrame
 {
     Q_OBJECT
@@ -18,6 +26,9 @@ public:
     TandaWidget &operator=(const TandaWidget &) = delete;
     TandaWidget(TandaWidget &&) = delete;
     TandaWidget &operator=(TandaWidget &&) = delete;
+
+    void setTandaType(std::string type);
+    void setTandaSize(std::uint8_t size);
 signals:
 
 public slots:

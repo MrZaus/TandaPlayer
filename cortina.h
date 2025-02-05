@@ -34,5 +34,6 @@ public:
 
     // PlaylistItem
     [[nodiscard]] std::chrono::seconds getTotalTime() const override;
+    [[nodiscard]] std::string getTypeName() const override { return "Cortina"; }
 };
 #endif // CORTINA_H

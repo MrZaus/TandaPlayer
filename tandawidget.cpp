@@ -29,3 +29,11 @@ TandaWidget::TandaWidget(QWidget *parent) : QFrame(parent), layout(this)
     tandaItemsWidget.setSizePolicy(QSizePolicy::MinimumExpanding, QSizePolicy::MinimumExpanding);
     tandaItemsWidget.addItem("Hello World");
 }
+void TandaWidget::setTandaType(std::string type)
+{
+    tandaTypeLabel.setText(type.c_str());
+}
+void TandaWidget::setTandaSize(std::uint8_t size)
+{
+    tandaSizeSpinBox.setValue(size);
+}

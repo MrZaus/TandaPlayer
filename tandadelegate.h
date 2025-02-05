@@ -14,7 +14,7 @@ class TandaDelegate : public QStyledItemDelegate
 {
     Q_OBJECT
 public:
-    TandaDelegate(QObject *parent = nullptr) : QStyledItemDelegate(parent){};
+    TandaDelegate(QObject *parent = nullptr) : QStyledItemDelegate(parent) {};
     // TODO rule of 5
     void paint(QPainter *painter, const QStyleOptionViewItem &option,
                const QModelIndex &index) const override
@@ -26,6 +26,8 @@ public:
 
         QPixmap pixmap(option.rect.size());
         TandaWidget tandaWidget;
+        tandaWidget.setTandaType(index.data(Qt::UserRole).value<std::string>());
+        tandaWidget.setTandaSize(4);
         tandaWidget.setGeometry(option.rect);
         tandaWidget.render(&pixmap);
         painter->drawPixmap(option.rect, pixmap);

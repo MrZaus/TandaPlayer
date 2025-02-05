@@ -42,13 +42,14 @@ public:
 	{
 		beginInsertRows(parent, row, count);
 		playlist.addNextTanda();
-		endInsertRows();
-		return true; // TODO implement
+		setData(index(row), QVariant::fromValue(playlist.getItem(row)->getTypeName()), Qt::UserRole);
+			endInsertRows();
+			return true; // TODO implement
 	}
 	~PlaylistModel() override = default;
 
 private:
 	Playlist playlist;
-};
+	};
 
 #endif // __PlaylistModel_H__

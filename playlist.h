@@ -48,7 +48,13 @@ namespace DefaultTandaSize
 
 class Playlist
 {
-    std::vector<TandaDetails> pattern = {{TandaType::Tango, DefaultTandaSize::Tango}, {TandaType::Tango, DefaultTandaSize::Tango}, {TandaType::Milonga, DefaultTandaSize::Milonga}, {TandaType::Tango, DefaultTandaSize::Tango}, {TandaType::Tango, DefaultTandaSize::Tango}, {TandaType::Vals, DefaultTandaSize::Vals}};
+    std::vector<TandaDetails> pattern = {
+        {TandaType::Tango, DefaultTandaSize::Tango},
+        {TandaType::Tango, DefaultTandaSize::Tango},
+        {TandaType::Milonga, DefaultTandaSize::Milonga},
+        {TandaType::Tango, DefaultTandaSize::Tango},
+        {TandaType::Tango, DefaultTandaSize::Tango},
+        {TandaType::Vals, DefaultTandaSize::Vals}};
 
     PatternIndex index{pattern};
     std::vector<std::unique_ptr<PlaylistItem>> items;
