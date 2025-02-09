@@ -10,6 +10,9 @@ public:
     [[nodiscard]] virtual std::chrono::seconds getTotalTime() const = 0;
     [[nodiscard]] virtual std::string getTypeName() const = 0;
 
+    [[nodiscard]] virtual std::vector<std::string> getItems() const { return {}; }
+    [[nodiscard]] virtual std::size_t getSize() const { return 1; }
+
     virtual ~PlaylistItem() = 0;
 
 protected:

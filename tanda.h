@@ -30,13 +30,15 @@ public:
     Tanda &operator=(Tanda &&) = delete;
 
     const TandaType type{TandaType::Tango};
-    std::uint8_t maxSize{4};
 
     // PlaylistItem
     [[nodiscard]] std::chrono::seconds getTotalTime() const override;
-    [[nodiscard]] std::string getTypeName() const override { return tandaTypeToString(type); }
+    [[nodiscard]] std::string getTypeName() const override;
+    [[nodiscard]] std::vector<std::string> getItems() const override;
+    [[nodiscard]] std::size_t getSize() const override;
 
 private:
+    std::uint8_t maxSize{4};
     std::chrono::seconds interspace{1};
     std::chrono::seconds totalTime{};
     std::vector<Track> tracks;

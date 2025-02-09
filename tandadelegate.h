@@ -26,8 +26,8 @@ public:
 
         QPixmap pixmap(option.rect.size());
         TandaWidget tandaWidget;
-        tandaWidget.setTandaType(index.data(Qt::UserRole).value<std::string>());
-        tandaWidget.setTandaSize(4);
+        tandaWidget.setTandaType(index.data(std::to_underlying((TPRoles::TypeRole))).value<std::string>());
+        tandaWidget.setTandaSize(index.data(std::to_underlying((TPRoles::SizeRole))).value<std::uint8_t>());
         tandaWidget.setGeometry(option.rect);
         tandaWidget.render(&pixmap);
         painter->drawPixmap(option.rect, pixmap);

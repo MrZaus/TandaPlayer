@@ -22,7 +22,7 @@ TEST(PlaylistTests, ContainsTangoTandaAndCortinaWhenAddNextTanda)
     const auto *item = dynamic_cast<const Tanda *>(p.getItem(0));
     ASSERT_NE(item, nullptr);
     EXPECT_EQ(item->type, TandaType::Tango);
-    EXPECT_EQ(item->maxSize, 4);
+    EXPECT_EQ(item->getSize(), 4);
     EXPECT_EQ(p.size(), 2);
     EXPECT_NE(dynamic_cast<const Cortina *>(p.getItem(1)), nullptr);
 }
@@ -50,41 +50,41 @@ TEST(PlaylistTests, FollowsPatternWhenSequentiallyAddNextTanda)
     const auto *item = dynamic_cast<const Tanda *>(p.getItem(index));
     ASSERT_NE(item, nullptr);
     EXPECT_EQ(item->type, TandaType::Tango);
-    EXPECT_EQ(item->maxSize, TangosTandaSize);
+    EXPECT_EQ(item->getSize(), TangosTandaSize);
 
     index += 2;
     item = dynamic_cast<const Tanda *>(p.getItem(index));
     ASSERT_NE(item, nullptr);
     EXPECT_EQ(item->type, TandaType::Tango);
-    EXPECT_EQ(item->maxSize, TangosTandaSize);
+    EXPECT_EQ(item->getSize(), TangosTandaSize);
 
     index += 2;
     item = dynamic_cast<const Tanda *>(p.getItem(index));
     ASSERT_NE(item, nullptr);
     EXPECT_EQ(item->type, TandaType::Milonga);
-    EXPECT_EQ(item->maxSize, MilongaTandaSize);
+    EXPECT_EQ(item->getSize(), MilongaTandaSize);
 
     index += 2;
     item = dynamic_cast<const Tanda *>(p.getItem(index));
     ASSERT_NE(item, nullptr);
     EXPECT_EQ(item->type, TandaType::Tango);
-    EXPECT_EQ(item->maxSize, TangosTandaSize);
+    EXPECT_EQ(item->getSize(), TangosTandaSize);
 
     index += 2;
     item = dynamic_cast<const Tanda *>(p.getItem(index));
     ASSERT_NE(item, nullptr);
     EXPECT_EQ(item->type, TandaType::Tango);
-    EXPECT_EQ(item->maxSize, TangosTandaSize);
+    EXPECT_EQ(item->getSize(), TangosTandaSize);
 
     index += 2;
     item = dynamic_cast<const Tanda *>(p.getItem(index));
     ASSERT_NE(item, nullptr);
     EXPECT_EQ(item->type, TandaType::Vals);
-    EXPECT_EQ(item->maxSize, ValsTandaSize);
+    EXPECT_EQ(item->getSize(), ValsTandaSize);
 
     index += 2;
     item = dynamic_cast<const Tanda *>(p.getItem(index));
     ASSERT_NE(item, nullptr);
     EXPECT_EQ(item->type, TandaType::Tango);
-    EXPECT_EQ(item->maxSize, TangosTandaSize);
+    EXPECT_EQ(item->getSize(), TangosTandaSize);
 }

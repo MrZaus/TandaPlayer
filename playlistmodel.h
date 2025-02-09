@@ -12,6 +12,14 @@
 
 #include "playlist.h"
 
+enum class TPRoles : int
+{
+	TypeRole = Qt::UserRole + 0,
+	SizeRole = Qt::UserRole + 1,
+	DurationRole = Qt::UserRole + 2,
+	ListRole = Qt::UserRole + 3
+};
+
 class PlaylistModel : public QAbstractListModel
 {
 	Q_OBJECT
@@ -26,9 +34,21 @@ public:
 	{
 		return static_cast<int>(playlist.size());
 	}
-	QVariant data(const QModelIndex & /*index*/, int /*role*/ = Qt::DisplayRole) const override
+	QVariant data(const QModelIndex &index, int role = Qt::DisplayRole) const override
 	{
-		return {}; // TODO implement
+		switch (role)
+		{
+		case std::to_underlying(TPRoles::TypeRole):
+			return QVariant::fromValue(playlist.getItem(index.row())->getTypeName());
+		case std::to_underlying(TPRoles::SizeRole):
+			return QVariant::fromValue(playlist.getItem(index.row())->getSize());
+		case std::to_underlying(TPRoles::DurationRole):
+			return QVariant::fromValue(playlist.getItem(index.row())->getTotalTime());
+		case std::to_underlying(TPRoles::ListRole):
+			return QVariant::fromValue(playlist.getItem(index.row())->getItems());
+		default:
+			return {}; // TODO implement
+		}
 	}
 	Qt::ItemFlags flags(const QModelIndex & /*index*/) const override
 	{
@@ -43,13 +63,13 @@ public:
 		beginInsertRows(parent, row, count);
 		playlist.addNextTanda();
 		setData(index(row), QVariant::fromValue(playlist.getItem(row)->getTypeName()), Qt::UserRole);
-			endInsertRows();
-			return true; // TODO implement
+		endInsertRows();
+		return true; // TODO implement
 	}
 	~PlaylistModel() override = default;
 
 private:
 	Playlist playlist;
-	};
+};
 
 #endif // __PlaylistModel_H__
